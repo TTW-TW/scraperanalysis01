@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 domainName = 'https://www.ptt.cc/'
 
 # 在此更新文章連結
-target_url = 'https://www.ptt.cc/bbs/Gossiping/M.1766455487.A.BF4.html'
+target_url = 'https://www.ptt.cc/bbs/Gossiping/M.1766549895.A.9F9.html'
 
 
 def parse_prr_article(target_url):
@@ -64,7 +64,8 @@ def parse_prr_article(target_url):
         
         # 寫入後移除
         messageBranch.extract()
-        
+    
+    print("留言數量 = " , len(messageClean), "則")
     # ==== 4. 移除其他雜訊  ====
     
     # 移除發信站: 批踢踢實業坊  
@@ -88,3 +89,4 @@ def parse_prr_article(target_url):
     }
 
 print(parse_prr_article(target_url))
+

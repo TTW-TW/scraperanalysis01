@@ -1,0 +1,36 @@
+{
+    // 文章屬性
+    "article_source": "PTT", 
+    "article_url": "https://www.ptt.cc/bbs/Gossiping/M.1766549466.A.E6C.html",
+    "article_title": "[問卦] 找到張嫌可疑金流3900多塊錢",
+    "article_author": "小熊",
+    "reaction_count":105, // PTT=推文總數, FB=按讚+分享, YT=觀看次數 Dacrd=案讚數
+    "comment_count":30,  // 留言總數 
+    "sentiment_score": 0.5, // 範圍 -1(負面) ~ 1(正面)
+    "sentiment_label": "Neutral", // 正向/負向/中立
+    
+    // 1. 時間處理 (標準化)
+    "publish_time": "2024-12-24 13:00:00",  // 完整的 datetime
+    "date_year": 2024,
+    "date_month": 12,
+    "date_day": 24,
+
+    // 2. 斷詞結果 (By 文章儲存)
+    "content_raw": "...", // 原始內文 (供摘要用)
+    "content_keywords": ["張文", "筆電", "加密", "刑事局"], // Jieba/CKIP 產出的關鍵字 list ，純清洗後拆分，尚未加總統計
+    
+    // 3. 留言處理 (補上年份)
+    "comments": [
+        {
+        "comments_author": "hypolen",
+        "comments_raw_time": "12/24 13:03",
+        "comments_date_format": "2024-12-24 13:03:00", // <--- 這是透過上述演算法算出來的
+        "comments_year": 2024,
+        "comments_month": 12,
+        "comments_day": 24,
+        "comments_tag": "推", // 其他來源可能不一定有
+        "comments_content": "鏡子沒出來劇透一下",
+        "comments_keywords": ["鏡子", "沒", "出來", "劇透", "一下"] // Jieba/CKIP 產出的關鍵字 list ，純清洗後拆分，尚未加總統計
+        },
+    ]
+}
