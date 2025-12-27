@@ -1,10 +1,14 @@
-x = [1, 2, 3, 4, 'a']
-y = {1, 2, 3, 4}
-print(4  in x)
-print(4  in y)
+import os
+import json
+import glob # 推薦使用 glob 模組
+import re
 
+input_folder = r"json_test/PTT" 
+output_folder = r"json_test/PTT/CKIP"
+os.makedirs(output_folder, exist_ok=True)
 
-str1 = ' '
-print(len(str1.strip()) == 0)
+json_files = glob.glob(os.path.join(input_folder, '*.json')) # 所有待分析的原始文本
 
-print(x[len(x) - 1])
+for file_path in json_files:
+    parts = re.split(r'[/]+', file_path.replace( '\\', '/'))
+    print(parts[-1])

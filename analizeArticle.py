@@ -52,9 +52,16 @@ def parse_prr_article(target_url):
         msgTag = messageBranch.find('span', class_ ='push-tag' )
         msgAuthor = messageBranch.find('span', class_ ='push-userid' )
         msgContent = messageBranch.find('span', class_ ='push-content')
+        pre_time = messageBranch.find('span', class_ ='push-ipdatetime')
+        
+            
         
         # 確保都有存在才執行，避免出錯
         if msgTag and msgAuthor and msgContent:
+            pre_time_list = pre_time.get_text(strip=True).split(" ")
+            pre_time_list = pre_time_list[1:] # 移除 ip 
+            pre_time = " ".join(pre_time_list)
+
             msgDictionary = {
                 'msgTag' : msgTag.get_text(strip=True),
                 'msgAuthor': msgAuthor.get_text(strip=True),

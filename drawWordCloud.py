@@ -6,7 +6,7 @@ from wordcloud import WordCloud
 mask_path = r''
 font_path = r'font/Iansui-Regular.ttf'
 
-mask = np.array(Image.open(r"content/wordCloudMask/taiwan.jpg"))
+mask = np.array(Image.open(r"content/wordCloudMask/tree.jpg"))
 with open(r'content/wordCloud_article.txt', 'r', encoding='utf-8') as file:
         zh_news = file.read()
 

@@ -1,0 +1,4045 @@
+{
+    "article_source": "PTT",
+    "article_url": "https://www.ptt.cc/bbs/Tech_Job/M.1764945398.A.A4C.html",
+    "article_title": "[心得] 雜魚上岸 2025 Google L3 SWE 心得",
+    "article_category": "Tech_Job",
+    "article_author": "Brothre23 (Yuju我愛妳)",
+    "publish_time": "2025-12-05 22:36:31",
+    "date_year": "2025",
+    "date_month": 12,
+    "date_day": "5",
+    "reaction_count": 263,
+    "comment_count": 263,
+    "content_raw": "從快十年前還在讀資工系大一的時候 Google 就是讓我很嚮往的公司\n但那時台灣 Google 應該是只有 101 的一小撮超級菁英\n那時候說想要去 Google 大概是癡人說夢\n過了這麼多年之後 搭上板橋新大樓擴招的順風車\n總算讓我這個小雜魚也能連滾帶爬的爬進去了[前情提要]這是我第四次挑戰 Google 了\n前面三次全部失敗 QQ\n\n第一次是 2022 年初 SWE 校招面到 on-site 被電\n第二次是 2024 年四月 L3 SWE phone interview 就下去\n第三次是 2024 年七月 L3 FWE 也是 phone interview 就下去\n\n第三次讓我印象很深刻的是 這是一個 Pixel 的 firmware 職缺\nFWE 的流程是不用 team match 的 所以面試官可能直接就是日後主管\nphone interview 的面試官在我 coding 時問我\n「你確定這樣寫沒問題嗎 我覺得有一個很明顯的 bug」\n我就人肉 debug 了一會 修改成我認為正確的方式 然後詢問面試官的意見\n結果他跟我說\n「我們面試考你是希望你能獨自寫出正確的答案 不是一直問我們可不可以」\n當然我那一輪確實表現得很爛 但是被這樣陰陽怪氣還是讓人很不爽 = =[背景]台科資工學士\n交大資工碩士\n\nNVIDIA RDSS Intern 一年半\n沒轉正我就爛 QQ\n新竹某三線新創小豬屎屋一年\n基本上就是我在第二份工作做了多久我就跟 Google 耗了多久 XD\n\n然後不免俗附上 LeetCode 人權\n我很俗辣 打過幾次週賽怕打不好信心崩盤\n所以後來就是單純寫題目而已https://i.meee.com.tw/8MgjqlW.png[時程]D+0官網投履歷D+3recruiter call 說明面試流程D+33phone interviewD+35recruiter 信件說明通過 phone interview\n      準備安排 on-site interview 時間\n(recruiter 這時表示年底職缺很少 就算過面試 team match 可能也要等很久\n 所以我凹了大概三個月準備 on-site 差不多是農曆年後)D+138on-site interview #1D+139on-site interview #2D+140on-site interview #3D+146recruiter 電話說明面試結果\n      表示通過 on-site interview 並有兩個 team 的主管想跟我聊\n      但需要先排時間進行 G&L 面試D+151G&L interviewD+158Team Match call #1 (Google Cloud)D+161Team Match call #2 (Google Cloud)D+193Team Match call #3-1 (Pixel)\n      和這個 team 的台灣主管面試\n      當下他似乎就對我很有興趣 還問我什麼時候可以 onboard\n      直接表示會安排我和美國的 team lead 再聊一次D+195Team Match call #3-2 (Pixel)\n      和美國大主管和台灣主管再聊一次\n      大主管是韓國人 英文講得不太好但人很有趣 XD\n      對於 Linux kernel maintainer 我只能是肅然起敬D+197recruiter 電話通知 Pixel 的組 team match 成功\n      跟我要一些資料跑 hiring committee 流程D+222recruiter 表示還沒進 hiring committee 就掰了\n      要重新 team match\n      流程似乎是進 hiring committee 前會有 BU 的大頭先看過\n      不知道是不是上一次面 Pixel FWE 的面試官給我寫了什麼難聽的評語\n      然後那次面試的結果還在有效期內 害我被送下去 = =D+230Team Match call #4 (Google Cloud)D+265Team Match call #5 (Google TV)D+278Team Match call #6 (silicon)D+292Team Match call #7 (silicon)D+298Team Match call #8 (Google Home)D+308recruiter 電話通知 Google Home 的組 team match 成功\n      再送一次 hiring committeeD+319recruiter 電話通知 hiring committee 結果為 hold\n      需要再加面一輪 coding interviewD+323加面 coding interviewD+340recruiter 電話通知 hiring committee 通過\n      但是原本 team match 成功的主管最後決定 hire 其他人\n      又要重新 team match...D+365Team Match call #9 (silicon)D+369Team Match call #10 (Google Home)D+379recruiter 信件通知 Google Home 的組 team match 成功\n      比較特別的是根據 recruiter 的說法 #8 跟 #10 是同屬 Google Home 的不同組\n      似乎是 #8 的主管把我推薦給 #10 的主管的 XDD+389recruiter 電話通知 offer 細節D+390收到正式電子 offer 猶豫不到 0.5 秒就簽下去[面試]因為我是在職面試 不想要一直請假\n所以 coding interview 全部跟 recruiter 要求配對美國的面試官\n一大早爬起來面試完再去上班\nTeam Match call 就上班時間閃人到大廳沒人發現的地方 XDPhone Interview一個很年輕的美國白人小哥 面試完搜 LinkedIn 發現他甚至比我年輕 QQ\n\n出了一題很簡單的 graph 題 DFS/BFS 都能搞定的那種\n我寫的時候他好像沒什麼在理我 變成我一直在唱獨角戲\n(可能是當面試官的經驗還不多 不太會帶節奏)\n還好沒啥難度 所以寫完之後講解跟 dry run 也蠻順的\nfollow up 有點忘了 不過只有要求我口述而已 接下來就收尾哈拉一下\n\n我問他 Google 跟其他公司比起來有什麼不一樣或吸引人的地方\n他說他第一份工作就在 Google 所以沒有樣本可以比較 我一個瞳孔地震哈哈On-site Interview #1視訊鏡頭打開的時候發現是印度人 心中閃過無數髒話和人生跑馬燈\n還好口音不算很重 之前在 NV 也有被磨練過 所以溝通還算順暢\n\n是 graph 的某種演算法 幾乎是 LeetCode 上原題照搬 換了一下情境而已\n因為面試前沒多久剛好有複習到所以解得很順 但不知道沒學過的人能不能現場寫出來\n但是因為情境的設定會讓某種不太符合常理的情況在這題變得必須要處理\n一開始的 code 漏掉了 被提醒之後很快改過來就沒問題了\n\nfollow up 是 graph 上出現 cycle 的話會讓這題出現什麼變化\n還好沒有叫我寫 cycle detection 哈哈On-site Interview #2第二跟第三關都遇到中國人 但還是全程用英文面試 XD\n\n這一關姑且算是字串題吧 是某個前陣子很紅的遊戲\n原題很簡單 用 hash table 應該十幾行就搞定了\n\n第一個 follow up 是把前面的東西包裝成物件導向的形式 也很簡單\n第二個 follow up 不知道算不算是腦筋急轉彎 反正我的腦袋整個大當機\n面試官幾乎已經把答案告訴我了我還是一問三不知的樣子\n後來慢慢理解題目在幹嘛之後還算是有寫出來 但還是蠻不順的\n\n這一關面完之後還以為大爆炸死定了 沒想到事後聽 recruiter 敘述的評價還不錯...On-site Interview #3核心概念考的是 priority queue\n這題其實前半部分可以稍微加點要求獨立成另外一題來考 有點像是 prefix sum\n因為前陣子才練過幾乎一樣的題目 所以我當下就覺得要用這個方法解\n但其實以這題來說根本不需要\n面試官可能也沒有預先設想到這個思路 溝通了很久他才聽懂我在幹嘛\n\n結果前半部分花太多時間 真正核心的部分反而沒剩多少時間可以寫\n而且 PQ 的解法是我寫到一半才想到的\n因為想說可能比較複雜 沒有信心一次寫對 所以一開始用了一個時間複雜度很爛的寫法\n寫完才口頭補充說我知道可以用 PQ 解\n面試官留下一句「I think you are in the right direction」之後就結束面試了\n\n這一關是我全部關卡裡唯一拿到偏負面評價的 也是因為這一關害我要加面 QQOn-site Interview #4加面這一關其實已經跟前面幾關間隔非常久了\n但感覺 coding 關連在一起寫比較順我就還是放在這裡\n\nrecruiter 有特別說明是 match 上的組的 team member 幫我面這一關\n不是隨機的面試官 我內心無數小劇場在想這到底是會比較簡單還是難\n「都 match 上了應該不會特別出個難題搞我把我刷掉吧...」之類的\n還特別找朋友幫我進行 mock interview\n但反正從被通知要加面到正式面試只有不到兩個禮拜 所以也只能硬著頭皮上了\n\n事實證明真的是我想太多了哈哈\n遇到 graph 刷到爛的經典題 只有稍微加了一點點變化\n熟到模板我可以直接默寫背出來的程度\nfollow up 是我原本用 BFS 寫 一模一樣的內容改成用 DFS 再寫一次\n非常輕鬆愉快的一次面試 狀況應該是我所有場次裡最好的G&L Interview現在的做法似乎是所有 coding interview 結束之後\nrecruiter 會先評估面試結果 要繼續往下的話才會安排 G&L\n然後這一關的面試官會是之後 team match 流程對你有興趣的組的 team member\n\nGoogle 的 G&L 相比 Amazon 的 Leadership Principles 還是簡單蠻多的\n我準備的方法就是稍微看一下 STAR 怎麼用 然後想幾個實際工作遇到的例子套進去\n\n我已經完全忘了這一關面試到底都問了什麼了 只記得後半段都在聊天哈哈哈\n像是面試官說他也是挑戰第二次才成功進 Google 鼓勵我不要放棄\n還有說到為什麼想進 Google 他說他也覺得 Google 是 CS 學生的夢想 XD\n總之我覺得 G&L 只要說話像個正常人 不是怪胎都能穩穩過[Team Match]前面的面試關卡如果不特別要求很多時間準備的話理論上可以進行得很快\n但是 Team Match 就真的很看個人造化 雜魚如我有上岸還算好了\n也許履歷上寫著 NVIDIA 還有嵌入式的經驗還是稍微有優勢一點\n雖然配對成功率不算特別高 但有這麼多主管願意找我聊應該算是很幸運了\n也有聽過案例等了好幾個月沒有被半個組撈的 QQ\n\n我覺得 Team Match 奇妙之處在於流程上它不太像面試\n因為主管基本上不會問技術問題 就是你們互相聊天 看對彼此有沒有興趣\n但是在整個 hiring process 裡它又是你唯一可以和之後的主管對話\n了解實際工作內容的機會 以這一點來說又比較像一般的面試\n\n這一步能做的就是定時瀏覽官網上的職缺 看到有興趣的就問 recruiter 能不能聊聊\n雖然我收到的 fit talk 大部分都不是我主動問的 XD\n基本上有主管願意聊的話 不管興趣程度如何我都是一律先說好\n畢竟面試成績不太好的雜魚實在沒什麼本錢挑三揀四\n\n收到 fit talk 之後就是盡力研究 JD 上的內容 想辦法跟自己的經歷扯上一點關係\n我通常會把 JD 丟給 ChatGPT/Gemini 請 AI 幫我整理適合提問的內容\n到了臨場發揮的時候就是盡量表現出對這個職缺的意願\n主管如果真的對你很有興趣的話我覺得還是看得出來的\n像是第一次 match 上的 Pixel 的組 主管直接問我什麼時候可以 onboard XD\n也當下直接表示會安排美國的大主管和我再聊一次\n最後去的 Google Home 的組 主管就和我聊了很多我現職工作的內容\n也有跟我透露一些他們之後專案可能的方向[感想]我可以理解推文會有人說區區一個 Google L3 面試何必搞成這樣\n而且這樣的面試過程跟實際工作內容比起來也很可能是大砲打小鳥\n拖了整整一年確實很煎熬\nPixel 的組原本 match 上了結果又被擋掉 那時候我壓力大到每天晚上醒來三次\n甚至去看了精神科也沒什麼改善\n但我覺得成不成功 值不值得不是別人說了算 是自己定義的\n我都跟別人說我就是為了覺得 G 員工餐廳很屌才能撐這麼久 當然值得 XD\n\n像我最喜歡的前英超托特納姆熱刺隊長孫興慜\n他在這支球隊踢了十年 以亞洲球員身份創下無數成就 別人都說他早就是球隊的傳奇了\n但他就是覺得自己必須幫球隊拿下獎盃才配得上這個稱號\n今年五月他終於帶領球隊獲得睽違十七年的冠軍 而且還是一座歐洲冠軍\n賽後記者問他 \"Are you a legend now?\"\n他終於願意說 \"Let\\'s say I am a legend.\"\n這樣榮耀無數的世界頂尖球員都願意為了一座獎盃努力十年了\n我們普通人為了找工作努力一年也不是什麼大事吧\n\n但很重要的是就算準備的過程再難熬 (尤其是 Team Match 有可能拖非常久)\n也不要讓這些狗屁倒灶的破事影響到自己的日常生活\n打球 打電動 看電影 聽音樂 和家人朋友出去玩...\n任何能分散注意力的休閒活動都好\n飯還是要好好吃 人生還是要好好過\n記得不要學足球迷半夜三四點死人時間爬起來看球\n被餵了一坨屎就算了 平日還要準時起床去上班\n\n總之撐不下去了想放棄當然沒問題 但是還想繼續努力的話\n永遠記住那個讓自己能夠支撐下去的理由\n不管是薪水很高 可以跟聰明的人一起工作 和親朋好友炫耀\n還是像我一樣單純想蹭餐廳都好\n共勉之\n\n最後附上確定收到 offer 之後 犒賞自己去英國玩\n到全世界最棒的熱刺球場看球的照片https://i.meee.com.tw/PMBz4Re.jpghttps://i.meee.com.tw/NcFQ8Vx.jpghttps://i.meee.com.tw/B7CSdua.jpghttps://i.meee.com.tw/rBncCST.jpgTo Dare Is To Do--不知道合作的同事有沒有歐洲人 QQ對啊 所以超過一年對 到底是 TPKD 還是 TPKE 我是收到 offer 之後才知道的哈哈沒有啦 開始面的時候 YOE 1.5 到現在是 2.5感謝紅得喜氣沒得凹 主管直接跟我說你再見了 QQ我進去的時候NV已經很紅了啦\nESPP有幫我賺到一些也還算不錯了笑死\n台灣足球迷已經夠少了 大家都是好朋友啦不太懂這有什麼關聯被認出來了 > <不會啦 就跟職場總是也有雞掰人一樣\n過好自己的生活就好什麼時候帶我去歐洲玩就 有點虧但也不算太虧吧\n能進去就很感謝了\n而且 L4 面試標準應該更高 我可能也過不了就是孫凱帶我認識足球的\n結果他們兩個都離開熱刺了嗚嗚真的可憐\n但新竹精神科好熱門...應該也不會 我就爛是沒有RSU而已 ESPP大家都有就跟我說我研替到期 沒申請到 headcount !@#$%^&*每年都很玄嗚嗚真的 設想過無數次被通靈 DP 題電的話怎麼辦 = =levels.fyi 上都查得到 範圍不會差太多真強者都一次進去\n我面這麼多次還拖超過一年 QQ除了這位之外\n我體感覺得 silicon 的主管講話也普遍比較 嗯沒有耶 就是工作經歷跟學生時代做過的東西而已那改成倫敦是藍的可以嗎確實 有上大概也是進去之後整天被 PUA我也搞不懂 提醒自己以後當面試官不要這樣怎麼那麼多槍迷 笑死等你來 > <很想知道 TPKD 有人會放棄員工餐廳不吃去吃一樓那幾家嗎哈哈",
+    "content_keywords": [
+        [
+            "面試",
+            23
+        ],
+        [
+            "主管",
+            19
+        ],
+        [
+            "之後",
+            14
+        ],
+        [
+            "什麼",
+            12
+        ],
+        [
+            "時候",
+            11
+        ],
+        [
+            "面試官",
+            11
+        ],
+        [
+            "覺得",
+            10
+        ],
+        [
+            "工作",
+            9
+        ],
+        [
+            "時間",
+            8
+        ],
+        [
+            "自己",
+            8
+        ],
+        [
+            "通知",
+            7
+        ],
+        [
+            "流程",
+            6
+        ],
+        [
+            "直接",
+            6
+        ],
+        [
+            "電話",
+            6
+        ],
+        [
+            "興趣",
+            6
+        ],
+        [
+            "特別",
+            6
+        ],
+        [
+            "內容",
+            6
+        ],
+        [
+            "第二",
+            5
+        ],
+        [
+            "這樣",
+            5
+        ],
+        [
+            "準備",
+            5
+        ],
+        [
+            "表示",
+            5
+        ],
+        [
+            "美國",
+            5
+        ],
+        [
+            "成功",
+            5
+        ],
+        [
+            "加面",
+            5
+        ],
+        [
+            "收到",
+            5
+        ],
+        [
+            "簡單",
+            5
+        ],
+        [
+            "沒有",
+            5
+        ],
+        [
+            "無數",
+            5
+        ],
+        [
+            "台灣",
+            4
+        ],
+        [
+            "前面",
+            4
+        ],
+        [
+            "第一",
+            4
+        ],
+        [
+            "職缺",
+            4
+        ],
+        [
+            "問題",
+            4
+        ],
+        [
+            "說明",
+            4
+        ],
+        [
+            "安排",
+            4
+        ],
+        [
+            "結果",
+            4
+        ],
+        [
+            "要求",
+            4
+        ],
+        [
+            "一樣",
+            4
+        ],
+        [
+            "算是",
+            4
+        ],
+        [
+            "願意",
+            4
+        ],
+        [
+            "球隊",
+            4
+        ],
+        [
+            "進去",
+            4
+        ],
+        [
+            "這麼多",
+            3
+        ],
+        [
+            "全部",
+            3
+        ],
+        [
+            "第三",
+            3
+        ],
+        [
+            "我們",
+            3
+        ],
+        [
+            "基本",
+            3
+        ],
+        [
+            "多久",
+            3
+        ],
+        [
+            "題目",
+            3
+        ],
+        [
+            "通過",
+            3
+        ]
+    ],
+    "comments": [
+        {
+            "comment_author": "qk3380888",
+            "comment_raw_time": "12/05 22:44",
+            "comment_date_format": "2025-12-05 22:44:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 5,
+            "comment_tag": "推",
+            "comment_content": "恭喜圓夢 我覺得南歐人的腔調比印度人",
+            "comment_keywords": [
+                "恭喜",
+                "圓夢",
+                "覺得",
+                "南歐人",
+                "腔調",
+                "印度人"
+            ]
+        },
+        {
+            "comment_author": "qk3380888",
+            "comment_raw_time": "12/05 22:44",
+            "comment_date_format": "2025-12-05 22:44:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 5,
+            "comment_tag": "→",
+            "comment_content": "更可怕",
+            "comment_keywords": [
+                "可怕"
+            ]
+        },
+        {
+            "comment_author": "choualan0726",
+            "comment_raw_time": "12/05 22:50",
+            "comment_date_format": "2025-12-05 22:50:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 5,
+            "comment_tag": "推",
+            "comment_content": "恭喜～",
+            "comment_keywords": [
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "DrTech",
+            "comment_raw_time": "12/05 22:50",
+            "comment_date_format": "2025-12-05 22:50:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 5,
+            "comment_tag": "推",
+            "comment_content": "恭喜，機會一直是留給持續準備好的人，你",
+            "comment_keywords": [
+                "恭喜",
+                "機會",
+                "留給",
+                "持續",
+                "準備好"
+            ]
+        },
+        {
+            "comment_author": "DrTech",
+            "comment_raw_time": "12/05 22:50",
+            "comment_date_format": "2025-12-05 22:50:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 5,
+            "comment_tag": "→",
+            "comment_content": "等到了",
+            "comment_keywords": []
+        },
+        {
+            "comment_author": "gamer",
+            "comment_raw_time": "12/05 22:56",
+            "comment_date_format": "2025-12-05 22:56:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 5,
+            "comment_tag": "推",
+            "comment_content": "390是天嗎?我的天啊",
+            "comment_keywords": [
+                "390"
+            ]
+        },
+        {
+            "comment_author": "jackeighteen",
+            "comment_raw_time": "12/05 22:59",
+            "comment_date_format": "2025-12-05 22:59:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 5,
+            "comment_tag": "推",
+            "comment_content": "推詳實分享，也恭喜圓夢！！",
+            "comment_keywords": [
+                "詳實",
+                "分享",
+                "恭喜",
+                "圓夢"
+            ]
+        },
+        {
+            "comment_author": "ritaj",
+            "comment_raw_time": "12/05 23:02",
+            "comment_date_format": "2025-12-05 23:02:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 5,
+            "comment_tag": "推",
+            "comment_content": "好認真，恭喜心想事成",
+            "comment_keywords": [
+                "認真",
+                "恭喜",
+                "心想事成"
+            ]
+        },
+        {
+            "comment_author": "owen5566",
+            "comment_raw_time": "12/05 23:07",
+            "comment_date_format": "2025-12-05 23:07:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 5,
+            "comment_tag": "推",
+            "comment_content": "home…真的要保重啊",
+            "comment_keywords": [
+                "保重"
+            ]
+        },
+        {
+            "comment_author": "musashi023",
+            "comment_raw_time": "12/05 23:09",
+            "comment_date_format": "2025-12-05 23:09:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 5,
+            "comment_tag": "推",
+            "comment_content": "厲害 沾喜氣",
+            "comment_keywords": [
+                "厲害",
+                "喜氣"
+            ]
+        },
+        {
+            "comment_author": "Haqua",
+            "comment_raw_time": "12/05 23:12",
+            "comment_date_format": "2025-12-05 23:12:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 5,
+            "comment_tag": "推",
+            "comment_content": "推 好猛",
+            "comment_keywords": []
+        },
+        {
+            "comment_author": "rayisgreat",
+            "comment_raw_time": "12/05 23:18",
+            "comment_date_format": "2025-12-05 23:18:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 5,
+            "comment_tag": "推",
+            "comment_content": "太神惹",
+            "comment_keywords": [
+                "神惹"
+            ]
+        },
+        {
+            "comment_author": "angel0214",
+            "comment_raw_time": "12/05 23:23",
+            "comment_date_format": "2025-12-05 23:23:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 5,
+            "comment_tag": "推",
+            "comment_content": "推分享",
+            "comment_keywords": [
+                "分享"
+            ]
+        },
+        {
+            "comment_author": "tengod00",
+            "comment_raw_time": "12/05 23:25",
+            "comment_date_format": "2025-12-05 23:25:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 5,
+            "comment_tag": "推",
+            "comment_content": "推分享 恭喜",
+            "comment_keywords": [
+                "分享",
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "lantimes",
+            "comment_raw_time": "12/05 23:33",
+            "comment_date_format": "2025-12-05 23:33:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 5,
+            "comment_tag": "推",
+            "comment_content": "恭喜 來 TPKD？",
+            "comment_keywords": [
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "raysbuck",
+            "comment_raw_time": "12/05 23:35",
+            "comment_date_format": "2025-12-05 23:35:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 5,
+            "comment_tag": "推",
+            "comment_content": "Congrats!",
+            "comment_keywords": []
+        },
+        {
+            "comment_author": "wulouise",
+            "comment_raw_time": "12/05 23:42",
+            "comment_date_format": "2025-12-05 23:42:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 5,
+            "comment_tag": "推",
+            "comment_content": "你的意思是6yoe被算L3? 我以為可以挑戰l",
+            "comment_keywords": [
+                "意思",
+                "以為",
+                "挑戰"
+            ]
+        },
+        {
+            "comment_author": "wulouise",
+            "comment_raw_time": "12/05 23:42",
+            "comment_date_format": "2025-12-05 23:42:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 5,
+            "comment_tag": "→",
+            "comment_content": "4",
+            "comment_keywords": []
+        },
+        {
+            "comment_author": "HardyJJ",
+            "comment_raw_time": "12/05 23:43",
+            "comment_date_format": "2025-12-05 23:43:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 5,
+            "comment_tag": "推",
+            "comment_content": "面試等一年…裁員只要一天..",
+            "comment_keywords": [
+                "面試",
+                "裁員"
+            ]
+        },
+        {
+            "comment_author": "HardyJJ",
+            "comment_raw_time": "12/05 23:44",
+            "comment_date_format": "2025-12-05 23:44:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 5,
+            "comment_tag": "→",
+            "comment_content": "好累…哈哈 不過還是加油",
+            "comment_keywords": [
+                "加油"
+            ]
+        },
+        {
+            "comment_author": "dashi",
+            "comment_raw_time": "12/05 23:50",
+            "comment_date_format": "2025-12-05 23:50:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 5,
+            "comment_tag": "推",
+            "comment_content": "厲害厲害！",
+            "comment_keywords": [
+                "厲害",
+                "厲害"
+            ]
+        },
+        {
+            "comment_author": "kaigogo",
+            "comment_raw_time": "12/05 23:59",
+            "comment_date_format": "2025-12-05 23:59:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 5,
+            "comment_tag": "推",
+            "comment_content": "Google home...嗯",
+            "comment_keywords": []
+        },
+        {
+            "comment_author": "xDelirious",
+            "comment_raw_time": "12/06 00:02",
+            "comment_date_format": "2025-12-06 00:02:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "歐送姆",
+            "comment_keywords": [
+                "歐送"
+            ]
+        },
+        {
+            "comment_author": "gs5106",
+            "comment_raw_time": "12/06 00:03",
+            "comment_date_format": "2025-12-06 00:03:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "恭喜如願",
+            "comment_keywords": [
+                "恭喜",
+                "如願"
+            ]
+        },
+        {
+            "comment_author": "jupei5566",
+            "comment_raw_time": "12/06 00:08",
+            "comment_date_format": "2025-12-06 00:08:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "Congrats!",
+            "comment_keywords": []
+        },
+        {
+            "comment_author": "Cireiat",
+            "comment_raw_time": "12/06 00:10",
+            "comment_date_format": "2025-12-06 00:10:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "恭喜心想事成",
+            "comment_keywords": [
+                "恭喜",
+                "心想事成"
+            ]
+        },
+        {
+            "comment_author": "leon1757tw",
+            "comment_raw_time": "12/06 00:14",
+            "comment_date_format": "2025-12-06 00:14:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "→",
+            "comment_content": "恭喜",
+            "comment_keywords": [
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "pig2014",
+            "comment_raw_time": "12/06 00:15",
+            "comment_date_format": "2025-12-06 00:15:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "噓",
+            "comment_content": "你當年nv有轉正直接少奮鬥十年，根本不",
+            "comment_keywords": [
+                "當年",
+                "轉正",
+                "直接",
+                "奮鬥"
+            ]
+        },
+        {
+            "comment_author": "pig2014",
+            "comment_raw_time": "12/06 00:15",
+            "comment_date_format": "2025-12-06 00:15:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "→",
+            "comment_content": "需要這篇",
+            "comment_keywords": [
+                "需要"
+            ]
+        },
+        {
+            "comment_author": "balaking",
+            "comment_raw_time": "12/06 00:20",
+            "comment_date_format": "2025-12-06 00:20:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "有志者事竟成，恭喜",
+            "comment_keywords": [
+                "有志",
+                "者事竟",
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "gtjs45",
+            "comment_raw_time": "12/06 00:21",
+            "comment_date_format": "2025-12-06 00:21:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "當初NV多凹一下薪水應該>>L3",
+            "comment_keywords": [
+                "當初",
+                "一下",
+                "薪水"
+            ]
+        },
+        {
+            "comment_author": "HardyJJ",
+            "comment_raw_time": "12/06 00:25",
+            "comment_date_format": "2025-12-06 00:25:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "懶趴沒捧好…可惜了..天跟地..",
+            "comment_keywords": [
+                "懶趴",
+                "捧好",
+                "可惜",
+                "天跟"
+            ]
+        },
+        {
+            "comment_author": "sumsum",
+            "comment_raw_time": "12/06 00:26",
+            "comment_date_format": "2025-12-06 00:26:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "推毅力 恭喜",
+            "comment_keywords": [
+                "推毅力",
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "yunf",
+            "comment_raw_time": "12/06 00:28",
+            "comment_date_format": "2025-12-06 00:28:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "→",
+            "comment_content": "沒有什麼當初 肝只有一個 來都來了",
+            "comment_keywords": [
+                "沒有",
+                "什麼",
+                "當初"
+            ]
+        },
+        {
+            "comment_author": "lovebridget",
+            "comment_raw_time": "12/06 00:29",
+            "comment_date_format": "2025-12-06 00:29:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "→",
+            "comment_content": "NV當初只是小眾顯卡宅臭公司而已",
+            "comment_keywords": [
+                "當初",
+                "小眾",
+                "顯卡",
+                "宅臭",
+                "公司"
+            ]
+        },
+        {
+            "comment_author": "lovebridget",
+            "comment_raw_time": "12/06 00:29",
+            "comment_date_format": "2025-12-06 00:29:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "→",
+            "comment_content": "能賭準那直接買NV股就好 馬後炮",
+            "comment_keywords": [
+                "賭準",
+                "直接",
+                "NV股",
+                "馬後炮"
+            ]
+        },
+        {
+            "comment_author": "yunf",
+            "comment_raw_time": "12/06 00:30",
+            "comment_date_format": "2025-12-06 00:30:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "→",
+            "comment_content": "有熱血做事很好",
+            "comment_keywords": [
+                "熱血"
+            ]
+        },
+        {
+            "comment_author": "sarsman",
+            "comment_raw_time": "12/06 00:33",
+            "comment_date_format": "2025-12-06 00:33:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "推",
+            "comment_keywords": []
+        },
+        {
+            "comment_author": "Huskies",
+            "comment_raw_time": "12/06 00:37",
+            "comment_date_format": "2025-12-06 00:37:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "恭喜，但倫敦必須是紅的",
+            "comment_keywords": [
+                "恭喜",
+                "倫敦"
+            ]
+        },
+        {
+            "comment_author": "aspwell520",
+            "comment_raw_time": "12/06 00:50",
+            "comment_date_format": "2025-12-06 00:50:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "當年Gpu公司誰想去 我學長來實驗室招",
+            "comment_keywords": [
+                "當年",
+                "公司",
+                "學長",
+                "實驗室"
+            ]
+        },
+        {
+            "comment_author": "aspwell520",
+            "comment_raw_time": "12/06 00:50",
+            "comment_date_format": "2025-12-06 00:50:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "→",
+            "comment_content": "募大家都pass",
+            "comment_keywords": [
+                "大家"
+            ]
+        },
+        {
+            "comment_author": "NDGG",
+            "comment_raw_time": "12/06 01:09",
+            "comment_date_format": "2025-12-06 01:09:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "謝謝po文分享 很詳細",
+            "comment_keywords": [
+                "謝謝",
+                "po文",
+                "分享",
+                "詳細"
+            ]
+        },
+        {
+            "comment_author": "physicsdk",
+            "comment_raw_time": "12/06 01:28",
+            "comment_date_format": "2025-12-06 01:28:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "恭喜 現在真的不好進",
+            "comment_keywords": [
+                "恭喜",
+                "現在"
+            ]
+        },
+        {
+            "comment_author": "rizman28",
+            "comment_raw_time": "12/06 01:38",
+            "comment_date_format": "2025-12-06 01:38:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "你面個試就這麼多抓馬 開始工作還得了",
+            "comment_keywords": [
+                "這麼多",
+                "開始",
+                "工作",
+                "得了"
+            ]
+        },
+        {
+            "comment_author": "bonniejack",
+            "comment_raw_time": "12/06 01:41",
+            "comment_date_format": "2025-12-06 01:41:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "神啊 佩服毅力",
+            "comment_keywords": [
+                "佩服",
+                "毅力"
+            ]
+        },
+        {
+            "comment_author": "marra",
+            "comment_raw_time": "12/06 02:14",
+            "comment_date_format": "2025-12-06 02:14:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "→",
+            "comment_content": "Good! ^_^",
+            "comment_keywords": []
+        },
+        {
+            "comment_author": "ccc202056",
+            "comment_raw_time": "12/06 02:48",
+            "comment_date_format": "2025-12-06 02:48:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "推 追夢人 祝未來一切順利",
+            "comment_keywords": [
+                "夢人",
+                "未來",
+                "一切",
+                "順利"
+            ]
+        },
+        {
+            "comment_author": "stillmark",
+            "comment_raw_time": "12/06 02:58",
+            "comment_date_format": "2025-12-06 02:58:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "推 毅力",
+            "comment_keywords": [
+                "毅力"
+            ]
+        },
+        {
+            "comment_author": "HardyJJ",
+            "comment_raw_time": "12/06 03:01",
+            "comment_date_format": "2025-12-06 03:01:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "→",
+            "comment_content": "要加油…聽說會抓尾砍..",
+            "comment_keywords": [
+                "加油",
+                "聽說"
+            ]
+        },
+        {
+            "comment_author": "yunf",
+            "comment_raw_time": "12/06 03:09",
+            "comment_date_format": "2025-12-06 03:09:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "→",
+            "comment_content": "其實NV一直都很貴",
+            "comment_keywords": []
+        },
+        {
+            "comment_author": "lk0452663",
+            "comment_raw_time": "12/06 04:28",
+            "comment_date_format": "2025-12-06 04:28:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "推 真的很厲害",
+            "comment_keywords": [
+                "厲害"
+            ]
+        },
+        {
+            "comment_author": "octangus07",
+            "comment_raw_time": "12/06 04:31",
+            "comment_date_format": "2025-12-06 04:31:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "兆哥牛逼",
+            "comment_keywords": [
+                "兆哥"
+            ]
+        },
+        {
+            "comment_author": "davidsmoon6",
+            "comment_raw_time": "12/06 05:58",
+            "comment_date_format": "2025-12-06 05:58:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "科技版回來了。",
+            "comment_keywords": [
+                "科技版",
+                "回來"
+            ]
+        },
+        {
+            "comment_author": "lao7796325",
+            "comment_raw_time": "12/06 06:01",
+            "comment_date_format": "2025-12-06 06:01:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "恭喜",
+            "comment_keywords": [
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "OldDaiDai",
+            "comment_raw_time": "12/06 06:45",
+            "comment_date_format": "2025-12-06 06:45:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "推",
+            "comment_keywords": []
+        },
+        {
+            "comment_author": "Bf109G6",
+            "comment_raw_time": "12/06 07:07",
+            "comment_date_format": "2025-12-06 07:07:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "恭喜",
+            "comment_keywords": [
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "wuyiulin",
+            "comment_raw_time": "12/06 07:08",
+            "comment_date_format": "2025-12-06 07:08:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "恭喜",
+            "comment_keywords": [
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "chanceiam",
+            "comment_raw_time": "12/06 07:21",
+            "comment_date_format": "2025-12-06 07:21:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "你這樣算雜魚？我就是塵土了",
+            "comment_keywords": [
+                "這樣",
+                "雜魚",
+                "塵土"
+            ]
+        },
+        {
+            "comment_author": "easywind",
+            "comment_raw_time": "12/06 07:34",
+            "comment_date_format": "2025-12-06 07:34:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "恭喜",
+            "comment_keywords": [
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "MBAR",
+            "comment_raw_time": "12/06 07:49",
+            "comment_date_format": "2025-12-06 07:49:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "好多人就是很奇怪，見不得人家好，看到別人",
+            "comment_keywords": [
+                "好多",
+                "奇怪",
+                "見不得",
+                "人家",
+                "看到",
+                "別人"
+            ]
+        },
+        {
+            "comment_author": "MBAR",
+            "comment_raw_time": "12/06 07:49",
+            "comment_date_format": "2025-12-06 07:49:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "→",
+            "comment_content": "開心自己好像會少一塊肉一樣，真是有趣",
+            "comment_keywords": [
+                "開心",
+                "自己",
+                "一樣",
+                "有趣"
+            ]
+        },
+        {
+            "comment_author": "blackrays",
+            "comment_raw_time": "12/06 07:52",
+            "comment_date_format": "2025-12-06 07:52:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "恭喜",
+            "comment_keywords": [
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "mandydan1222",
+            "comment_raw_time": "12/06 08:00",
+            "comment_date_format": "2025-12-06 08:00:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "恭喜!",
+            "comment_keywords": [
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "petingo",
+            "comment_raw_time": "12/06 08:04",
+            "comment_date_format": "2025-12-06 08:04:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "好羨慕...大神 跪了",
+            "comment_keywords": [
+                "羨慕"
+            ]
+        },
+        {
+            "comment_author": "ArayaHellCat",
+            "comment_raw_time": "12/06 08:07",
+            "comment_date_format": "2025-12-06 08:07:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "推分享",
+            "comment_keywords": [
+                "分享"
+            ]
+        },
+        {
+            "comment_author": "albert7530",
+            "comment_raw_time": "12/06 08:10",
+            "comment_date_format": "2025-12-06 08:10:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "恭喜！！",
+            "comment_keywords": [
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "hankower",
+            "comment_raw_time": "12/06 08:22",
+            "comment_date_format": "2025-12-06 08:22:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "跪了",
+            "comment_keywords": []
+        },
+        {
+            "comment_author": "brightest",
+            "comment_raw_time": "12/06 08:23",
+            "comment_date_format": "2025-12-06 08:23:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "現在進來還只有L4蠻可惜的股價都320了",
+            "comment_keywords": [
+                "現在",
+                "進來",
+                "可惜",
+                "股價",
+                "320"
+            ]
+        },
+        {
+            "comment_author": "brightest",
+            "comment_raw_time": "12/06 08:23",
+            "comment_date_format": "2025-12-06 08:23:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "→",
+            "comment_content": "要再漲一倍不容易都已經4T了",
+            "comment_keywords": [
+                "容易"
+            ]
+        },
+        {
+            "comment_author": "brightest",
+            "comment_raw_time": "12/06 08:23",
+            "comment_date_format": "2025-12-06 08:23:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "→",
+            "comment_content": "L3更正",
+            "comment_keywords": [
+                "更正"
+            ]
+        },
+        {
+            "comment_author": "knightwww",
+            "comment_raw_time": "12/06 08:36",
+            "comment_date_format": "2025-12-06 08:36:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "恭喜",
+            "comment_keywords": [
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "kero961240",
+            "comment_raw_time": "12/06 08:51",
+            "comment_date_format": "2025-12-06 08:51:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "我愛凱恩",
+            "comment_keywords": [
+                "凱恩"
+            ]
+        },
+        {
+            "comment_author": "kanding255",
+            "comment_raw_time": "12/06 08:54",
+            "comment_date_format": "2025-12-06 08:54:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "謝謝  放棄的理由太多了",
+            "comment_keywords": [
+                "謝謝",
+                "放棄",
+                "理由",
+                "太多"
+            ]
+        },
+        {
+            "comment_author": "kanding255",
+            "comment_raw_time": "12/06 08:54",
+            "comment_date_format": "2025-12-06 08:54:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "→",
+            "comment_content": "但是我會記住那個讓自己撐下去的理由",
+            "comment_keywords": [
+                "記住",
+                "自己",
+                "撐下去",
+                "理由"
+            ]
+        },
+        {
+            "comment_author": "kanding255",
+            "comment_raw_time": "12/06 08:54",
+            "comment_date_format": "2025-12-06 08:54:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "→",
+            "comment_content": "",
+            "comment_keywords": []
+        },
+        {
+            "comment_author": "bigwhiteeat",
+            "comment_raw_time": "12/06 09:00",
+            "comment_date_format": "2025-12-06 09:00:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "恭喜",
+            "comment_keywords": [
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "w2sw2sw2s",
+            "comment_raw_time": "12/06 09:02",
+            "comment_date_format": "2025-12-06 09:02:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "恭喜！",
+            "comment_keywords": [
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "whiteguy",
+            "comment_raw_time": "12/06 09:04",
+            "comment_date_format": "2025-12-06 09:04:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "恭喜～",
+            "comment_keywords": [
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "poopoo50000",
+            "comment_raw_time": "12/06 09:06",
+            "comment_date_format": "2025-12-06 09:06:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "太強了！！",
+            "comment_keywords": []
+        },
+        {
+            "comment_author": "a1674523",
+            "comment_raw_time": "12/06 09:10",
+            "comment_date_format": "2025-12-06 09:10:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "恭喜~",
+            "comment_keywords": [
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "Lyu7",
+            "comment_raw_time": "12/06 09:15",
+            "comment_date_format": "2025-12-06 09:15:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "恭喜！感謝分享",
+            "comment_keywords": [
+                "恭喜",
+                "感謝",
+                "分享"
+            ]
+        },
+        {
+            "comment_author": "iamala",
+            "comment_raw_time": "12/06 09:16",
+            "comment_date_format": "2025-12-06 09:16:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "真的恭喜，最重要的是追求自己的夢想並達",
+            "comment_keywords": [
+                "恭喜",
+                "重要",
+                "追求",
+                "自己",
+                "夢想"
+            ]
+        },
+        {
+            "comment_author": "iamala",
+            "comment_raw_time": "12/06 09:16",
+            "comment_date_format": "2025-12-06 09:16:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "→",
+            "comment_content": "成。",
+            "comment_keywords": []
+        },
+        {
+            "comment_author": "gamha",
+            "comment_raw_time": "12/06 09:24",
+            "comment_date_format": "2025-12-06 09:24:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "恭喜",
+            "comment_keywords": [
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "CCCream",
+            "comment_raw_time": "12/06 09:28",
+            "comment_date_format": "2025-12-06 09:28:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "→",
+            "comment_content": "推推 恭喜",
+            "comment_keywords": [
+                "推推",
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "szuwei0311",
+            "comment_raw_time": "12/06 09:32",
+            "comment_date_format": "2025-12-06 09:32:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "恭喜",
+            "comment_keywords": [
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "michael0728n",
+            "comment_raw_time": "12/06 09:43",
+            "comment_date_format": "2025-12-06 09:43:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "追到夢想，respect!",
+            "comment_keywords": [
+                "追到",
+                "夢想"
+            ]
+        },
+        {
+            "comment_author": "oneinamillio",
+            "comment_raw_time": "12/06 09:58",
+            "comment_date_format": "2025-12-06 09:58:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "恭喜",
+            "comment_keywords": [
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "MonkeysGOGO",
+            "comment_raw_time": "12/06 10:17",
+            "comment_date_format": "2025-12-06 10:17:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "恭喜~ 進去再升4不會太久，不用擔心",
+            "comment_keywords": [
+                "恭喜",
+                "進去",
+                "擔心"
+            ]
+        },
+        {
+            "comment_author": "eric01060784",
+            "comment_raw_time": "12/06 10:22",
+            "comment_date_format": "2025-12-06 10:22:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "太強了",
+            "comment_keywords": []
+        },
+        {
+            "comment_author": "derekjj",
+            "comment_raw_time": "12/06 10:26",
+            "comment_date_format": "2025-12-06 10:26:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "推",
+            "comment_keywords": []
+        },
+        {
+            "comment_author": "den95279889",
+            "comment_raw_time": "12/06 10:37",
+            "comment_date_format": "2025-12-06 10:37:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "恭喜",
+            "comment_keywords": [
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "abc21086999",
+            "comment_raw_time": "12/06 10:44",
+            "comment_date_format": "2025-12-06 10:44:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "恭喜",
+            "comment_keywords": [
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "Dubufan0528",
+            "comment_raw_time": "12/06 10:50",
+            "comment_date_format": "2025-12-06 10:50:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "恭喜圓夢",
+            "comment_keywords": [
+                "恭喜",
+                "圓夢"
+            ]
+        },
+        {
+            "comment_author": "OEK",
+            "comment_raw_time": "12/06 10:52",
+            "comment_date_format": "2025-12-06 10:52:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "→",
+            "comment_content": "面試到需要看精神科，有點慘",
+            "comment_keywords": [
+                "面試到",
+                "需要",
+                "精神科"
+            ]
+        },
+        {
+            "comment_author": "ryo923",
+            "comment_raw_time": "12/06 10:53",
+            "comment_date_format": "2025-12-06 10:53:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "神人",
+            "comment_keywords": [
+                "神人"
+            ]
+        },
+        {
+            "comment_author": "magneto5566",
+            "comment_raw_time": "12/06 11:07",
+            "comment_date_format": "2025-12-06 11:07:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "NV通常不讓研替轉正嗎？",
+            "comment_keywords": [
+                "研替",
+                "轉正"
+            ]
+        },
+        {
+            "comment_author": "frankdiver",
+            "comment_raw_time": "12/06 11:09",
+            "comment_date_format": "2025-12-06 11:09:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "推 恭喜",
+            "comment_keywords": [
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "lingerptt",
+            "comment_raw_time": "12/06 11:12",
+            "comment_date_format": "2025-12-06 11:12:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "Enjoy G days with top talent",
+            "comment_keywords": []
+        },
+        {
+            "comment_author": "knetlalala",
+            "comment_raw_time": "12/06 11:20",
+            "comment_date_format": "2025-12-06 11:20:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "恭喜",
+            "comment_keywords": [
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "Charmander",
+            "comment_raw_time": "12/06 11:25",
+            "comment_date_format": "2025-12-06 11:25:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "恭喜～你這個是神人不是雜魚好嗎",
+            "comment_keywords": [
+                "恭喜",
+                "神人"
+            ]
+        },
+        {
+            "comment_author": "bunjie",
+            "comment_raw_time": "12/06 11:30",
+            "comment_date_format": "2025-12-06 11:30:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "→",
+            "comment_content": "推推 恭喜進入想進的公司",
+            "comment_keywords": [
+                "推推",
+                "恭喜",
+                "進入",
+                "公司"
+            ]
+        },
+        {
+            "comment_author": "bunjie",
+            "comment_raw_time": "12/06 11:30",
+            "comment_date_format": "2025-12-06 11:30:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "→",
+            "comment_content": "不過除了厲害真的很有毅力",
+            "comment_keywords": [
+                "厲害",
+                "毅力"
+            ]
+        },
+        {
+            "comment_author": "cplusplus426",
+            "comment_raw_time": "12/06 11:31",
+            "comment_date_format": "2025-12-06 11:31:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "強喔",
+            "comment_keywords": []
+        },
+        {
+            "comment_author": "TheWho",
+            "comment_raw_time": "12/06 11:31",
+            "comment_date_format": "2025-12-06 11:31:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "你在NV RDSS的時間點應該還沒有給ESPP吧",
+            "comment_keywords": [
+                "時間點"
+            ]
+        },
+        {
+            "comment_author": "barrytwu",
+            "comment_raw_time": "12/06 11:32",
+            "comment_date_format": "2025-12-06 11:32:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "加油！",
+            "comment_keywords": [
+                "加油"
+            ]
+        },
+        {
+            "comment_author": "choiceurbest",
+            "comment_raw_time": "12/06 11:33",
+            "comment_date_format": "2025-12-06 11:33:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "恭喜恭喜 希望多招一點",
+            "comment_keywords": [
+                "恭喜",
+                "恭喜",
+                "希望",
+                "一點"
+            ]
+        },
+        {
+            "comment_author": "nuk1230",
+            "comment_raw_time": "12/06 11:55",
+            "comment_date_format": "2025-12-06 11:55:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "好文！感謝大大分享面試經驗",
+            "comment_keywords": [
+                "感謝",
+                "大大",
+                "分享",
+                "面試",
+                "經驗"
+            ]
+        },
+        {
+            "comment_author": "PerfectWorld",
+            "comment_raw_time": "12/06 12:04",
+            "comment_date_format": "2025-12-06 12:04:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "好奇NV老闆是怎麼跟你說再見的",
+            "comment_keywords": [
+                "好奇",
+                "老闆",
+                "再見"
+            ]
+        },
+        {
+            "comment_author": "giogibyeie",
+            "comment_raw_time": "12/06 12:06",
+            "comment_date_format": "2025-12-06 12:06:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "推，熱刺今年有點玄啊！",
+            "comment_keywords": [
+                "熱刺",
+                "今年"
+            ]
+        },
+        {
+            "comment_author": "WaterLengend",
+            "comment_raw_time": "12/06 12:17",
+            "comment_date_format": "2025-12-06 12:17:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "都考到graph算是祖墳冒煙了吧",
+            "comment_keywords": [
+                "考到",
+                "算是",
+                "祖墳",
+                "冒煙"
+            ]
+        },
+        {
+            "comment_author": "transforman",
+            "comment_raw_time": "12/06 12:19",
+            "comment_date_format": "2025-12-06 12:19:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "否極泰來，毅力驚人，恭喜！！",
+            "comment_keywords": [
+                "否極泰來",
+                "毅力",
+                "驚人",
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "Bonen0209",
+            "comment_raw_time": "12/06 12:59",
+            "comment_date_format": "2025-12-06 12:59:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "恭喜！！！",
+            "comment_keywords": [
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "SpursDynasty",
+            "comment_raw_time": "12/06 13:00",
+            "comment_date_format": "2025-12-06 13:00:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "標題應該是神人上岸才對",
+            "comment_keywords": [
+                "標題",
+                "神人",
+                "上岸"
+            ]
+        },
+        {
+            "comment_author": "fakon",
+            "comment_raw_time": "12/06 13:11",
+            "comment_date_format": "2025-12-06 13:11:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "恭喜，可以準備想下一個目標了 xd",
+            "comment_keywords": [
+                "恭喜",
+                "準備",
+                "目標"
+            ]
+        },
+        {
+            "comment_author": "MKIU",
+            "comment_raw_time": "12/06 13:35",
+            "comment_date_format": "2025-12-06 13:35:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "真的是有毅力",
+            "comment_keywords": [
+                "毅力"
+            ]
+        },
+        {
+            "comment_author": "RTA",
+            "comment_raw_time": "12/06 13:39",
+            "comment_date_format": "2025-12-06 13:39:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "好奇L3年薪",
+            "comment_keywords": [
+                "好奇",
+                "年薪"
+            ]
+        },
+        {
+            "comment_author": "eju901677",
+            "comment_raw_time": "12/06 13:39",
+            "comment_date_format": "2025-12-06 13:39:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "恭喜",
+            "comment_keywords": [
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "kaboom",
+            "comment_raw_time": "12/06 14:15",
+            "comment_date_format": "2025-12-06 14:15:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "恭喜",
+            "comment_keywords": [
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "somebody01",
+            "comment_raw_time": "12/06 14:50",
+            "comment_date_format": "2025-12-06 14:50:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "恭喜！",
+            "comment_keywords": [
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "andy9595995",
+            "comment_raw_time": "12/06 15:01",
+            "comment_date_format": "2025-12-06 15:01:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "恭喜",
+            "comment_keywords": [
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "kyle5241",
+            "comment_raw_time": "12/06 15:23",
+            "comment_date_format": "2025-12-06 15:23:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "所以外商對我有興趣到錄取都要等一",
+            "comment_keywords": [
+                "外商",
+                "興趣",
+                "錄取"
+            ]
+        },
+        {
+            "comment_author": "kyle5241",
+            "comment_raw_time": "12/06 15:23",
+            "comment_date_format": "2025-12-06 15:23:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "→",
+            "comment_content": "年喔～",
+            "comment_keywords": []
+        },
+        {
+            "comment_author": "daidairay",
+            "comment_raw_time": "12/06 15:32",
+            "comment_date_format": "2025-12-06 15:32:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "恭喜！",
+            "comment_keywords": [
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "KMTlikesshit",
+            "comment_raw_time": "12/06 15:40",
+            "comment_date_format": "2025-12-06 15:40:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "恭喜",
+            "comment_keywords": [
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "highka1003",
+            "comment_raw_time": "12/06 15:59",
+            "comment_date_format": "2025-12-06 15:59:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "看到這流程直接腳軟，佩服、恭喜！你",
+            "comment_keywords": [
+                "看到",
+                "流程",
+                "直接",
+                "佩服",
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "highka1003",
+            "comment_raw_time": "12/06 15:59",
+            "comment_date_format": "2025-12-06 15:59:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "→",
+            "comment_content": "這麼強還是雜魚的話，那某公司被買進",
+            "comment_keywords": [
+                "那某",
+                "公司",
+                "買進"
+            ]
+        },
+        {
+            "comment_author": "highka1003",
+            "comment_raw_time": "12/06 15:59",
+            "comment_date_format": "2025-12-06 15:59:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "→",
+            "comment_content": "來那群人到底要怎麼活？",
+            "comment_keywords": []
+        },
+        {
+            "comment_author": "superRKO",
+            "comment_raw_time": "12/06 16:09",
+            "comment_date_format": "2025-12-06 16:09:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "好猛 面一個工作要等1年",
+            "comment_keywords": [
+                "工作"
+            ]
+        },
+        {
+            "comment_author": "botnet",
+            "comment_raw_time": "12/06 16:10",
+            "comment_date_format": "2025-12-06 16:10:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "強耶",
+            "comment_keywords": []
+        },
+        {
+            "comment_author": "amethystboy",
+            "comment_raw_time": "12/06 16:32",
+            "comment_date_format": "2025-12-06 16:32:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "謝謝分享",
+            "comment_keywords": [
+                "謝謝",
+                "分享"
+            ]
+        },
+        {
+            "comment_author": "kent8207",
+            "comment_raw_time": "12/06 16:48",
+            "comment_date_format": "2025-12-06 16:48:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "推 努力成真的人就是棒",
+            "comment_keywords": [
+                "努力",
+                "成真"
+            ]
+        },
+        {
+            "comment_author": "dowbane",
+            "comment_raw_time": "12/06 17:10",
+            "comment_date_format": "2025-12-06 17:10:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "推強者",
+            "comment_keywords": [
+                "推強"
+            ]
+        },
+        {
+            "comment_author": "coquelicot",
+            "comment_raw_time": "12/06 17:20",
+            "comment_date_format": "2025-12-06 17:20:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "恭喜！",
+            "comment_keywords": [
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "chris510127",
+            "comment_raw_time": "12/06 17:24",
+            "comment_date_format": "2025-12-06 17:24:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "恭喜圓夢 感謝分享",
+            "comment_keywords": [
+                "恭喜",
+                "圓夢",
+                "感謝",
+                "分享"
+            ]
+        },
+        {
+            "comment_author": "aspire3003",
+            "comment_raw_time": "12/06 17:49",
+            "comment_date_format": "2025-12-06 17:49:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "恭喜恭喜 Pixel陰陽怪氣主管不少..",
+            "comment_keywords": [
+                "恭喜",
+                "恭喜",
+                "陰陽",
+                "怪氣",
+                "主管",
+                "不少"
+            ]
+        },
+        {
+            "comment_author": "t19960804",
+            "comment_raw_time": "12/06 17:50",
+            "comment_date_format": "2025-12-06 17:50:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "噓",
+            "comment_content": "那陰陽怪氣的主管是Hoogler吧",
+            "comment_keywords": [
+                "陰陽",
+                "怪氣",
+                "主管"
+            ]
+        },
+        {
+            "comment_author": "joewucool",
+            "comment_raw_time": "12/06 18:22",
+            "comment_date_format": "2025-12-06 18:22:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "推推",
+            "comment_keywords": [
+                "推推"
+            ]
+        },
+        {
+            "comment_author": "davian0118",
+            "comment_raw_time": "12/06 18:29",
+            "comment_date_format": "2025-12-06 18:29:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "真的要有信仰 恭喜",
+            "comment_keywords": [
+                "信仰",
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "Will0233",
+            "comment_raw_time": "12/06 18:35",
+            "comment_date_format": "2025-12-06 18:35:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "恭喜 推推",
+            "comment_keywords": [
+                "恭喜",
+                "推推"
+            ]
+        },
+        {
+            "comment_author": "moyoyo",
+            "comment_raw_time": "12/06 18:38",
+            "comment_date_format": "2025-12-06 18:38:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "恭喜，終娶美人歸的感覺",
+            "comment_keywords": [
+                "恭喜",
+                "美人",
+                "感覺"
+            ]
+        },
+        {
+            "comment_author": "wlv",
+            "comment_raw_time": "12/06 19:06",
+            "comment_date_format": "2025-12-06 19:06:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "→",
+            "comment_content": "恭喜",
+            "comment_keywords": [
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "AntonyChou",
+            "comment_raw_time": "12/06 19:10",
+            "comment_date_format": "2025-12-06 19:10:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "恭喜！！！",
+            "comment_keywords": [
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "caeserhaha",
+            "comment_raw_time": "12/06 19:30",
+            "comment_date_format": "2025-12-06 19:30:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "太神啦~請問大大有做什麼side project",
+            "comment_keywords": [
+                "請問",
+                "大大",
+                "什麼"
+            ]
+        },
+        {
+            "comment_author": "caeserhaha",
+            "comment_raw_time": "12/06 19:30",
+            "comment_date_format": "2025-12-06 19:30:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "→",
+            "comment_content": "來幫助履歷嗎？",
+            "comment_keywords": [
+                "幫助",
+                "履歷"
+            ]
+        },
+        {
+            "comment_author": "KyGrA",
+            "comment_raw_time": "12/06 19:50",
+            "comment_date_format": "2025-12-06 19:50:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "恭喜夢想成真！",
+            "comment_keywords": [
+                "恭喜",
+                "夢想",
+                "成真"
+            ]
+        },
+        {
+            "comment_author": "yaming0215",
+            "comment_raw_time": "12/06 20:20",
+            "comment_date_format": "2025-12-06 20:20:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "恭喜堅持下去獲得好的結果",
+            "comment_keywords": [
+                "恭喜",
+                "堅持",
+                "獲得",
+                "結果"
+            ]
+        },
+        {
+            "comment_author": "key1000",
+            "comment_raw_time": "12/06 20:25",
+            "comment_date_format": "2025-12-06 20:25:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "恭喜推推     D+390.   跟1400+...膜拜大",
+            "comment_keywords": [
+                "恭喜",
+                "推推",
+                "1400",
+                "膜拜"
+            ]
+        },
+        {
+            "comment_author": "key1000",
+            "comment_raw_time": "12/06 20:25",
+            "comment_date_format": "2025-12-06 20:25:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "→",
+            "comment_content": "神！！",
+            "comment_keywords": []
+        },
+        {
+            "comment_author": "asia261",
+            "comment_raw_time": "12/06 20:35",
+            "comment_date_format": "2025-12-06 20:35:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "恭喜！但北倫敦是紅的（喂",
+            "comment_keywords": [
+                "恭喜",
+                "倫敦"
+            ]
+        },
+        {
+            "comment_author": "drysor",
+            "comment_raw_time": "12/06 20:41",
+            "comment_date_format": "2025-12-06 20:41:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "恭喜～～",
+            "comment_keywords": [
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "dannywhat",
+            "comment_raw_time": "12/06 21:14",
+            "comment_date_format": "2025-12-06 21:14:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "恭喜 真的超詳細的分享",
+            "comment_keywords": [
+                "恭喜",
+                "詳細",
+                "分享"
+            ]
+        },
+        {
+            "comment_author": "takashininja",
+            "comment_raw_time": "12/06 21:22",
+            "comment_date_format": "2025-12-06 21:22:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "恭喜",
+            "comment_keywords": [
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "LeonKuo",
+            "comment_raw_time": "12/06 21:38",
+            "comment_date_format": "2025-12-06 21:38:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "有分享有推 恭喜",
+            "comment_keywords": [
+                "分享",
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "j2c3",
+            "comment_raw_time": "12/06 21:50",
+            "comment_date_format": "2025-12-06 21:50:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "關於那個韌體缺 還好你沒上嘻嘻",
+            "comment_keywords": [
+                "韌體"
+            ]
+        },
+        {
+            "comment_author": "z2oiidxii",
+            "comment_raw_time": "12/06 22:14",
+            "comment_date_format": "2025-12-06 22:14:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "神人",
+            "comment_keywords": [
+                "神人"
+            ]
+        },
+        {
+            "comment_author": "Mrxgentle",
+            "comment_raw_time": "12/06 22:29",
+            "comment_date_format": "2025-12-06 22:29:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "恭喜學長!!!",
+            "comment_keywords": [
+                "恭喜",
+                "學長"
+            ]
+        },
+        {
+            "comment_author": "HailToObov",
+            "comment_raw_time": "12/06 22:30",
+            "comment_date_format": "2025-12-06 22:30:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "恭喜您，您很厲害這樣都能熬過來",
+            "comment_keywords": [
+                "恭喜",
+                "厲害",
+                "這樣",
+                "熬過來"
+            ]
+        },
+        {
+            "comment_author": "duck10704",
+            "comment_raw_time": "12/06 22:33",
+            "comment_date_format": "2025-12-06 22:33:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "恭喜，太厲害了！",
+            "comment_keywords": [
+                "恭喜",
+                "厲害"
+            ]
+        },
+        {
+            "comment_author": "eopXD",
+            "comment_raw_time": "12/06 23:23",
+            "comment_date_format": "2025-12-06 23:23:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "推推",
+            "comment_keywords": [
+                "推推"
+            ]
+        },
+        {
+            "comment_author": "kobe760903",
+            "comment_raw_time": "12/06 23:37",
+            "comment_date_format": "2025-12-06 23:37:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "能面試進去的都是個狠人",
+            "comment_keywords": [
+                "面試進去",
+                "狠人"
+            ]
+        },
+        {
+            "comment_author": "susuper",
+            "comment_raw_time": "12/06 23:48",
+            "comment_date_format": "2025-12-06 23:48:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 6,
+            "comment_tag": "推",
+            "comment_content": "恭喜，太厲害了，真高手。",
+            "comment_keywords": [
+                "恭喜",
+                "厲害",
+                "高手"
+            ]
+        },
+        {
+            "comment_author": "linaslan",
+            "comment_raw_time": "12/07 01:13",
+            "comment_date_format": "2025-12-07 01:13:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 7,
+            "comment_tag": "推",
+            "comment_content": "太強了",
+            "comment_keywords": []
+        },
+        {
+            "comment_author": "ppc",
+            "comment_raw_time": "12/07 01:43",
+            "comment_date_format": "2025-12-07 01:43:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 7,
+            "comment_tag": "推",
+            "comment_content": "第三次我猜遇到hoogler",
+            "comment_keywords": [
+                "第三",
+                "猜遇到"
+            ]
+        },
+        {
+            "comment_author": "ppc",
+            "comment_raw_time": "12/07 01:44",
+            "comment_date_format": "2025-12-07 01:44:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 7,
+            "comment_tag": "→",
+            "comment_content": "面試過程是面試官跟面試者彼此互動的，該面試",
+            "comment_keywords": [
+                "面試",
+                "過程",
+                "面試官",
+                "面試",
+                "彼此",
+                "互動",
+                "面試"
+            ]
+        },
+        {
+            "comment_author": "ppc",
+            "comment_raw_time": "12/07 01:44",
+            "comment_date_format": "2025-12-07 01:44:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 7,
+            "comment_tag": "→",
+            "comment_content": "官這樣回答根本不合格，我真好奇他怎麼提交那",
+            "comment_keywords": [
+                "這樣",
+                "回答",
+                "合格",
+                "好奇",
+                "提交"
+            ]
+        },
+        {
+            "comment_author": "ppc",
+            "comment_raw_time": "12/07 01:44",
+            "comment_date_format": "2025-12-07 01:44:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 7,
+            "comment_tag": "→",
+            "comment_content": "次跟你面試的報告。",
+            "comment_keywords": [
+                "面試",
+                "報告"
+            ]
+        },
+        {
+            "comment_author": "yoche2000",
+            "comment_raw_time": "12/07 02:24",
+            "comment_date_format": "2025-12-07 02:24:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 7,
+            "comment_tag": "推",
+            "comment_content": "挖哥恭喜恭喜",
+            "comment_keywords": [
+                "恭喜",
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "samwang7027",
+            "comment_raw_time": "12/07 02:34",
+            "comment_date_format": "2025-12-07 02:34:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 7,
+            "comment_tag": "推",
+            "comment_content": "厲害啊哥",
+            "comment_keywords": [
+                "厲害"
+            ]
+        },
+        {
+            "comment_author": "stolencake",
+            "comment_raw_time": "12/07 02:41",
+            "comment_date_format": "2025-12-07 02:41:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 7,
+            "comment_tag": "→",
+            "comment_content": "好強",
+            "comment_keywords": [
+                "好強"
+            ]
+        },
+        {
+            "comment_author": "ryanlei309",
+            "comment_raw_time": "12/07 06:33",
+            "comment_date_format": "2025-12-07 06:33:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 7,
+            "comment_tag": "推",
+            "comment_content": "恭喜～～",
+            "comment_keywords": [
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "Csir",
+            "comment_raw_time": "12/07 07:15",
+            "comment_date_format": "2025-12-07 07:15:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 7,
+            "comment_tag": "推",
+            "comment_content": "年薪700萬",
+            "comment_keywords": [
+                "年薪",
+                "700萬"
+            ]
+        },
+        {
+            "comment_author": "egduj",
+            "comment_raw_time": "12/07 07:18",
+            "comment_date_format": "2025-12-07 07:18:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 7,
+            "comment_tag": "推",
+            "comment_content": "恭喜圓夢！也推長文心得分享！",
+            "comment_keywords": [
+                "恭喜",
+                "圓夢",
+                "推長",
+                "心得",
+                "分享"
+            ]
+        },
+        {
+            "comment_author": "bluerace",
+            "comment_raw_time": "12/07 07:46",
+            "comment_date_format": "2025-12-07 07:46:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 7,
+            "comment_tag": "推",
+            "comment_content": "刺不給推（煙）",
+            "comment_keywords": []
+        },
+        {
+            "comment_author": "spath",
+            "comment_raw_time": "12/07 08:44",
+            "comment_date_format": "2025-12-07 08:44:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 7,
+            "comment_tag": "推",
+            "comment_content": "恭喜，感謝分享",
+            "comment_keywords": [
+                "恭喜",
+                "感謝",
+                "分享"
+            ]
+        },
+        {
+            "comment_author": "YCL13",
+            "comment_raw_time": "12/07 09:36",
+            "comment_date_format": "2025-12-07 09:36:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 7,
+            "comment_tag": "推",
+            "comment_content": "恭禧推",
+            "comment_keywords": [
+                "恭禧"
+            ]
+        },
+        {
+            "comment_author": "zhiping",
+            "comment_raw_time": "12/07 10:54",
+            "comment_date_format": "2025-12-07 10:54:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 7,
+            "comment_tag": "推",
+            "comment_content": "恭喜",
+            "comment_keywords": [
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "jellyfishuan",
+            "comment_raw_time": "12/07 11:13",
+            "comment_date_format": "2025-12-07 11:13:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 7,
+            "comment_tag": "推",
+            "comment_content": "兆神好電><",
+            "comment_keywords": [
+                "兆神"
+            ]
+        },
+        {
+            "comment_author": "Masahiro",
+            "comment_raw_time": "12/07 11:25",
+            "comment_date_format": "2025-12-07 11:25:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 7,
+            "comment_tag": "推",
+            "comment_content": "恭喜",
+            "comment_keywords": [
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "jimjim951357",
+            "comment_raw_time": "12/07 11:35",
+            "comment_date_format": "2025-12-07 11:35:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 7,
+            "comment_tag": "推",
+            "comment_content": "恭喜",
+            "comment_keywords": [
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "jack529",
+            "comment_raw_time": "12/07 11:37",
+            "comment_date_format": "2025-12-07 11:37:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 7,
+            "comment_tag": "推",
+            "comment_content": "能上狗家都不是雜魚啦 恭喜",
+            "comment_keywords": [
+                "狗家",
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "nickstarwind",
+            "comment_raw_time": "12/07 12:54",
+            "comment_date_format": "2025-12-07 12:54:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 7,
+            "comment_tag": "推",
+            "comment_content": "面試一年  真的很有心！",
+            "comment_keywords": [
+                "面試",
+                "有心"
+            ]
+        },
+        {
+            "comment_author": "Iversonshao",
+            "comment_raw_time": "12/07 13:29",
+            "comment_date_format": "2025-12-07 13:29:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 7,
+            "comment_tag": "→",
+            "comment_content": "恭喜 可以每天吃小響食了XD",
+            "comment_keywords": [
+                "恭喜",
+                "響食"
+            ]
+        },
+        {
+            "comment_author": "Iversonshao",
+            "comment_raw_time": "12/07 13:50",
+            "comment_date_format": "2025-12-07 13:50:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 7,
+            "comment_tag": "→",
+            "comment_content": "另外你根本不是雜魚 雜魚不是這樣用",
+            "comment_keywords": [
+                "雜魚",
+                "這樣"
+            ]
+        },
+        {
+            "comment_author": "Iversonshao",
+            "comment_raw_time": "12/07 13:50",
+            "comment_date_format": "2025-12-07 13:50:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 7,
+            "comment_tag": "→",
+            "comment_content": "的 你是混血而已",
+            "comment_keywords": []
+        },
+        {
+            "comment_author": "boy00114",
+            "comment_raw_time": "12/07 13:55",
+            "comment_date_format": "2025-12-07 13:55:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 7,
+            "comment_tag": "推",
+            "comment_content": "Congrats !!",
+            "comment_keywords": []
+        },
+        {
+            "comment_author": "rdg1231",
+            "comment_raw_time": "12/07 13:56",
+            "comment_date_format": "2025-12-07 13:56:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 7,
+            "comment_tag": "推",
+            "comment_content": "恭喜 等了這麼久也算是值得",
+            "comment_keywords": [
+                "恭喜",
+                "算是",
+                "值得"
+            ]
+        },
+        {
+            "comment_author": "fish0112",
+            "comment_raw_time": "12/07 14:46",
+            "comment_date_format": "2025-12-07 14:46:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 7,
+            "comment_tag": "推",
+            "comment_content": "恭喜",
+            "comment_keywords": [
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "NAMESTANLY",
+            "comment_raw_time": "12/07 14:49",
+            "comment_date_format": "2025-12-07 14:49:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 7,
+            "comment_tag": "推",
+            "comment_content": "你好有毅力....給推",
+            "comment_keywords": [
+                "毅力"
+            ]
+        },
+        {
+            "comment_author": "askaa",
+            "comment_raw_time": "12/07 16:24",
+            "comment_date_format": "2025-12-07 16:24:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 7,
+            "comment_tag": "推",
+            "comment_content": "恭喜圓夢 推推",
+            "comment_keywords": [
+                "恭喜",
+                "圓夢",
+                "推推"
+            ]
+        },
+        {
+            "comment_author": "NicholasTse3",
+            "comment_raw_time": "12/07 16:50",
+            "comment_date_format": "2025-12-07 16:50:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 7,
+            "comment_tag": "推",
+            "comment_content": "推分享 你學歷這麼好",
+            "comment_keywords": [
+                "分享",
+                "學歷"
+            ]
+        },
+        {
+            "comment_author": "terryroc",
+            "comment_raw_time": "12/07 16:59",
+            "comment_date_format": "2025-12-07 16:59:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 7,
+            "comment_tag": "推",
+            "comment_content": "義大利人的英文強調更可怕...",
+            "comment_keywords": [
+                "義大利人",
+                "英文",
+                "強調",
+                "可怕"
+            ]
+        },
+        {
+            "comment_author": "ExCaleBuR",
+            "comment_raw_time": "12/07 20:49",
+            "comment_date_format": "2025-12-07 20:49:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 7,
+            "comment_tag": "推",
+            "comment_content": "1年 太狂了",
+            "comment_keywords": []
+        },
+        {
+            "comment_author": "LinuxKernel",
+            "comment_raw_time": "12/07 23:28",
+            "comment_date_format": "2025-12-07 23:28:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 7,
+            "comment_tag": "→",
+            "comment_content": "home感覺是裡面最容易被裁的...",
+            "comment_keywords": [
+                "感覺",
+                "裡面",
+                "容易"
+            ]
+        },
+        {
+            "comment_author": "decheng",
+            "comment_raw_time": "12/07 23:40",
+            "comment_date_format": "2025-12-07 23:40:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 7,
+            "comment_tag": "推",
+            "comment_content": "恭喜    大大，一年努力是值得的，明年",
+            "comment_keywords": [
+                "恭喜",
+                "大大",
+                "努力",
+                "值得",
+                "明年"
+            ]
+        },
+        {
+            "comment_author": "decheng",
+            "comment_raw_time": "12/07 23:40",
+            "comment_date_format": "2025-12-07 23:40:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 7,
+            "comment_tag": "→",
+            "comment_content": "也能進G吃員工餐",
+            "comment_keywords": [
+                "員工餐"
+            ]
+        },
+        {
+            "comment_author": "m30127813",
+            "comment_raw_time": "12/08 00:05",
+            "comment_date_format": "2025-12-08 00:05:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 8,
+            "comment_tag": "推",
+            "comment_content": "DP是不是可以直接跳過？",
+            "comment_keywords": [
+                "直接",
+                "跳過"
+            ]
+        },
+        {
+            "comment_author": "st840414",
+            "comment_raw_time": "12/08 01:38",
+            "comment_date_format": "2025-12-08 01:38:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 8,
+            "comment_tag": "推",
+            "comment_content": "恭喜恭喜加入",
+            "comment_keywords": [
+                "恭喜",
+                "恭喜",
+                "加入"
+            ]
+        },
+        {
+            "comment_author": "galaxy4552",
+            "comment_raw_time": "12/08 08:16",
+            "comment_date_format": "2025-12-08 08:16:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 8,
+            "comment_tag": "推",
+            "comment_content": "恭喜 強",
+            "comment_keywords": [
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "davidpanda",
+            "comment_raw_time": "12/08 08:41",
+            "comment_date_format": "2025-12-08 08:41:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 8,
+            "comment_tag": "推",
+            "comment_content": "其實你可以去TPKE吃 XD",
+            "comment_keywords": []
+        },
+        {
+            "comment_author": "davidpanda",
+            "comment_raw_time": "12/08 08:42",
+            "comment_date_format": "2025-12-08 08:42:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 8,
+            "comment_tag": "→",
+            "comment_content": "然後第三個面試官你是真的運氣比較差",
+            "comment_keywords": [
+                "第三",
+                "面試官",
+                "運氣"
+            ]
+        },
+        {
+            "comment_author": "davidpanda",
+            "comment_raw_time": "12/08 08:44",
+            "comment_date_format": "2025-12-08 08:44:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 8,
+            "comment_tag": "→",
+            "comment_content": "獨立完成很重要，但溝通也是...",
+            "comment_keywords": [
+                "獨立",
+                "完成",
+                "重要",
+                "溝通"
+            ]
+        },
+        {
+            "comment_author": "aspirev3",
+            "comment_raw_time": "12/08 09:02",
+            "comment_date_format": "2025-12-08 09:02:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 8,
+            "comment_tag": "推",
+            "comment_content": "推恭喜",
+            "comment_keywords": [
+                "推恭喜"
+            ]
+        },
+        {
+            "comment_author": "symeng",
+            "comment_raw_time": "12/08 09:29",
+            "comment_date_format": "2025-12-08 09:29:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 8,
+            "comment_tag": "推",
+            "comment_content": "1y的面試，厲害了",
+            "comment_keywords": [
+                "面試",
+                "厲害"
+            ]
+        },
+        {
+            "comment_author": "xvited945",
+            "comment_raw_time": "12/08 10:00",
+            "comment_date_format": "2025-12-08 10:00:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 8,
+            "comment_tag": "推",
+            "comment_content": "Google的面試真的很消磨精神，一堆面",
+            "comment_keywords": [
+                "面試",
+                "消磨",
+                "精神",
+                "堆面"
+            ]
+        },
+        {
+            "comment_author": "xvited945",
+            "comment_raw_time": "12/08 10:00",
+            "comment_date_format": "2025-12-08 10:00:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 8,
+            "comment_tag": "→",
+            "comment_content": "一年以上的案例",
+            "comment_keywords": [
+                "以上",
+                "案例"
+            ]
+        },
+        {
+            "comment_author": "alongalone",
+            "comment_raw_time": "12/08 10:20",
+            "comment_date_format": "2025-12-08 10:20:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 8,
+            "comment_tag": "→",
+            "comment_content": "希望能活久一點.. G,A 兩間的刀都....",
+            "comment_keywords": [
+                "希望",
+                "活久"
+            ]
+        },
+        {
+            "comment_author": "buffon",
+            "comment_raw_time": "12/08 10:54",
+            "comment_date_format": "2025-12-08 10:54:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 8,
+            "comment_tag": "→",
+            "comment_content": "我迷熱刺的時候隊上有范德瓦特 莫德里奇",
+            "comment_keywords": [
+                "迷熱刺",
+                "時候隊",
+                "范德瓦特",
+                "莫德里奇"
+            ]
+        },
+        {
+            "comment_author": "buffon",
+            "comment_raw_time": "12/08 10:54",
+            "comment_date_format": "2025-12-08 10:54:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 8,
+            "comment_tag": "→",
+            "comment_content": "還有貝爾",
+            "comment_keywords": [
+                "貝爾"
+            ]
+        },
+        {
+            "comment_author": "edisgood",
+            "comment_raw_time": "12/08 11:16",
+            "comment_date_format": "2025-12-08 11:16:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 8,
+            "comment_tag": "推",
+            "comment_content": "看開點阿 外商每天都是最後一天",
+            "comment_keywords": [
+                "看開",
+                "外商",
+                "最後"
+            ]
+        },
+        {
+            "comment_author": "sengoddard",
+            "comment_raw_time": "12/08 12:15",
+            "comment_date_format": "2025-12-08 12:15:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 8,
+            "comment_tag": "推",
+            "comment_content": "你真棒",
+            "comment_keywords": []
+        },
+        {
+            "comment_author": "f0915034335",
+            "comment_raw_time": "12/08 12:55",
+            "comment_date_format": "2025-12-08 12:55:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 8,
+            "comment_tag": "推",
+            "comment_content": "恭喜",
+            "comment_keywords": [
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "GiBabrother",
+            "comment_raw_time": "12/08 12:55",
+            "comment_date_format": "2025-12-08 12:55:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 8,
+            "comment_tag": "推",
+            "comment_content": "推",
+            "comment_keywords": []
+        },
+        {
+            "comment_author": "vava5566",
+            "comment_raw_time": "12/08 13:57",
+            "comment_date_format": "2025-12-08 13:57:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 8,
+            "comment_tag": "推",
+            "comment_content": "看完就累了 躺平好了 =.=",
+            "comment_keywords": [
+                "看完",
+                "躺平"
+            ]
+        },
+        {
+            "comment_author": "hahachiao",
+            "comment_raw_time": "12/08 13:59",
+            "comment_date_format": "2025-12-08 13:59:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 8,
+            "comment_tag": "推",
+            "comment_content": "你值得的，恭喜!!",
+            "comment_keywords": [
+                "值得",
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "ovaka",
+            "comment_raw_time": "12/08 15:10",
+            "comment_date_format": "2025-12-08 15:10:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 8,
+            "comment_tag": "推",
+            "comment_content": "很棒的心態 也很有毅力 感謝分享!",
+            "comment_keywords": [
+                "心態",
+                "毅力",
+                "感謝",
+                "分享"
+            ]
+        },
+        {
+            "comment_author": "velaro",
+            "comment_raw_time": "12/08 15:32",
+            "comment_date_format": "2025-12-08 15:32:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 8,
+            "comment_tag": "推",
+            "comment_content": "超強",
+            "comment_keywords": [
+                "超強"
+            ]
+        },
+        {
+            "comment_author": "davidpanda",
+            "comment_raw_time": "12/08 16:06",
+            "comment_date_format": "2025-12-08 16:06:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 8,
+            "comment_tag": "推",
+            "comment_content": "台G還好啦，真的不太砍人的",
+            "comment_keywords": [
+                "還好",
+                "砍人"
+            ]
+        },
+        {
+            "comment_author": "firee",
+            "comment_raw_time": "12/08 16:36",
+            "comment_date_format": "2025-12-08 16:36:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 8,
+            "comment_tag": "推",
+            "comment_content": "恭喜! 但是太強了 這樣也撐得下去真不簡單~",
+            "comment_keywords": [
+                "恭喜",
+                "這樣",
+                "簡單"
+            ]
+        },
+        {
+            "comment_author": "TopGun2",
+            "comment_raw_time": "12/08 17:34",
+            "comment_date_format": "2025-12-08 17:34:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 8,
+            "comment_tag": "推",
+            "comment_content": "恭喜",
+            "comment_keywords": [
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "chengyu1010",
+            "comment_raw_time": "12/08 17:35",
+            "comment_date_format": "2025-12-08 17:35:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 8,
+            "comment_tag": "推",
+            "comment_content": "推",
+            "comment_keywords": []
+        },
+        {
+            "comment_author": "darkangel119",
+            "comment_raw_time": "12/08 18:27",
+            "comment_date_format": "2025-12-08 18:27:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 8,
+            "comment_tag": "推",
+            "comment_content": "辛苦了",
+            "comment_keywords": [
+                "辛苦"
+            ]
+        },
+        {
+            "comment_author": "A4P8T6X9",
+            "comment_raw_time": "12/08 18:29",
+            "comment_date_format": "2025-12-08 18:29:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 8,
+            "comment_tag": "推",
+            "comment_content": "恭喜",
+            "comment_keywords": [
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "dick51207",
+            "comment_raw_time": "12/08 20:20",
+            "comment_date_format": "2025-12-08 20:20:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 8,
+            "comment_tag": "推",
+            "comment_content": "恭喜",
+            "comment_keywords": [
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "hutdris",
+            "comment_raw_time": "12/08 20:34",
+            "comment_date_format": "2025-12-08 20:34:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 8,
+            "comment_tag": "推",
+            "comment_content": "恭喜上岸！",
+            "comment_keywords": [
+                "恭喜",
+                "上岸"
+            ]
+        },
+        {
+            "comment_author": "chino32818",
+            "comment_raw_time": "12/08 21:17",
+            "comment_date_format": "2025-12-08 21:17:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 8,
+            "comment_tag": "推",
+            "comment_content": "強強強 恭喜恭喜",
+            "comment_keywords": [
+                "強強",
+                "恭喜",
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "winiel559",
+            "comment_raw_time": "12/08 21:33",
+            "comment_date_format": "2025-12-08 21:33:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 8,
+            "comment_tag": "推",
+            "comment_content": "太累了吧= = 恭喜",
+            "comment_keywords": [
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "tim96tim",
+            "comment_raw_time": "12/08 23:08",
+            "comment_date_format": "2025-12-08 23:08:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 8,
+            "comment_tag": "推",
+            "comment_content": "哇幹 牛",
+            "comment_keywords": []
+        },
+        {
+            "comment_author": "op134679",
+            "comment_raw_time": "12/08 23:16",
+            "comment_date_format": "2025-12-08 23:16:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 8,
+            "comment_tag": "推",
+            "comment_content": "推學長",
+            "comment_keywords": [
+                "學長"
+            ]
+        },
+        {
+            "comment_author": "gaowei16",
+            "comment_raw_time": "12/08 23:24",
+            "comment_date_format": "2025-12-08 23:24:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 8,
+            "comment_tag": "推",
+            "comment_content": "恭喜！",
+            "comment_keywords": [
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "ywliu722",
+            "comment_raw_time": "12/09 02:13",
+            "comment_date_format": "2025-12-09 02:13:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 9,
+            "comment_tag": "推",
+            "comment_content": "恭喜",
+            "comment_keywords": [
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "enjoylife66",
+            "comment_raw_time": "12/09 07:43",
+            "comment_date_format": "2025-12-09 07:43:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 9,
+            "comment_tag": "推",
+            "comment_content": "恭喜，還是覺得刷題超級沒意義",
+            "comment_keywords": [
+                "恭喜",
+                "覺得",
+                "刷題",
+                "意義"
+            ]
+        },
+        {
+            "comment_author": "letbeit",
+            "comment_raw_time": "12/09 10:28",
+            "comment_date_format": "2025-12-09 10:28:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 9,
+            "comment_tag": "推",
+            "comment_content": "熱刺粉推",
+            "comment_keywords": [
+                "刺粉"
+            ]
+        },
+        {
+            "comment_author": "physicsdk",
+            "comment_raw_time": "12/09 12:13",
+            "comment_date_format": "2025-12-09 12:13:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 9,
+            "comment_tag": "→",
+            "comment_content": "刷題可以當興趣 就像linkedin上一些每",
+            "comment_keywords": [
+                "刷題",
+                "興趣",
+                "一些"
+            ]
+        },
+        {
+            "comment_author": "physicsdk",
+            "comment_raw_time": "12/09 12:13",
+            "comment_date_format": "2025-12-09 12:13:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 9,
+            "comment_tag": "→",
+            "comment_content": "天一題的小遊戲可以連續玩個一年兩年",
+            "comment_keywords": [
+                "遊戲"
+            ]
+        },
+        {
+            "comment_author": "dophin332",
+            "comment_raw_time": "12/09 17:56",
+            "comment_date_format": "2025-12-09 17:56:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 9,
+            "comment_tag": "推",
+            "comment_content": "恭喜,員工餐廳  我覺得是省時間 但普",
+            "comment_keywords": [
+                "恭喜",
+                "員工",
+                "餐廳",
+                "覺得",
+                "時間"
+            ]
+        },
+        {
+            "comment_author": "DChsu",
+            "comment_raw_time": "12/10 09:25",
+            "comment_date_format": "2025-12-10 09:25:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 10,
+            "comment_tag": "推",
+            "comment_content": "推！恭喜！！",
+            "comment_keywords": [
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "capacitor",
+            "comment_raw_time": "12/10 14:56",
+            "comment_date_format": "2025-12-10 14:56:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 10,
+            "comment_tag": "推",
+            "comment_content": "G 員工餐廳很屌? 台灣除外",
+            "comment_keywords": [
+                "員工",
+                "餐廳",
+                "台灣",
+                "除外"
+            ]
+        },
+        {
+            "comment_author": "droptear",
+            "comment_raw_time": "12/11 01:32",
+            "comment_date_format": "2025-12-11 01:32:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 11,
+            "comment_tag": "推",
+            "comment_content": "辛苦了，其實面試官如果有讓你不舒服的",
+            "comment_keywords": [
+                "辛苦",
+                "面試官",
+                "舒服"
+            ]
+        },
+        {
+            "comment_author": "droptear",
+            "comment_raw_time": "12/11 01:32",
+            "comment_date_format": "2025-12-11 01:32:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 11,
+            "comment_tag": "→",
+            "comment_content": "情況，是可以和recruiter反應的",
+            "comment_keywords": [
+                "情況",
+                "反應"
+            ]
+        },
+        {
+            "comment_author": "physicsdk",
+            "comment_raw_time": "12/11 07:49",
+            "comment_date_format": "2025-12-11 07:49:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 11,
+            "comment_tag": "推",
+            "comment_content": "真的 面試官讓人不舒服 這超不符合G強",
+            "comment_keywords": [
+                "面試官",
+                "舒服",
+                "符合"
+            ]
+        },
+        {
+            "comment_author": "physicsdk",
+            "comment_raw_time": "12/11 07:49",
+            "comment_date_format": "2025-12-11 07:49:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 11,
+            "comment_tag": "→",
+            "comment_content": "調的文化",
+            "comment_keywords": [
+                "文化"
+            ]
+        },
+        {
+            "comment_author": "angeleye",
+            "comment_raw_time": "12/11 15:22",
+            "comment_date_format": "2025-12-11 15:22:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 11,
+            "comment_tag": "推",
+            "comment_content": "推",
+            "comment_keywords": []
+        },
+        {
+            "comment_author": "Evagelion",
+            "comment_raw_time": "12/11 17:26",
+            "comment_date_format": "2025-12-11 17:26:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 11,
+            "comment_tag": "推",
+            "comment_content": "恭喜! 堅持一年以上真的很棒",
+            "comment_keywords": [
+                "恭喜",
+                "堅持",
+                "以上"
+            ]
+        },
+        {
+            "comment_author": "TOLSY",
+            "comment_raw_time": "12/11 19:10",
+            "comment_date_format": "2025-12-11 19:10:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 11,
+            "comment_tag": "推",
+            "comment_content": "恭喜",
+            "comment_keywords": [
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "hiwin5566",
+            "comment_raw_time": "12/11 23:58",
+            "comment_date_format": "2025-12-11 23:58:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 11,
+            "comment_tag": "推",
+            "comment_content": "恭喜",
+            "comment_keywords": [
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "eriker",
+            "comment_raw_time": "12/12 01:34",
+            "comment_date_format": "2025-12-12 01:34:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 12,
+            "comment_tag": "推",
+            "comment_content": "感謝分享 非常有用",
+            "comment_keywords": [
+                "感謝",
+                "分享",
+                "有用"
+            ]
+        },
+        {
+            "comment_author": "asdg62558",
+            "comment_raw_time": "12/12 08:36",
+            "comment_date_format": "2025-12-12 08:36:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 12,
+            "comment_tag": "推",
+            "comment_content": "好厲害 恭喜",
+            "comment_keywords": [
+                "厲害",
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "sai0720",
+            "comment_raw_time": "12/12 14:55",
+            "comment_date_format": "2025-12-12 14:55:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 12,
+            "comment_tag": "推",
+            "comment_content": "跪求內推",
+            "comment_keywords": [
+                "跪求"
+            ]
+        },
+        {
+            "comment_author": "Grafeoy",
+            "comment_raw_time": "12/13 12:42",
+            "comment_date_format": "2025-12-13 12:42:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 13,
+            "comment_tag": "推",
+            "comment_content": "恭喜",
+            "comment_keywords": [
+                "恭喜"
+            ]
+        },
+        {
+            "comment_author": "yuka",
+            "comment_raw_time": "12/15 12:29",
+            "comment_date_format": "2025-12-15 12:29:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 15,
+            "comment_tag": "推",
+            "comment_content": "恭喜恭喜！最困難的一關已經過了 之後好好加",
+            "comment_keywords": [
+                "恭喜",
+                "恭喜",
+                "困難",
+                "經過",
+                "之後",
+                "好好"
+            ]
+        },
+        {
+            "comment_author": "yuka",
+            "comment_raw_time": "12/15 12:29",
+            "comment_date_format": "2025-12-15 12:29:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 15,
+            "comment_tag": "→",
+            "comment_content": "油",
+            "comment_keywords": []
+        },
+        {
+            "comment_author": "v8700",
+            "comment_raw_time": "12/15 15:58",
+            "comment_date_format": "2025-12-15 15:58:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 15,
+            "comment_tag": "推",
+            "comment_content": "恭喜！進入夢寐以求的公司",
+            "comment_keywords": [
+                "恭喜",
+                "進入",
+                "夢寐以求",
+                "公司"
+            ]
+        },
+        {
+            "comment_author": "biostrike",
+            "comment_raw_time": "12/15 16:00",
+            "comment_date_format": "2025-12-15 16:00:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 15,
+            "comment_tag": "推",
+            "comment_content": "推強者",
+            "comment_keywords": [
+                "推強"
+            ]
+        },
+        {
+            "comment_author": "goodice",
+            "comment_raw_time": "12/16 07:24",
+            "comment_date_format": "2025-12-16 07:24:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 16,
+            "comment_tag": "推",
+            "comment_content": "大神",
+            "comment_keywords": []
+        },
+        {
+            "comment_author": "bigair888",
+            "comment_raw_time": "12/16 12:51",
+            "comment_date_format": "2025-12-16 12:51:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 16,
+            "comment_tag": "推",
+            "comment_content": "這還是雜魚？大大太猛了",
+            "comment_keywords": [
+                "大大"
+            ]
+        },
+        {
+            "comment_author": "drsunyatsen",
+            "comment_raw_time": "12/16 13:48",
+            "comment_date_format": "2025-12-16 13:48:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 16,
+            "comment_tag": "推",
+            "comment_content": "恭喜 詳細給推",
+            "comment_keywords": [
+                "恭喜",
+                "詳細"
+            ]
+        },
+        {
+            "comment_author": "os5566ga",
+            "comment_raw_time": "12/17 00:24",
+            "comment_date_format": "2025-12-17 00:24:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 17,
+            "comment_tag": "推",
+            "comment_content": "大家看到+390很折磨，但我覺得也因為你",
+            "comment_keywords": [
+                "大家",
+                "看到",
+                "折磨",
+                "覺得"
+            ]
+        },
+        {
+            "comment_author": "os5566ga",
+            "comment_raw_time": "12/17 00:24",
+            "comment_date_format": "2025-12-17 00:24:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 17,
+            "comment_tag": "→",
+            "comment_content": "把解題變成生活的一部分所以運氣怎麼不",
+            "comment_keywords": [
+                "解題",
+                "變成",
+                "生活",
+                "部分",
+                "運氣"
+            ]
+        },
+        {
+            "comment_author": "os5566ga",
+            "comment_raw_time": "12/17 00:24",
+            "comment_date_format": "2025-12-17 00:24:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 17,
+            "comment_tag": "→",
+            "comment_content": "好最後還是被你拿下了。恭喜 真強者，",
+            "comment_keywords": [
+                "最後",
+                "拿下",
+                "恭喜",
+                "強者"
+            ]
+        },
+        {
+            "comment_author": "os5566ga",
+            "comment_raw_time": "12/17 00:24",
+            "comment_date_format": "2025-12-17 00:24:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 17,
+            "comment_tag": "→",
+            "comment_content": "這篇文也勉勵還在team match沈浮的我",
+            "comment_keywords": [
+                "勉勵",
+                "沈浮"
+            ]
+        },
+        {
+            "comment_author": "CheGuevara28",
+            "comment_raw_time": "12/17 07:59",
+            "comment_date_format": "2025-12-17 07:59:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 17,
+            "comment_tag": "推",
+            "comment_content": "沾喜氣",
+            "comment_keywords": [
+                "喜氣"
+            ]
+        },
+        {
+            "comment_author": "vmjoxjp",
+            "comment_raw_time": "12/24 14:57",
+            "comment_date_format": "2025-12-24 14:57:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 24,
+            "comment_tag": "推",
+            "comment_content": "恭喜！",
+            "comment_keywords": [
+                "恭喜"
+            ]
+        }
+    ],
+    "comments_top_key": [
+        [
+            "恭喜",
+            116
+        ],
+        [
+            "分享",
+            16
+        ],
+        [
+            "厲害",
+            11
+        ],
+        [
+            "面試",
+            9
+        ],
+        [
+            "毅力",
+            7
+        ],
+        [
+            "推推",
+            7
+        ],
+        [
+            "圓夢",
+            6
+        ],
+        [
+            "感謝",
+            6
+        ],
+        [
+            "公司",
+            5
+        ],
+        [
+            "這樣",
+            5
+        ],
+        [
+            "覺得",
+            4
+        ],
+        [
+            "直接",
+            4
+        ],
+        [
+            "神人",
+            4
+        ],
+        [
+            "大大",
+            4
+        ],
+        [
+            "面試官",
+            4
+        ],
+        [
+            "加油",
+            3
+        ],
+        [
+            "當初",
+            3
+        ],
+        [
+            "學長",
+            3
+        ],
+        [
+            "謝謝",
+            3
+        ],
+        [
+            "詳細",
+            3
+        ],
+        [
+            "看到",
+            3
+        ],
+        [
+            "自己",
+            3
+        ],
+        [
+            "夢想",
+            3
+        ],
+        [
+            "好奇",
+            3
+        ],
+        [
+            "值得",
+            3
+        ],
+        [
+            "可怕",
+            2
+        ],
+        [
+            "心想事成",
+            2
+        ],
+        [
+            "喜氣",
+            2
+        ],
+        [
+            "當年",
+            2
+        ],
+        [
+            "轉正",
+            2
+        ],
+        [
+            "需要",
+            2
+        ],
+        [
+            "可惜",
+            2
+        ],
+        [
+            "什麼",
+            2
+        ],
+        [
+            "倫敦",
+            2
+        ],
+        [
+            "大家",
+            2
+        ],
+        [
+            "現在",
+            2
+        ],
+        [
+            "工作",
+            2
+        ],
+        [
+            "佩服",
+            2
+        ],
+        [
+            "雜魚",
+            2
+        ],
+        [
+            "容易",
+            2
+        ],
+        [
+            "理由",
+            2
+        ],
+        [
+            "重要",
+            2
+        ],
+        [
+            "進入",
+            2
+        ],
+        [
+            "希望",
+            2
+        ],
+        [
+            "算是",
+            2
+        ],
+        [
+            "上岸",
+            2
+        ],
+        [
+            "年薪",
+            2
+        ],
+        [
+            "外商",
+            2
+        ],
+        [
+            "興趣",
+            2
+        ],
+        [
+            "努力",
+            2
+        ]
+    ]
+}

@@ -2,12 +2,16 @@ import re
 from collections import Counter
 from ckiptagger import data_utils, construct_dictionary, WS, POS, NER
 
+# 要解析的文本原始檔路徑
+file_path = r"json_test/PTT/汽車_200萬左右好開的帥車.json"
+
 catAscii = r"""
     /\_/\
 = ( • . • ) =
    /      \      
 """
-# 1. 載入模型 (路徑指向 data 資料夾)
+
+# 0. 載入模型 (路徑指向本地端的 data 資料夾)
 # 這一步會花一點時間載入，且會佔用約 1-2GB 記憶體
 print("=" * 80)
 print("正在載入 CkipTagger 模型，約等待30秒，請稍候...")
@@ -29,6 +33,7 @@ sentence_list = re.split(r'[,，。;；!！?？\n]', origin_article) # 分割文
 sentence_list = [s.strip() for s in sentence_list if len(s.strip()) > 0] # 移除陣列中的空字串
 
 print(f"原始文章被分割成 {len(sentence_list)} 個句子")
+print("sentence_list = ", sentence_list)
 
 
 # 自定義字典權重 (分數越高越優先被解析出來)

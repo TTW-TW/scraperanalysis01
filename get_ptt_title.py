@@ -10,7 +10,7 @@ headers = {
 
 # 批踢踢 domain name
 domainName = 'https://www.ptt.cc/'
-mainUrl = 'https://www.ptt.cc/bbs/Gossiping/index.html' 
+mainUrl = 'https://www.ptt.cc/bbs/Coffee/index.html' 
 
 
 web = requests.get(mainUrl, headers=headers) 

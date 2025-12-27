@@ -1,6 +1,6 @@
 import jieba
 from collections import Counter
-file_path = (r'/content/jiabaWord.txt')
+file_path = (r'content/jiabaWord.txt')
 jieba.load_userdict(file_path)
 
 # 停用詞
@@ -34,6 +34,8 @@ for word in segments:
         # 將 wordClean 視為乾淨的文本
 
 print('=======wordClean========')
+print("wordClean = ", wordClean)
+
 
 # 將文本中的單字出現次數存為字典
 counts = Counter(wordClean)
