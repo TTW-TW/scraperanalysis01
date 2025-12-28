@@ -8,6 +8,7 @@ jieba.load_userdict(jieba_file_path)
 file_path = r"json_test/PTT/邊緣_誰會凸兔兔.json"
 
 
+
 # == 1. 載入文章，先存起來，最後要儲存結果時再打開
 with open(file_path, 'r', encoding='utf-8') as f:
     # json.load() 讀取檔案內容並解析成 Python 物件 (這裡會是個字典)
@@ -89,18 +90,10 @@ for sentence in all_sentence_pool:
             # 將 wordClean 視為乾淨的文本
     all_done_sentence.append(wordClean_this_sentence)    
 
-# 檢查用
-# print('=======all_done_sentence========')
-# print("len(all_done_sentence) = ", len(all_done_sentence))
-# print("=" * 80)
-# print(all_done_sentence)
 
 
 # == 4. Cursor 回填 + 放進待統計大池子
 
-# 印出文章的總陣列
-# 印出留言一的總陣列
-# 印出留言二的總陣列
 list_to_json = []
 
 print("len(task_map) = ", len(task_map))

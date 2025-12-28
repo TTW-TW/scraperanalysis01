@@ -27,7 +27,7 @@ dictionary = construct_dictionary(word_to_weight)
         
 # === 載入ckip模型，並將WS, POS, NER定義為全域變數，供此程式內所有函數使用
 class CkipProcessor:
-    def __init__(self):
+    def __init__(self): # 預先載入模組(只執行一次)
         catAscii = r"""
                 /\_/\
             = ( • . • ) =
@@ -201,8 +201,6 @@ if __name__ == "__main__":
     for json_to_do in json_files:
         
         current_json_name = re.split(r'[/]+', json_to_do.replace( '\\', '/'))[-1]
-        print(current_json_name)
-        print(type(current_json_name))
         output_file_path = os.path.join(output_folder, current_json_name) # 分析完成的 json，輸出路徑
         
         print(f"正在分析文章：【{current_json_name}】")
@@ -259,4 +257,10 @@ if __name__ == "__main__":
             # json.dump(obj, fp, indent=4) 參數可以讓輸出的 JSON 更易讀
             json.dump(article_json, f, ensure_ascii=False, indent=4)
 
-    
+    print(r"""
+                /\_/\
+            = ( • . • ) =
+               /      \   完成了唷 =u=            
+        """)
+    print(f"共分析 {len(json_files)} 篇文章")
+    print(f"輸出檔案路徑 = {output_file_path}")
