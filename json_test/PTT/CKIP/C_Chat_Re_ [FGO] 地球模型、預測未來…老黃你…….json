@@ -1,0 +1,3467 @@
+{
+    "article_source": "PTT",
+    "article_url": "https://www.ptt.cc/bbs/C_Chat/M.1766983396.A.202.html",
+    "article_title": "Re: [FGO] 地球模型、預測未來…老黃你……",
+    "article_category": "C_Chat",
+    "article_author": "attacksoil (第三方程式)",
+    "publish_time": "2025-12-29 12:43:16",
+    "date_year": 2025,
+    "date_month": 12,
+    "date_day": 29,
+    "reaction_count": 177,
+    "comment_count": 177,
+    "content_raw": "這就是nvdia這幾年一直推的數位孿生啊\n\n他們的廣告詞是說以後可以用debug軟體的方式debug硬體問題\n\n作為硬體轉軟體的工程師\n我是覺得老黃會推這個 根本看硬體工程師沒有啦\n\n如果這麼簡單就能數位建模 根本不會有bug好嗎？\n\n感覺是繼元宇宙 nft後下一個會爆炸的概念\n\n\n--對啦\n這件事情上 我就是看老黃沒有\n就算我在棺材裡也要大喊\n數位孿生就是垃圾廢物那不就只是氣候模型而已因為我覺得數位孿生就是數位垃圾啊那就是氣象建模==\n不是數位孿生 你去查老黃數位孿生在做啥可能就知道我為啥這麼氣了對 所以才很莫名奇妙\n數位孿生在製造業 他們就是想比EDA做更多更多到愚蠢的地步老黃在數位孿生不是設計自動化\n是維運自動化https://youtu.be/RX1Bp1JWHOs?si=gb5ke-C5EMWpUEWj如果看這個影片不會覺得浪費算力的話\n那大概說什麼都沒用製造業的數位孿生已經很莫名奇妙了\n本來就是該噴的東西\n\n氣象我確實不清楚 但老黃自己用的詞就是數位孿生（digital twin)就是因為已經有了 才會覺得爛啊\n你真的可以去看看omniverse是要幹嘛 就是用很fancy的工具做本來就有可以做的事情\n然後不是做抽象 而是 做一個 具象 出來 要求工程師要保持 數位模型和 產線一致 然後在\n數位模型上debug模擬找出問題點\n是在開發階段的事\n而且只要是模擬 就只知道會有誤差\n\n老黃想做的事情 就是要求生產線也用模擬的方式處理所有問題\n\n算力不夠怎麼辦 跟nvd買啊\n\n但問題根本不是在算力 而是生產階段重點根本跟開發階段不同事實上這套在產線就是沒用\n只是多了一個要debug 的東西對\n事實上就算是光學模擬 也知道在生產階段會有公差 而實際在生產階段 控制公差的技術 多\n半跟模擬未必相關\n\n數位孿生套到這裡 就是要求產線上所有檢測設備全部都要數位建模\n\n然後原本對產線做的tracing 在數位建模裡面也要做一次\n\n... 一開始之所以會選擇用跟模擬不同的方式檢驗 就是因為實作上有困難 而數位孿生就是\n要在不管這些困難的情況下要求生產線建模\n\n建出來的東西想當然爾是垃圾... 一開始之所以會選擇用跟模擬不同的方式檢驗 就是因為實作上有困難 而數位孿生就是\n要在不管這些困難的情況下要求生產線建模\n\n建出來的東西想當然爾是垃圾如果能做到阿卡夏紀錄那樣\n當然有用\n\n但從工程的角度上來說 如果工程紀錄能做到這種精度的模擬 打從一開始就能藉由製程控制\n做到100良率\n\n還是不需要數位孿生這種全範圍模擬不是\n是現代工程本來就是區分開發和生產環境\n數位孿生的概念本身等於否定了這個基本設計",
+    "content_keywords": [
+        "他們",
+        "廣告詞",
+        "以後",
+        "軟體",
+        "方式",
+        "硬體",
+        "問題",
+        "作為",
+        "硬體",
+        "轉軟體",
+        "工程師",
+        "覺得",
+        "老黃",
+        "硬體",
+        "工程師",
+        "沒有",
+        "簡單",
+        "感覺",
+        "繼元",
+        "宇宙",
+        "爆炸",
+        "概念",
+        "事情",
+        "老黃",
+        "棺材",
+        "大喊",
+        "垃圾",
+        "廢物",
+        "氣候",
+        "模型",
+        "覺得",
+        "垃圾",
+        "氣象",
+        "建模",
+        "老黃",
+        "知道",
+        "莫名",
+        "奇妙",
+        "製造業",
+        "他們",
+        "更多",
+        "更多",
+        "愚蠢",
+        "地步",
+        "老黃",
+        "設計",
+        "自動化",
+        "維運",
+        "自動化",
+        "影片",
+        "覺得",
+        "浪費",
+        "算力",
+        "什麼",
+        "沒用",
+        "製造業",
+        "莫名",
+        "奇妙",
+        "東西",
+        "氣象",
+        "清楚",
+        "老黃",
+        "自己",
+        "覺得",
+        "看看",
+        "幹嘛",
+        "fancy",
+        "工具",
+        "事情",
+        "抽象",
+        "具象",
+        "出來",
+        "要求",
+        "工程師",
+        "保持",
+        "模型",
+        "產線",
+        "一致",
+        "模型",
+        "模擬",
+        "找出",
+        "問題點",
+        "開發",
+        "階段",
+        "模擬",
+        "知道",
+        "誤差",
+        "老黃",
+        "事情",
+        "要求",
+        "生產線",
+        "模擬",
+        "方式",
+        "處理",
+        "所有",
+        "問題",
+        "算力",
+        "怎麼辦",
+        "問題",
+        "算力",
+        "生產",
+        "階段",
+        "重點",
+        "開發",
+        "階段",
+        "不同",
+        "事實",
+        "產線",
+        "沒用",
+        "東西",
+        "事實",
+        "光學",
+        "模擬",
+        "知道",
+        "生產",
+        "階段",
+        "公差",
+        "實際",
+        "生產",
+        "階段",
+        "控制",
+        "公差",
+        "技術",
+        "模擬",
+        "相關",
+        "孿生",
+        "套到",
+        "這裡",
+        "要求",
+        "產線",
+        "所有",
+        "檢測",
+        "設備",
+        "全部",
+        "產線",
+        "建模",
+        "裡面",
+        "開始",
+        "選擇",
+        "模擬",
+        "不同",
+        "方式",
+        "檢驗",
+        "實作",
+        "困難",
+        "這些",
+        "困難",
+        "情況",
+        "要求",
+        "生產線",
+        "建出來",
+        "東西",
+        "垃圾",
+        "開始",
+        "選擇",
+        "模擬",
+        "不同",
+        "方式",
+        "檢驗",
+        "實作",
+        "困難",
+        "這些",
+        "困難",
+        "情況",
+        "要求",
+        "生產線",
+        "建出來",
+        "東西",
+        "垃圾",
+        "做到",
+        "阿卡夏",
+        "紀錄",
+        "那樣",
+        "有用",
+        "工程",
+        "角度",
+        "工程",
+        "紀錄",
+        "做到",
+        "精度",
+        "模擬",
+        "開始",
+        "製程",
+        "控制",
+        "做到",
+        "100",
+        "良率",
+        "需要",
+        "範圍",
+        "模擬",
+        "現代",
+        "工程",
+        "區分",
+        "開發",
+        "生產",
+        "環境",
+        "概念",
+        "本身",
+        "等於",
+        "否定",
+        "設計"
+    ],
+    "content_top_key": [
+        [
+            "模擬",
+            9
+        ],
+        [
+            "老黃",
+            6
+        ],
+        [
+            "要求",
+            5
+        ],
+        [
+            "階段",
+            5
+        ],
+        [
+            "方式",
+            4
+        ],
+        [
+            "覺得",
+            4
+        ],
+        [
+            "垃圾",
+            4
+        ],
+        [
+            "東西",
+            4
+        ],
+        [
+            "產線",
+            4
+        ],
+        [
+            "生產",
+            4
+        ],
+        [
+            "困難",
+            4
+        ],
+        [
+            "硬體",
+            3
+        ],
+        [
+            "問題",
+            3
+        ],
+        [
+            "工程師",
+            3
+        ],
+        [
+            "事情",
+            3
+        ],
+        [
+            "模型",
+            3
+        ],
+        [
+            "知道",
+            3
+        ],
+        [
+            "算力",
+            3
+        ],
+        [
+            "開發",
+            3
+        ],
+        [
+            "生產線",
+            3
+        ],
+        [
+            "不同",
+            3
+        ],
+        [
+            "開始",
+            3
+        ],
+        [
+            "做到",
+            3
+        ],
+        [
+            "工程",
+            3
+        ],
+        [
+            "他們",
+            2
+        ],
+        [
+            "概念",
+            2
+        ],
+        [
+            "氣象",
+            2
+        ],
+        [
+            "建模",
+            2
+        ],
+        [
+            "莫名",
+            2
+        ],
+        [
+            "奇妙",
+            2
+        ],
+        [
+            "製造業",
+            2
+        ],
+        [
+            "更多",
+            2
+        ],
+        [
+            "設計",
+            2
+        ],
+        [
+            "自動化",
+            2
+        ],
+        [
+            "沒用",
+            2
+        ],
+        [
+            "所有",
+            2
+        ],
+        [
+            "事實",
+            2
+        ],
+        [
+            "公差",
+            2
+        ],
+        [
+            "控制",
+            2
+        ],
+        [
+            "選擇",
+            2
+        ],
+        [
+            "檢驗",
+            2
+        ],
+        [
+            "實作",
+            2
+        ],
+        [
+            "這些",
+            2
+        ],
+        [
+            "情況",
+            2
+        ],
+        [
+            "建出來",
+            2
+        ],
+        [
+            "紀錄",
+            2
+        ],
+        [
+            "廣告詞",
+            1
+        ],
+        [
+            "以後",
+            1
+        ],
+        [
+            "軟體",
+            1
+        ],
+        [
+            "作為",
+            1
+        ]
+    ],
+    "comments": [
+        {
+            "comment_author": "Wardyal",
+            "comment_raw_time": "12/29 12:46",
+            "comment_date_format": "2025-12-29 12:46:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "以後3D cad 也給 AI 畫了 全部都給 AI",
+            "comment_keywords": [
+                "以後",
+                "全部"
+            ]
+        },
+        {
+            "comment_author": "linzero",
+            "comment_raw_time": "12/29 12:46",
+            "comment_date_format": "2025-12-29 12:46:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "蝴蝶效應",
+            "comment_keywords": [
+                "蝴蝶",
+                "效應"
+            ]
+        },
+        {
+            "comment_author": "hayato01",
+            "comment_raw_time": "12/29 12:47",
+            "comment_date_format": "2025-12-29 12:47:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "我覺得是你看老黃沒有",
+            "comment_keywords": [
+                "覺得",
+                "老黃"
+            ]
+        },
+        {
+            "comment_author": "hayato01",
+            "comment_raw_time": "12/29 12:47",
+            "comment_date_format": "2025-12-29 12:47:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "還有那這個跟NFT比，你是活在哪個平行世界？",
+            "comment_keywords": [
+                "平行",
+                "世界"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 12:49",
+            "comment_date_format": "2025-12-29 12:49:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "不開玩笑 這就迷你版的氣候限定預測的迦勒底亞斯",
+            "comment_keywords": [
+                "開玩笑",
+                "迷你版",
+                "氣候",
+                "限定",
+                "預測",
+                "迦勒底亞斯"
+            ]
+        },
+        {
+            "comment_author": "dnek",
+            "comment_raw_time": "12/29 12:50",
+            "comment_date_format": "2025-12-29 12:50:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "你說的沒錯，但這是AI",
+            "comment_keywords": []
+        },
+        {
+            "comment_author": "kano2525",
+            "comment_raw_time": "12/29 12:50",
+            "comment_date_format": "2025-12-29 12:50:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "你怎麼會拿NFT這種數位垃圾來比？",
+            "comment_keywords": [
+                "垃圾"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 12:51",
+            "comment_date_format": "2025-12-29 12:51:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "而且原Po不看書也許至少可以去 PTT 大氣版看一巡，一堆模",
+            "comment_keywords": [
+                "看書",
+                "大氣版"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 12:51",
+            "comment_date_format": "2025-12-29 12:51:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "式、跟深度學習相關的局部氣候預測或雲系分佈一直都有在",
+            "comment_keywords": [
+                "深度",
+                "學習",
+                "相關",
+                "局部",
+                "氣候",
+                "預測",
+                "雲系",
+                "分佈"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 12:51",
+            "comment_date_format": "2025-12-29 12:51:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "做，只是現在要做的預測是更全面性/可以有更好的先後驗估",
+            "comment_keywords": [
+                "現在",
+                "預測",
+                "全面性",
+                "先後",
+                "驗估"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 12:51",
+            "comment_date_format": "2025-12-29 12:51:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "計的結果",
+            "comment_keywords": [
+                "結果"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 12:51",
+            "comment_date_format": "2025-12-29 12:51:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "雖然我也還不理解具體老黃要怎麼實現 但以現在的科技不是",
+            "comment_keywords": [
+                "理解",
+                "具體",
+                "老黃",
+                "實現",
+                "現在",
+                "科技"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 12:51",
+            "comment_date_format": "2025-12-29 12:51:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "不可能==",
+            "comment_keywords": []
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 12:52",
+            "comment_date_format": "2025-12-29 12:52:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "另 debug 軟體的方式 debug 硬體問題就是 EDA 工具在現代",
+            "comment_keywords": [
+                "軟體",
+                "方式",
+                "硬體",
+                "問題",
+                "工具",
+                "現代"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 12:52",
+            "comment_date_format": "2025-12-29 12:52:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "在做的事==",
+            "comment_keywords": []
+        },
+        {
+            "comment_author": "linzero",
+            "comment_raw_time": "12/29 12:52",
+            "comment_date_format": "2025-12-29 12:52:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "NFT只有情緒價值，數位孿生至少號稱有實際作用",
+            "comment_keywords": [
+                "情緒",
+                "價值",
+                "號稱",
+                "實際",
+                "作用"
+            ]
+        },
+        {
+            "comment_author": "songsongboy",
+            "comment_raw_time": "12/29 12:52",
+            "comment_date_format": "2025-12-29 12:52:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "你知道EDA在做什麼嗎？難度高那是一定，但考量到花",
+            "comment_keywords": [
+                "知道",
+                "什麼",
+                "難度",
+                "考量到"
+            ]
+        },
+        {
+            "comment_author": "songsongboy",
+            "comment_raw_time": "12/29 12:52",
+            "comment_date_format": "2025-12-29 12:52:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "費的方向一定是朝軟體能debug發展",
+            "comment_keywords": [
+                "方向",
+                "軟體",
+                "發展"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 12:54",
+            "comment_date_format": "2025-12-29 12:54:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "你可以概略的講一下你在氣什麼嗎 因為我是真的重新查了一",
+            "comment_keywords": [
+                "一下",
+                "什麼"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 12:54",
+            "comment_date_format": "2025-12-29 12:54:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "下近期的關鍵字仍然看不出原 Po 在氣什麼",
+            "comment_keywords": [
+                "近期",
+                "關鍵字",
+                "什麼"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 12:56",
+            "comment_date_format": "2025-12-29 12:56:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "本來盡可能的孿生在 Design flow 上就是在確定底層穩定的",
+            "comment_keywords": [
+                "確定",
+                "底層",
+                "穩定"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 12:56",
+            "comment_date_format": "2025-12-29 12:56:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "狀況下盡可能的「抽象」化以增進開發跟學習效率，這是人",
+            "comment_keywords": [
+                "狀況",
+                "抽象",
+                "增進",
+                "開發",
+                "學習",
+                "效率"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 12:56",
+            "comment_date_format": "2025-12-29 12:56:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "類一直在做的事，沒理由老黃踏進氣象及地質領域的時候就",
+            "comment_keywords": [
+                "理由",
+                "老黃",
+                "踏進",
+                "氣象",
+                "地質",
+                "領域",
+                "時候"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 12:56",
+            "comment_date_format": "2025-12-29 12:56:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "噴他有毛病吧",
+            "comment_keywords": [
+                "毛病"
+            ]
+        },
+        {
+            "comment_author": "rronbang",
+            "comment_raw_time": "12/29 12:56",
+            "comment_date_format": "2025-12-29 12:56:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "digital twin 有個TAD 演講聽過",
+            "comment_keywords": [
+                "演講"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 12:58",
+            "comment_date_format": "2025-12-29 12:58:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "維運自動化在現代也早就有了 從近代的生成式工具的自動專",
+            "comment_keywords": [
+                "維運",
+                "自動化",
+                "現代",
+                "近代",
+                "工具",
+                "自動"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 12:58",
+            "comment_date_format": "2025-12-29 12:58:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "案檢查到早期的 CI/CD 相關的依賴性檢查 即便內容有差、",
+            "comment_keywords": [
+                "檢查到",
+                "早期",
+                "相關",
+                "依賴性",
+                "檢查",
+                "內容"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 12:58",
+            "comment_date_format": "2025-12-29 12:58:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "同構的東西一直都有且在改進",
+            "comment_keywords": [
+                "東西",
+                "改進"
+            ]
+        },
+        {
+            "comment_author": "arrenwu",
+            "comment_raw_time": "12/29 13:00",
+            "comment_date_format": "2025-12-29 13:00:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "所以\"用debug軟體的方式debug硬體問題\"是啥意思啊？",
+            "comment_keywords": [
+                "軟體",
+                "方式",
+                "硬體",
+                "問題",
+                "意思"
+            ]
+        },
+        {
+            "comment_author": "linzero",
+            "comment_raw_time": "12/29 13:02",
+            "comment_date_format": "2025-12-29 13:02:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "軟體模擬找出問題點。好像藥物實驗也有用超級電腦跑分子",
+            "comment_keywords": [
+                "軟體",
+                "模擬",
+                "找出",
+                "問題點",
+                "藥物",
+                "實驗",
+                "有用",
+                "電腦",
+                "分子"
+            ]
+        },
+        {
+            "comment_author": "linzero",
+            "comment_raw_time": "12/29 13:03",
+            "comment_date_format": "2025-12-29 13:03:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "模型的模擬機制",
+            "comment_keywords": [
+                "模型",
+                "模擬",
+                "機制"
+            ]
+        },
+        {
+            "comment_author": "LOVEMS",
+            "comment_raw_time": "12/29 13:03",
+            "comment_date_format": "2025-12-29 13:03:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "表裡一體化的意思 能夠debug軟體就能debug硬體",
+            "comment_keywords": [
+                "表裡",
+                "一體化",
+                "意思",
+                "軟體",
+                "硬體"
+            ]
+        },
+        {
+            "comment_author": "seer2525",
+            "comment_raw_time": "12/29 13:04",
+            "comment_date_format": "2025-12-29 13:04:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "因為是模擬硬體的運行狀況 所以老黃的意思應該是只要對",
+            "comment_keywords": [
+                "模擬",
+                "硬體",
+                "運行",
+                "狀況",
+                "老黃",
+                "意思"
+            ]
+        },
+        {
+            "comment_author": "seer2525",
+            "comment_raw_time": "12/29 13:04",
+            "comment_date_format": "2025-12-29 13:04:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "孿生debug 就能對硬體debug",
+            "comment_keywords": [
+                "硬體"
+            ]
+        },
+        {
+            "comment_author": "LOVEMS",
+            "comment_raw_time": "12/29 13:04",
+            "comment_date_format": "2025-12-29 13:04:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "軟體怎麼寫不重要 硬體長一樣就可以了",
+            "comment_keywords": [
+                "軟體",
+                "重要",
+                "硬體",
+                "一樣",
+                "可以"
+            ]
+        },
+        {
+            "comment_author": "bitcch",
+            "comment_raw_time": "12/29 13:04",
+            "comment_date_format": "2025-12-29 13:04:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "所以有什麼不好地方 先用軟體模擬工廠設計找出可能的問題",
+            "comment_keywords": [
+                "什麼",
+                "地方",
+                "軟體",
+                "模擬",
+                "工廠",
+                "設計",
+                "找出",
+                "可能",
+                "問題"
+            ]
+        },
+        {
+            "comment_author": "arrenwu",
+            "comment_raw_time": "12/29 13:05",
+            "comment_date_format": "2025-12-29 13:05:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "意思是有一個非常精準的模擬軟體？",
+            "comment_keywords": [
+                "意思",
+                "精準",
+                "模擬",
+                "軟體"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:05",
+            "comment_date_format": "2025-12-29 13:05:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "我看完影片了 對 我還是不懂原Po在氣什麼",
+            "comment_keywords": [
+                "看完",
+                "影片",
+                "什麼"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:05",
+            "comment_date_format": "2025-12-29 13:05:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "你不會告訴大家特斯拉的自動駕駛的對車 UI 對於人類沒什",
+            "comment_keywords": [
+                "告訴",
+                "大家",
+                "特斯拉",
+                "自動",
+                "駕駛",
+                "人類"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:05",
+            "comment_date_format": "2025-12-29 13:05:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "麼作用吧？",
+            "comment_keywords": [
+                "作用"
+            ]
+        },
+        {
+            "comment_author": "arrenwu",
+            "comment_raw_time": "12/29 13:05",
+            "comment_date_format": "2025-12-29 13:05:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "像做鏡片的光學模擬那樣？",
+            "comment_keywords": [
+                "鏡片",
+                "光學",
+                "模擬",
+                "那樣"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:05",
+            "comment_date_format": "2025-12-29 13:05:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "@arren 我以為你不會問這個問題XD 這方面的話題你不是老",
+            "comment_keywords": [
+                "以為",
+                "問題",
+                "方面",
+                "話題"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:05",
+            "comment_date_format": "2025-12-29 13:05:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "熟了嗎",
+            "comment_keywords": []
+        },
+        {
+            "comment_author": "seer2525",
+            "comment_raw_time": "12/29 13:06",
+            "comment_date_format": "2025-12-29 13:06:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "在模擬環境下嘗試就不用消耗現實的各種成本 硬體出身的",
+            "comment_keywords": [
+                "模擬",
+                "環境",
+                "嘗試",
+                "消耗",
+                "現實",
+                "成本",
+                "硬體",
+                "出身"
+            ]
+        },
+        {
+            "comment_author": "seer2525",
+            "comment_raw_time": "12/29 13:06",
+            "comment_date_format": "2025-12-29 13:06:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "樓主就是覺得老黃在癡人說夢吧",
+            "comment_keywords": [
+                "樓主",
+                "覺得",
+                "老黃",
+                "癡人"
+            ]
+        },
+        {
+            "comment_author": "arrenwu",
+            "comment_raw_time": "12/29 13:06",
+            "comment_date_format": "2025-12-29 13:06:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "沒啊 我不是很懂硬體的開發流程",
+            "comment_keywords": [
+                "硬體",
+                "開發",
+                "流程"
+            ]
+        },
+        {
+            "comment_author": "seer2525",
+            "comment_raw_time": "12/29 13:07",
+            "comment_date_format": "2025-12-29 13:07:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "現實就是有很多狀況是放包乖乖莫名就正常了 那模擬環境",
+            "comment_keywords": [
+                "現實",
+                "很多",
+                "狀況",
+                "放包",
+                "乖乖",
+                "莫名",
+                "正常",
+                "模擬",
+                "環境"
+            ]
+        },
+        {
+            "comment_author": "seer2525",
+            "comment_raw_time": "12/29 13:07",
+            "comment_date_format": "2025-12-29 13:07:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "裡面也要放乖乖嗎XD",
+            "comment_keywords": [
+                "裡面",
+                "放乖乖"
+            ]
+        },
+        {
+            "comment_author": "linzero",
+            "comment_raw_time": "12/29 13:07",
+            "comment_date_format": "2025-12-29 13:07:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "理想口號總是要把餅畫大畫漂亮點",
+            "comment_keywords": [
+                "理想",
+                "口號",
+                "漂亮"
+            ]
+        },
+        {
+            "comment_author": "arrenwu",
+            "comment_raw_time": "12/29 13:08",
+            "comment_date_format": "2025-12-29 13:08:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "啊？是連製程中那種泡什麼溶液幾秒鐘那過程也模擬喔？",
+            "comment_keywords": [
+                "製程",
+                "什麼",
+                "溶液",
+                "秒鐘",
+                "過程",
+                "模擬"
+            ]
+        },
+        {
+            "comment_author": "daidaidai02",
+            "comment_raw_time": "12/29 13:09",
+            "comment_date_format": "2025-12-29 13:09:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "黃麗斯比利：it just works!",
+            "comment_keywords": [
+                "黃麗斯比利"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:10",
+            "comment_date_format": "2025-12-29 13:10:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "「將機構物件在抽象化成某個物理模型後，再轉成一個常人",
+            "comment_keywords": [
+                "機構",
+                "物件",
+                "抽象化成",
+                "物理",
+                "模型",
+                "轉成",
+                "常人"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:10",
+            "comment_date_format": "2025-12-29 13:10:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "能直觀知道特性的模型」一直都是在做自動化開發工具的人",
+            "comment_keywords": [
+                "知道",
+                "特性",
+                "模型",
+                "自動化",
+                "開發",
+                "工具"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:10",
+            "comment_date_format": "2025-12-29 13:10:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "在做的事，就像我畫電路比起用 Spice 敲敲打打、用 GCODE",
+            "comment_keywords": [
+                "電路",
+                "敲敲打打"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:10",
+            "comment_date_format": "2025-12-29 13:10:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "刻我要走的 CNC 軌跡，我會更傾向直接用電路圖拉來告訴",
+            "comment_keywords": [
+                "軌跡",
+                "傾向",
+                "直接",
+                "電路圖",
+                "拉來",
+                "告訴"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:10",
+            "comment_date_format": "2025-12-29 13:10:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "我現在的 sch 長什麼樣子，圖片能給的並列資訊「量的上限",
+            "comment_keywords": [
+                "現在",
+                "什麼",
+                "樣子",
+                "圖片",
+                "並列",
+                "資訊",
+                "上限"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:10",
+            "comment_date_format": "2025-12-29 13:10:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "」上並不是文字的串流資訊能比較的",
+            "comment_keywords": [
+                "文字",
+                "串流",
+                "資訊",
+                "比較"
+            ]
+        },
+        {
+            "comment_author": "linzero",
+            "comment_raw_time": "12/29 13:10",
+            "comment_date_format": "2025-12-29 13:10:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "就古典物理觀念，知道公式跟初始條件後就能模擬宇宙",
+            "comment_keywords": [
+                "古典",
+                "物理",
+                "觀念",
+                "知道",
+                "公式",
+                "初始",
+                "條件",
+                "模擬",
+                "宇宙"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:05",
+            "comment_date_format": "2025-12-29 13:05:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "@arren 我以為你不會問這個問題XD 這方面的話題你不是老",
+            "comment_keywords": [
+                "以為",
+                "問題",
+                "方面",
+                "話題"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:05",
+            "comment_date_format": "2025-12-29 13:05:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "熟了嗎",
+            "comment_keywords": []
+        },
+        {
+            "comment_author": "seer2525",
+            "comment_raw_time": "12/29 13:06",
+            "comment_date_format": "2025-12-29 13:06:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "在模擬環境下嘗試就不用消耗現實的各種成本 硬體出身的",
+            "comment_keywords": [
+                "模擬",
+                "環境",
+                "嘗試",
+                "消耗",
+                "現實",
+                "成本",
+                "硬體",
+                "出身"
+            ]
+        },
+        {
+            "comment_author": "seer2525",
+            "comment_raw_time": "12/29 13:06",
+            "comment_date_format": "2025-12-29 13:06:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "樓主就是覺得老黃在癡人說夢吧",
+            "comment_keywords": [
+                "樓主",
+                "覺得",
+                "老黃",
+                "癡人"
+            ]
+        },
+        {
+            "comment_author": "arrenwu",
+            "comment_raw_time": "12/29 13:06",
+            "comment_date_format": "2025-12-29 13:06:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "沒啊 我不是很懂硬體的開發流程",
+            "comment_keywords": [
+                "硬體",
+                "開發",
+                "流程"
+            ]
+        },
+        {
+            "comment_author": "seer2525",
+            "comment_raw_time": "12/29 13:07",
+            "comment_date_format": "2025-12-29 13:07:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "現實就是有很多狀況是放包乖乖莫名就正常了 那模擬環境",
+            "comment_keywords": [
+                "現實",
+                "很多",
+                "狀況",
+                "放包",
+                "乖乖",
+                "莫名",
+                "正常",
+                "模擬",
+                "環境"
+            ]
+        },
+        {
+            "comment_author": "seer2525",
+            "comment_raw_time": "12/29 13:07",
+            "comment_date_format": "2025-12-29 13:07:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "裡面也要放乖乖嗎XD",
+            "comment_keywords": [
+                "裡面",
+                "放乖乖"
+            ]
+        },
+        {
+            "comment_author": "linzero",
+            "comment_raw_time": "12/29 13:07",
+            "comment_date_format": "2025-12-29 13:07:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "理想口號總是要把餅畫大畫漂亮點",
+            "comment_keywords": [
+                "理想",
+                "口號",
+                "漂亮"
+            ]
+        },
+        {
+            "comment_author": "arrenwu",
+            "comment_raw_time": "12/29 13:08",
+            "comment_date_format": "2025-12-29 13:08:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "啊？是連製程中那種泡什麼溶液幾秒鐘那過程也模擬喔？",
+            "comment_keywords": [
+                "製程",
+                "什麼",
+                "溶液",
+                "秒鐘",
+                "過程",
+                "模擬"
+            ]
+        },
+        {
+            "comment_author": "daidaidai02",
+            "comment_raw_time": "12/29 13:09",
+            "comment_date_format": "2025-12-29 13:09:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "黃麗斯比利：it just works!",
+            "comment_keywords": [
+                "黃麗斯比利"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:10",
+            "comment_date_format": "2025-12-29 13:10:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "「將機構物件在抽象化成某個物理模型後，再轉成一個常人",
+            "comment_keywords": [
+                "機構",
+                "物件",
+                "抽象化成",
+                "物理",
+                "模型",
+                "轉成",
+                "常人"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:10",
+            "comment_date_format": "2025-12-29 13:10:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "能直觀知道特性的模型」一直都是在做自動化開發工具的人",
+            "comment_keywords": [
+                "知道",
+                "特性",
+                "模型",
+                "自動化",
+                "開發",
+                "工具"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:10",
+            "comment_date_format": "2025-12-29 13:10:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "在做的事，就像我畫電路比起用 Spice 敲敲打打、用 GCODE",
+            "comment_keywords": [
+                "電路",
+                "敲敲打打"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:10",
+            "comment_date_format": "2025-12-29 13:10:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "刻我要走的 CNC 軌跡，我會更傾向直接用電路圖拉來告訴",
+            "comment_keywords": [
+                "軌跡",
+                "傾向",
+                "直接",
+                "電路圖",
+                "拉來",
+                "告訴"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:10",
+            "comment_date_format": "2025-12-29 13:10:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "我現在的 sch 長什麼樣子，圖片能給的並列資訊「量的上限",
+            "comment_keywords": [
+                "現在",
+                "什麼",
+                "樣子",
+                "圖片",
+                "並列",
+                "資訊",
+                "上限"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:10",
+            "comment_date_format": "2025-12-29 13:10:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "」上並不是文字的串流資訊能比較的",
+            "comment_keywords": [
+                "文字",
+                "串流",
+                "資訊",
+                "比較"
+            ]
+        },
+        {
+            "comment_author": "linzero",
+            "comment_raw_time": "12/29 13:10",
+            "comment_date_format": "2025-12-29 13:10:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "就古典物理觀念，知道公式跟初始條件後就能模擬宇宙",
+            "comment_keywords": [
+                "古典",
+                "物理",
+                "觀念",
+                "知道",
+                "公式",
+                "初始",
+                "條件",
+                "模擬",
+                "宇宙"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:12",
+            "comment_date_format": "2025-12-29 13:12:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "@arren 對，基本上現在的大部分大型系統應該都會有一套模",
+            "comment_keywords": [
+                "基本",
+                "現在",
+                "大部分",
+                "大型",
+                "系統"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:12",
+            "comment_date_format": "2025-12-29 13:12:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "擬工具或流程，但模擬/孿生能做到什麼程度就要看模型以及",
+            "comment_keywords": [
+                "工具",
+                "流程",
+                "模擬",
+                "做到",
+                "什麼",
+                "程度",
+                "模型"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:12",
+            "comment_date_format": "2025-12-29 13:12:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "命題而定了",
+            "comment_keywords": [
+                "命題"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:12",
+            "comment_date_format": "2025-12-29 13:12:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "通常基本元素越不「單純/混沌」的越不好模擬",
+            "comment_keywords": [
+                "元素",
+                "單純",
+                "混沌",
+                "模擬"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:15",
+            "comment_date_format": "2025-12-29 13:15:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "回原Po編輯的內容，怎麼會沒用XDD",
+            "comment_keywords": [
+                "編輯",
+                "內容",
+                "沒用"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:15",
+            "comment_date_format": "2025-12-29 13:15:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "遠端流水線孿生可以讓每個產線人員知道發生什麼大事，就",
+            "comment_keywords": [
+                "流水線",
+                "產線",
+                "人員",
+                "知道",
+                "發生",
+                "什麼",
+                "大事"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:15",
+            "comment_date_format": "2025-12-29 13:15:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "可以不用每次都把視覺管理工作讓給最接近階層的人，更可",
+            "comment_keywords": [
+                "視覺",
+                "管理",
+                "工作",
+                "讓給",
+                "接近",
+                "階層"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:15",
+            "comment_date_format": "2025-12-29 13:15:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "以避免部分攝影機死角",
+            "comment_keywords": [
+                "避免",
+                "部分",
+                "攝影機",
+                "死角"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:15",
+            "comment_date_format": "2025-12-29 13:15:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "你坐在辦公室就可以看到有人可能要被機構弄死了或出意外",
+            "comment_keywords": [
+                "辦公室",
+                "看到",
+                "機構",
+                "弄死",
+                "意外"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:15",
+            "comment_date_format": "2025-12-29 13:15:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "想蓋都蓋不掉",
+            "comment_keywords": []
+        },
+        {
+            "comment_author": "arrenwu",
+            "comment_raw_time": "12/29 13:15",
+            "comment_date_format": "2025-12-29 13:15:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "他想講得比較像是你要做到這個孿生的困難很大吧",
+            "comment_keywords": [
+                "做到",
+                "困難"
+            ]
+        },
+        {
+            "comment_author": "arrenwu",
+            "comment_raw_time": "12/29 13:16",
+            "comment_date_format": "2025-12-29 13:16:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "比較是「成本高到像說夢話」而不是「孿生沒用」",
+            "comment_keywords": [
+                "成本",
+                "夢話",
+                "沒用"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:18",
+            "comment_date_format": "2025-12-29 13:18:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "這年頭雷達和光達、近遠場Tag工具可發達了 弄個像原Po舉",
+            "comment_keywords": [
+                "年頭",
+                "雷達",
+                "光達",
+                "近遠場",
+                "工具",
+                "發達"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:18",
+            "comment_date_format": "2025-12-29 13:18:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "例一樣的模型化產線管理並不是特別困難的事情",
+            "comment_keywords": [
+                "一樣",
+                "模型化",
+                "產線",
+                "管理",
+                "特別",
+                "困難",
+                "事情"
+            ]
+        },
+        {
+            "comment_author": "seer2525",
+            "comment_raw_time": "12/29 13:19",
+            "comment_date_format": "2025-12-29 13:19:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "老黃這個不是同步現實的吧 應該是獨立的模擬環境？ 這",
+            "comment_keywords": [
+                "老黃",
+                "同步",
+                "現實",
+                "獨立",
+                "模擬",
+                "環境"
+            ]
+        },
+        {
+            "comment_author": "seer2525",
+            "comment_raw_time": "12/29 13:19",
+            "comment_date_format": "2025-12-29 13:19:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "樣跟視覺管理沒關係吧",
+            "comment_keywords": [
+                "視覺",
+                "管理",
+                "沒關係"
+            ]
+        },
+        {
+            "comment_author": "arrenwu",
+            "comment_raw_time": "12/29 13:19",
+            "comment_date_format": "2025-12-29 13:19:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "阿卡夏紀錄 哈哈 這個我喜歡",
+            "comment_keywords": [
+                "阿卡夏",
+                "紀錄",
+                "喜歡"
+            ]
+        },
+        {
+            "comment_author": "linzero",
+            "comment_raw_time": "12/29 13:20",
+            "comment_date_format": "2025-12-29 13:20:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "聽起來你好像是在說做不到100%就等於0",
+            "comment_keywords": [
+                "100%",
+                "等於"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:21",
+            "comment_date_format": "2025-12-29 13:21:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "基本上有辦法弄成3D模型給人看 就有辦法弄統計跟Alarm 因",
+            "comment_keywords": [
+                "基本",
+                "辦法",
+                "弄成",
+                "模型",
+                "辦法",
+                "統計"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:21",
+            "comment_date_format": "2025-12-29 13:21:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "為視覺模型就是建立在這些基礎資料上",
+            "comment_keywords": [
+                "視覺",
+                "模型",
+                "建立",
+                "這些",
+                "資料"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:21",
+            "comment_date_format": "2025-12-29 13:21:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "我指的視覺管理不是真的盯著某個人看，而是看有沒有在產",
+            "comment_keywords": [
+                "視覺",
+                "管理"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:21",
+            "comment_date_format": "2025-12-29 13:21:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "線上、產線工作的時候是不是一直在某個地方不動、骨架偵",
+            "comment_keywords": [
+                "線上",
+                "產線",
+                "工作",
+                "時候",
+                "地方",
+                "骨架"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:21",
+            "comment_date_format": "2025-12-29 13:21:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "測的時候是不是有被夾住、悶死、燙傷、心臟病發作異樣...",
+            "comment_keywords": [
+                "時候",
+                "夾住",
+                "悶死",
+                "燙傷",
+                "心臟病",
+                "發作",
+                "異樣"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:21",
+            "comment_date_format": "2025-12-29 13:21:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "這些僅靠邊緣裝置的觸發式非統計偵測其實不一定每次都抓",
+            "comment_keywords": [
+                "這些",
+                "邊緣",
+                "裝置",
+                "統計",
+                "偵測"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:21",
+            "comment_date_format": "2025-12-29 13:21:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "得到",
+            "comment_keywords": [
+                "得到"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:23",
+            "comment_date_format": "2025-12-29 13:23:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "數位孿生也不是真正意義上的 100% 模擬，我會建議原Po可",
+            "comment_keywords": [
+                "意義",
+                "100%",
+                "模擬",
+                "建議"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:23",
+            "comment_date_format": "2025-12-29 13:23:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "能要知道一下一些資訊理論 (Information Theory) 序章或",
+            "comment_keywords": [
+                "知道",
+                "一下",
+                "一些",
+                "資訊",
+                "理論",
+                "序章"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:23",
+            "comment_date_format": "2025-12-29 13:23:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "跟 Entropy 有關的內容，也許可以幫你解決部分覺得「你在",
+            "comment_keywords": [
+                "有關",
+                "內容",
+                "解決",
+                "部分",
+                "覺得"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:23",
+            "comment_date_format": "2025-12-29 13:23:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "搞三小沒有意義的事」的想法？",
+            "comment_keywords": [
+                "沒有",
+                "意義",
+                "想法"
+            ]
+        },
+        {
+            "comment_author": "arrenwu",
+            "comment_raw_time": "12/29 13:23",
+            "comment_date_format": "2025-12-29 13:23:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "這跟Info Thry的關係是？",
+            "comment_keywords": [
+                "關係"
+            ]
+        },
+        {
+            "comment_author": "seer2525",
+            "comment_raw_time": "12/29 13:24",
+            "comment_date_format": "2025-12-29 13:24:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "哦 不過感覺這樣運用範圍只在工安上吧 老黃的理想是蠻",
+            "comment_keywords": [
+                "感覺",
+                "這樣",
+                "運用",
+                "範圍",
+                "工安",
+                "老黃",
+                "理想"
+            ]
+        },
+        {
+            "comment_author": "seer2525",
+            "comment_raw_time": "12/29 13:24",
+            "comment_date_format": "2025-12-29 13:24:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "大的 現階段我覺得也蠻理想化的",
+            "comment_keywords": [
+                "現階段",
+                "覺得",
+                "理想化"
+            ]
+        },
+        {
+            "comment_author": "vanceliu",
+            "comment_raw_time": "12/29 13:26",
+            "comment_date_format": "2025-12-29 13:26:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "有過產線的人 大概會理解原PO的意思",
+            "comment_keywords": [
+                "產線",
+                "理解",
+                "意思"
+            ]
+        },
+        {
+            "comment_author": "songsongboy",
+            "comment_raw_time": "12/29 13:28",
+            "comment_date_format": "2025-12-29 13:28:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "其實我還是不太懂，這種方法就只是除錯的成本低，也",
+            "comment_keywords": [
+                "方法",
+                "除錯",
+                "成本"
+            ]
+        },
+        {
+            "comment_author": "songsongboy",
+            "comment_raw_time": "12/29 13:29",
+            "comment_date_format": "2025-12-29 13:29:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "的確不可能做到完美模擬，但會往這個方向就是想降低",
+            "comment_keywords": [
+                "做到",
+                "完美",
+                "模擬",
+                "方向",
+                "降低"
+            ]
+        },
+        {
+            "comment_author": "songsongboy",
+            "comment_raw_time": "12/29 13:29",
+            "comment_date_format": "2025-12-29 13:29:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "成本阿",
+            "comment_keywords": [
+                "成本"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:30",
+            "comment_date_format": "2025-12-29 13:30:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "@arren 簡單來說從一個介面到另一個介面的資料「通訊」",
+            "comment_keywords": [
+                "簡單",
+                "介面",
+                "介面",
+                "資料",
+                "通訊"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:30",
+            "comment_date_format": "2025-12-29 13:30:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "都會可以討論不確定性（Entropy ），其值越大不確定性越",
+            "comment_keywords": [
+                "討論",
+                "不確定性",
+                "不確定性"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:30",
+            "comment_date_format": "2025-12-29 13:30:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "大、但也代表資訊「量」越多，而介面越單純就會代表你能",
+            "comment_keywords": [
+                "代表",
+                "資訊",
+                "介面",
+                "單純",
+                "代表"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:30",
+            "comment_date_format": "2025-12-29 13:30:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "一次接受的資訊就會越少",
+            "comment_keywords": [
+                "接受",
+                "資訊"
+            ]
+        },
+        {
+            "comment_author": "seer2525",
+            "comment_raw_time": "12/29 13:32",
+            "comment_date_format": "2025-12-29 13:32:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "原po的意思就是這東西反而會增加成本跟麻煩吧 不能完美",
+            "comment_keywords": [
+                "意思",
+                "東西",
+                "增加",
+                "成本",
+                "麻煩",
+                "完美"
+            ]
+        },
+        {
+            "comment_author": "seer2525",
+            "comment_raw_time": "12/29 13:32",
+            "comment_date_format": "2025-12-29 13:32:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "模擬的話那沒什麼意義 現實發生的問題孿生沒遇到 孿生",
+            "comment_keywords": [
+                "模擬",
+                "什麼",
+                "意義",
+                "現實",
+                "發生",
+                "問題",
+                "遇到"
+            ]
+        },
+        {
+            "comment_author": "seer2525",
+            "comment_raw_time": "12/29 13:32",
+            "comment_date_format": "2025-12-29 13:32:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "遇到的問題現實沒發生 那只是搞烏龍而已",
+            "comment_keywords": [
+                "遇到",
+                "問題",
+                "現實",
+                "發生",
+                "烏龍"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:33",
+            "comment_date_format": "2025-12-29 13:33:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "而數位孿生無論在哪一個場合，都是為了要增加單次時間裡",
+            "comment_keywords": [
+                "場合",
+                "增加",
+                "時間"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:33",
+            "comment_date_format": "2025-12-29 13:33:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "面可以接收到的資訊量，而到底「新增的」雜訊還是有意義",
+            "comment_keywords": [
+                "接收到",
+                "資訊量",
+                "新增",
+                "雜訊",
+                "意義"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:33",
+            "comment_date_format": "2025-12-29 13:33:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "的事就看孿生的實作長怎樣",
+            "comment_keywords": [
+                "實作長",
+                "怎樣"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:33",
+            "comment_date_format": "2025-12-29 13:33:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "我上面回原Po產線的那個就是我覺得孿生不會沒意義的狀況",
+            "comment_keywords": [
+                "上面",
+                "產線",
+                "覺得",
+                "意義",
+                "狀況"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:33",
+            "comment_date_format": "2025-12-29 13:33:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "我也看不出什麼開發跟產線分不開的問題",
+            "comment_keywords": [
+                "什麼",
+                "開發",
+                "產線",
+                "問題"
+            ]
+        },
+        {
+            "comment_author": "songsongboy",
+            "comment_raw_time": "12/29 13:33",
+            "comment_date_format": "2025-12-29 13:33:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "EDA也不可能完美模擬阿，有哪間豬屎屋敢說EDA沒必要",
+            "comment_keywords": [
+                "完美",
+                "模擬",
+                "豬屎屋",
+                "必要"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:34",
+            "comment_date_format": "2025-12-29 13:34:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "@seer 確實 但開發初期本來就會有這種看似在造空氣的問題",
+            "comment_keywords": [
+                "開發",
+                "初期",
+                "看似",
+                "空氣",
+                "問題"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:34",
+            "comment_date_format": "2025-12-29 13:34:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "但概念上早就是現代自動化工具在做的事了",
+            "comment_keywords": [
+                "概念",
+                "現代",
+                "自動化",
+                "工具"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:34",
+            "comment_date_format": "2025-12-29 13:34:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "只是因為孿生的成果們大部分都是被人們認知成「建模一個",
+            "comment_keywords": [
+                "成果",
+                "大部分",
+                "人們",
+                "認知成",
+                "建模"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:34",
+            "comment_date_format": "2025-12-29 13:34:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "太過直覺的東西」才會覺得這東西像是野人獻曝沒屁用",
+            "comment_keywords": [
+                "直覺",
+                "東西",
+                "覺得",
+                "東西",
+                "野人獻曝"
+            ]
+        },
+        {
+            "comment_author": "songsongboy",
+            "comment_raw_time": "12/29 13:35",
+            "comment_date_format": "2025-12-29 13:35:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "EDA要能設計自動化的前提就是他能軟體模擬，要不然他",
+            "comment_keywords": [
+                "設計",
+                "自動化",
+                "前提",
+                "軟體",
+                "模擬"
+            ]
+        },
+        {
+            "comment_author": "songsongboy",
+            "comment_raw_time": "12/29 13:35",
+            "comment_date_format": "2025-12-29 13:35:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "怎麼判斷設計的對錯?",
+            "comment_keywords": [
+                "判斷",
+                "設計",
+                "對錯"
+            ]
+        },
+        {
+            "comment_author": "arrenwu",
+            "comment_raw_time": "12/29 13:36",
+            "comment_date_format": "2025-12-29 13:36:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "EDA 就我的認知比較是：軟體模擬過了 不保證沒問題；但如",
+            "comment_keywords": [
+                "認知",
+                "軟體",
+                "模擬",
+                "保證",
+                "問題"
+            ]
+        },
+        {
+            "comment_author": "arrenwu",
+            "comment_raw_time": "12/29 13:36",
+            "comment_date_format": "2025-12-29 13:36:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "果軟體模擬就沒過，那肯定有問題。",
+            "comment_keywords": [
+                "軟體",
+                "模擬",
+                "肯定",
+                "問題"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:37",
+            "comment_date_format": "2025-12-29 13:37:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "對 但EDA工具怎麼創造出來的 自然也是要靠孿生啊XD",
+            "comment_keywords": [
+                "工具",
+                "創造出來"
+            ]
+        },
+        {
+            "comment_author": "songsongboy",
+            "comment_raw_time": "12/29 13:37",
+            "comment_date_format": "2025-12-29 13:37:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "軟體模擬沒過也可能是軟體本身bug就是了，重點就是這",
+            "comment_keywords": [
+                "軟體",
+                "模擬",
+                "軟體",
+                "本身",
+                "就是了",
+                "重點"
+            ]
+        },
+        {
+            "comment_author": "loveSETSUNA",
+            "comment_raw_time": "12/29 13:38",
+            "comment_date_format": "2025-12-29 13:38:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "確實軟體模擬現在還是覺得笑話，就像你可以跑空力套",
+            "comment_keywords": [
+                "確實",
+                "軟體",
+                "模擬",
+                "現在",
+                "覺得",
+                "笑話",
+                "跑空力套"
+            ]
+        },
+        {
+            "comment_author": "loveSETSUNA",
+            "comment_raw_time": "12/29 13:38",
+            "comment_date_format": "2025-12-29 13:38:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "件的氣流，但拿到風洞測就是完全不一樣",
+            "comment_keywords": [
+                "氣流",
+                "拿到",
+                "風洞測",
+                "一樣"
+            ]
+        },
+        {
+            "comment_author": "crazy6341556",
+            "comment_raw_time": "12/29 13:38",
+            "comment_date_format": "2025-12-29 13:38:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "有這麼沒料嗎 至少做為輔助在某些模式下預期可能的",
+            "comment_keywords": [
+                "做為",
+                "輔助",
+                "某些",
+                "模式",
+                "預期",
+                "可能"
+            ]
+        },
+        {
+            "comment_author": "crazy6341556",
+            "comment_raw_time": "12/29 13:38",
+            "comment_date_format": "2025-12-29 13:38:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "問題不會完全沒幫助吧 我不少學長學弟都有興趣耶",
+            "comment_keywords": [
+                "問題",
+                "幫助",
+                "不少",
+                "學長",
+                "學弟",
+                "興趣"
+            ]
+        },
+        {
+            "comment_author": "songsongboy",
+            "comment_raw_time": "12/29 13:38",
+            "comment_date_format": "2025-12-29 13:38:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "模擬成本跟直接用硬體硬上相比很小阿",
+            "comment_keywords": [
+                "模擬",
+                "成本",
+                "直接",
+                "硬體",
+                "相比"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:39",
+            "comment_date_format": "2025-12-29 13:39:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "硬體來回修的時間成本高得離譜 軟體熟了也就點兩下 修一",
+            "comment_keywords": [
+                "硬體",
+                "回修",
+                "時間",
+                "成本",
+                "離譜",
+                "軟體"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:39",
+            "comment_date_format": "2025-12-29 13:39:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "休還可以一邊喝咖啡==",
+            "comment_keywords": [
+                "咖啡"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:40",
+            "comment_date_format": "2025-12-29 13:40:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "空力套件跟風洞完全不一樣我會懷疑是你的 CFD 或其他什麼",
+            "comment_keywords": [
+                "空力",
+                "套件",
+                "風洞",
+                "一樣",
+                "懷疑",
+                "其他",
+                "什麼"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:40",
+            "comment_date_format": "2025-12-29 13:40:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "跟流力設計的東西參數根本沒認真設",
+            "comment_keywords": [
+                "流力",
+                "設計",
+                "東西",
+                "參數",
+                "認真"
+            ]
+        },
+        {
+            "comment_author": "songsongboy",
+            "comment_raw_time": "12/29 13:40",
+            "comment_date_format": "2025-12-29 13:40:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "要不然也可以用戰棋推演來講啊，幹嘛不真的打要推演",
+            "comment_keywords": [
+                "戰棋",
+                "推演",
+                "推演"
+            ]
+        },
+        {
+            "comment_author": "l6321899",
+            "comment_raw_time": "12/29 13:40",
+            "comment_date_format": "2025-12-29 13:40:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "常見的模擬軟體就是在預測用的吧？也會容許一定誤差",
+            "comment_keywords": [
+                "常見",
+                "模擬",
+                "軟體",
+                "容許",
+                "誤差"
+            ]
+        },
+        {
+            "comment_author": "songsongboy",
+            "comment_raw_time": "12/29 13:40",
+            "comment_date_format": "2025-12-29 13:40:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "推演就一定會照你想的去發展嗎？不一定會阿",
+            "comment_keywords": [
+                "推演",
+                "發展"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:41",
+            "comment_date_format": "2025-12-29 13:41:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "通常會工具實作差很多 都是處在零件元件沒有真的被孿生或",
+            "comment_keywords": [
+                "工具",
+                "實作",
+                "很多",
+                "處在",
+                "零件",
+                "元件"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:41",
+            "comment_date_format": "2025-12-29 13:41:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "預設一路點下去 不然其實差異不會太大",
+            "comment_keywords": [
+                "預設",
+                "一路點",
+                "差異"
+            ]
+        },
+        {
+            "comment_author": "songsongboy",
+            "comment_raw_time": "12/29 13:42",
+            "comment_date_format": "2025-12-29 13:42:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "抱歉，兵棋推演，最近玩戰棋遊戲玩太多了搞混",
+            "comment_keywords": [
+                "抱歉",
+                "兵棋",
+                "推演",
+                "最近",
+                "戰棋",
+                "遊戲",
+                "太多"
+            ]
+        },
+        {
+            "comment_author": "arrenwu",
+            "comment_raw_time": "12/29 13:43",
+            "comment_date_format": "2025-12-29 13:43:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "\"工具實作差很多 都是處在零件元件沒有真的被孿生\" 是啦",
+            "comment_keywords": [
+                "工具",
+                "很多",
+                "處在",
+                "零件",
+                "元件"
+            ]
+        },
+        {
+            "comment_author": "arrenwu",
+            "comment_raw_time": "12/29 13:43",
+            "comment_date_format": "2025-12-29 13:43:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "但這是一句不可證偽的敘述不是嗎XD",
+            "comment_keywords": [
+                "證偽",
+                "敘述"
+            ]
+        },
+        {
+            "comment_author": "arrenwu",
+            "comment_raw_time": "12/29 13:44",
+            "comment_date_format": "2025-12-29 13:44:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "我講不可證偽也不對",
+            "comment_keywords": [
+                "證偽"
+            ]
+        },
+        {
+            "comment_author": "arrenwu",
+            "comment_raw_time": "12/29 13:45",
+            "comment_date_format": "2025-12-29 13:45:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "應該說，現在不就是沒有太好的方法可以在合理的算力內",
+            "comment_keywords": [
+                "現在",
+                "沒有",
+                "方法",
+                "合理",
+                "算力"
+            ]
+        },
+        {
+            "comment_author": "arrenwu",
+            "comment_raw_time": "12/29 13:45",
+            "comment_date_format": "2025-12-29 13:45:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "用一個夠精準的數學模型得出結果嗎？",
+            "comment_keywords": [
+                "精準",
+                "數學",
+                "模型",
+                "結果"
+            ]
+        },
+        {
+            "comment_author": "songsongboy",
+            "comment_raw_time": "12/29 13:46",
+            "comment_date_format": "2025-12-29 13:46:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "所以就因為這東西沒辦法100分，你就覺得這不能用嗎?",
+            "comment_keywords": [
+                "東西",
+                "沒辦法",
+                "100",
+                "覺得"
+            ]
+        },
+        {
+            "comment_author": "seer2525",
+            "comment_raw_time": "12/29 13:46",
+            "comment_date_format": "2025-12-29 13:46:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "應該就是產線跟設計的想法不同吧 我對這個也蠻有興趣的",
+            "comment_keywords": [
+                "產線",
+                "設計",
+                "想法",
+                "不同",
+                "興趣"
+            ]
+        },
+        {
+            "comment_author": "seer2525",
+            "comment_raw_time": "12/29 13:46",
+            "comment_date_format": "2025-12-29 13:46:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "但同時也沒有太期待",
+            "comment_keywords": [
+                "同時",
+                "沒有",
+                "期待"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:48",
+            "comment_date_format": "2025-12-29 13:48:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "@arren 對啊 我講的那句話恆真 你可以把孿生想成是一種可",
+            "comment_keywords": [
+                "恆真",
+                "想成"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:48",
+            "comment_date_format": "2025-12-29 13:48:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "逆的變換的函數 要嘛A要嘛B 但整句話沒毛病",
+            "comment_keywords": [
+                "變換",
+                "函數",
+                "毛病"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:48",
+            "comment_date_format": "2025-12-29 13:48:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "孿生無論在邏輯上跟實證上就不是個不對的事",
+            "comment_keywords": [
+                "邏輯",
+                "實證"
+            ]
+        },
+        {
+            "comment_author": "songsongboy",
+            "comment_raw_time": "12/29 13:48",
+            "comment_date_format": "2025-12-29 13:48:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "反正發展的方向一定是被節省成本給驅動，至於做不做",
+            "comment_keywords": [
+                "發展",
+                "方向",
+                "節省",
+                "成本",
+                "驅動"
+            ]
+        },
+        {
+            "comment_author": "seer2525",
+            "comment_raw_time": "12/29 13:48",
+            "comment_date_format": "2025-12-29 13:48:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "對啦 孿生不可能是個垃圾XD",
+            "comment_keywords": [
+                "垃圾"
+            ]
+        },
+        {
+            "comment_author": "arrenwu",
+            "comment_raw_time": "12/29 13:49",
+            "comment_date_format": "2025-12-29 13:49:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "那我覺得你們其實沒有衝突說",
+            "comment_keywords": [
+                "覺得",
+                "你們",
+                "沒有",
+                "衝突"
+            ]
+        },
+        {
+            "comment_author": "arrenwu",
+            "comment_raw_time": "12/29 13:49",
+            "comment_date_format": "2025-12-29 13:49:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "原po想說的應該就是這套做法成本不會比較低",
+            "comment_keywords": [
+                "做法",
+                "成本"
+            ]
+        },
+        {
+            "comment_author": "songsongboy",
+            "comment_raw_time": "12/29 13:49",
+            "comment_date_format": "2025-12-29 13:49:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "到，堪不堪用，那也只有做了才會知道",
+            "comment_keywords": [
+                "知道"
+            ]
+        },
+        {
+            "comment_author": "arrenwu",
+            "comment_raw_time": "12/29 13:49",
+            "comment_date_format": "2025-12-29 13:49:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "而其他人可能覺得「欸 說不定可以試試看 最多就沒用」",
+            "comment_keywords": [
+                "其他",
+                "覺得",
+                "試試",
+                "最多",
+                "沒用"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:51",
+            "comment_date_format": "2025-12-29 13:51:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "我後面推文才看到「現在...結果嗎」這句話 這個就要討論",
+            "comment_keywords": [
+                "後面",
+                "推文",
+                "看到",
+                "現在",
+                "討論"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:51",
+            "comment_date_format": "2025-12-29 13:51:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "Cases 了",
+            "comment_keywords": []
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:51",
+            "comment_date_format": "2025-12-29 13:51:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "一定有孿生很難做到 至少你不可能真的造一個迦勒底亞斯",
+            "comment_keywords": [
+                "做到",
+                "迦勒底亞斯"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:51",
+            "comment_date_format": "2025-12-29 13:51:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "測不準原理和不完備定理兩大牆壁卡在那邊就代表沒有模擬",
+            "comment_keywords": [
+                "原理",
+                "完備",
+                "定理",
+                "牆壁",
+                "卡在",
+                "那邊",
+                "代表",
+                "模擬"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:51",
+            "comment_date_format": "2025-12-29 13:51:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "是完美的",
+            "comment_keywords": [
+                "完美"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:52",
+            "comment_date_format": "2025-12-29 13:52:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "但造個可被每個人類直觀知道「幹你娘颱風在一個月後會貼",
+            "comment_keywords": [
+                "人類",
+                "知道",
+                "颱風"
+            ]
+        },
+        {
+            "comment_author": "XFarter",
+            "comment_raw_time": "12/29 13:52",
+            "comment_date_format": "2025-12-29 13:52:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "我臉上」的氣候大模型我覺得就很棒",
+            "comment_keywords": [
+                "氣候",
+                "模型",
+                "覺得"
+            ]
+        },
+        {
+            "comment_author": "asel",
+            "comment_raw_time": "12/29 13:52",
+            "comment_date_format": "2025-12-29 13:52:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "噓",
+            "comment_content": "笑死你真的是做硬體的？ 所有晶片的物理特性都是數位跑出來",
+            "comment_keywords": [
+                "笑死",
+                "硬體",
+                "所有",
+                "晶片",
+                "物理",
+                "特性",
+                "跑出來"
+            ]
+        },
+        {
+            "comment_author": "asel",
+            "comment_raw_time": "12/29 13:52",
+            "comment_date_format": "2025-12-29 13:52:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "的",
+            "comment_keywords": []
+        },
+        {
+            "comment_author": "Isopod",
+            "comment_raw_time": "12/29 14:15",
+            "comment_date_format": "2025-12-29 14:15:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "時代淘汰的就是那些沒辦法接受新事物的",
+            "comment_keywords": [
+                "時代",
+                "淘汰",
+                "那些",
+                "沒辦法",
+                "接受",
+                "事物"
+            ]
+        },
+        {
+            "comment_author": "happyseal",
+            "comment_raw_time": "12/29 14:27",
+            "comment_date_format": "2025-12-29 14:27:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "笑死怎麼看說明感覺越來越像老所長",
+            "comment_keywords": [
+                "笑死",
+                "說明",
+                "感覺",
+                "所長"
+            ]
+        }
+    ],
+    "comments_top_key": [
+        [
+            "模擬",
+            29
+        ],
+        [
+            "軟體",
+            16
+        ],
+        [
+            "什麼",
+            14
+        ],
+        [
+            "硬體",
+            13
+        ],
+        [
+            "覺得",
+            12
+        ],
+        [
+            "問題",
+            12
+        ],
+        [
+            "工具",
+            10
+        ],
+        [
+            "模型",
+            10
+        ],
+        [
+            "成本",
+            10
+        ],
+        [
+            "知道",
+            9
+        ],
+        [
+            "老黃",
+            8
+        ],
+        [
+            "現在",
+            8
+        ],
+        [
+            "開發",
+            7
+        ],
+        [
+            "現實",
+            7
+        ],
+        [
+            "資訊",
+            7
+        ],
+        [
+            "產線",
+            7
+        ],
+        [
+            "東西",
+            6
+        ],
+        [
+            "意思",
+            6
+        ],
+        [
+            "狀況",
+            5
+        ],
+        [
+            "自動化",
+            5
+        ],
+        [
+            "設計",
+            5
+        ],
+        [
+            "環境",
+            5
+        ],
+        [
+            "物理",
+            5
+        ],
+        [
+            "意義",
+            5
+        ],
+        [
+            "一樣",
+            4
+        ],
+        [
+            "很多",
+            4
+        ],
+        [
+            "做到",
+            4
+        ],
+        [
+            "視覺",
+            4
+        ],
+        [
+            "管理",
+            4
+        ],
+        [
+            "沒有",
+            4
+        ],
+        [
+            "完美",
+            4
+        ],
+        [
+            "推演",
+            4
+        ],
+        [
+            "氣候",
+            3
+        ],
+        [
+            "預測",
+            3
+        ],
+        [
+            "現代",
+            3
+        ],
+        [
+            "方向",
+            3
+        ],
+        [
+            "發展",
+            3
+        ],
+        [
+            "時候",
+            3
+        ],
+        [
+            "內容",
+            3
+        ],
+        [
+            "告訴",
+            3
+        ],
+        [
+            "流程",
+            3
+        ],
+        [
+            "理想",
+            3
+        ],
+        [
+            "機構",
+            3
+        ],
+        [
+            "特性",
+            3
+        ],
+        [
+            "直接",
+            3
+        ],
+        [
+            "沒用",
+            3
+        ],
+        [
+            "發生",
+            3
+        ],
+        [
+            "介面",
+            3
+        ],
+        [
+            "代表",
+            3
+        ],
+        [
+            "迦勒底亞斯",
+            2
+        ]
+    ]
+}

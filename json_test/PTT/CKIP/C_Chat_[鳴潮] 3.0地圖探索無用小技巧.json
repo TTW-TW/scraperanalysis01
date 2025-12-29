@@ -1,0 +1,384 @@
+{
+    "article_source": "PTT",
+    "article_url": "https://www.ptt.cc/bbs/C_Chat/M.1766984209.A.E9E.html",
+    "article_title": "[鳴潮] 3.0地圖探索無用小技巧",
+    "article_category": "C_Chat",
+    "article_author": "anumber (Everlasting GuiltyCrown)",
+    "publish_time": "2025-12-29 12:56:49",
+    "date_year": 2025,
+    "date_month": 12,
+    "date_day": 29,
+    "reaction_count": 9,
+    "comment_count": 9,
+    "content_raw": "大家應該都有發現\n\n騎車的時候只要靠近信號塔就會自動解鎖\n\n正確來說是座標的x軸y軸在範圍內自動解鎖\n\n看到這裡應該就知道了 他不管你高度的\n\n浮光林那裡的信號塔原本應該是要危地任務解鎖的\n\n你只要騎車在下面經過就開了\n\n無用點在其實先開了上去也沒東西\n\n頂多先拿一個全解鎖的機車點\n\n--",
+    "content_keywords": [
+        "大家",
+        "發現",
+        "騎車",
+        "時候",
+        "靠近",
+        "信號塔",
+        "自動",
+        "解鎖",
+        "正確",
+        "座標",
+        "範圍",
+        "自動",
+        "解鎖",
+        "看到",
+        "這裡",
+        "知道",
+        "浮光林",
+        "那裡",
+        "信號塔",
+        "任務",
+        "解鎖",
+        "騎車",
+        "下面",
+        "經過",
+        "無用點",
+        "上去",
+        "東西",
+        "解鎖",
+        "機車點"
+    ],
+    "content_top_key": [
+        [
+            "解鎖",
+            4
+        ],
+        [
+            "騎車",
+            2
+        ],
+        [
+            "信號塔",
+            2
+        ],
+        [
+            "自動",
+            2
+        ],
+        [
+            "大家",
+            1
+        ],
+        [
+            "發現",
+            1
+        ],
+        [
+            "時候",
+            1
+        ],
+        [
+            "靠近",
+            1
+        ],
+        [
+            "正確",
+            1
+        ],
+        [
+            "座標",
+            1
+        ],
+        [
+            "範圍",
+            1
+        ],
+        [
+            "看到",
+            1
+        ],
+        [
+            "這裡",
+            1
+        ],
+        [
+            "知道",
+            1
+        ],
+        [
+            "浮光林",
+            1
+        ],
+        [
+            "那裡",
+            1
+        ],
+        [
+            "任務",
+            1
+        ],
+        [
+            "下面",
+            1
+        ],
+        [
+            "經過",
+            1
+        ],
+        [
+            "無用點",
+            1
+        ],
+        [
+            "上去",
+            1
+        ],
+        [
+            "東西",
+            1
+        ],
+        [
+            "機車點",
+            1
+        ]
+    ],
+    "comments": [
+        {
+            "comment_author": "archerhole",
+            "comment_raw_time": "12/29 13:02",
+            "comment_date_format": "2025-12-29 13:02:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "原來是這樣 還想說高空的鳥點怎麼莫名其妙就開了 b",
+            "comment_keywords": [
+                "這樣",
+                "想說",
+                "高空",
+                "鳥點",
+                "莫名其妙"
+            ]
+        },
+        {
+            "comment_author": "archerhole",
+            "comment_raw_time": "12/29 13:02",
+            "comment_date_format": "2025-12-29 13:02:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "ug也太多了吧",
+            "comment_keywords": [
+                "太多"
+            ]
+        },
+        {
+            "comment_author": "sai007788",
+            "comment_raw_time": "12/29 13:05",
+            "comment_date_format": "2025-12-29 13:05:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "那不算BUG吧，你的XY座標的確在哪裡啊（？",
+            "comment_keywords": [
+                "座標",
+                "哪裡"
+            ]
+        },
+        {
+            "comment_author": "flamebomber",
+            "comment_raw_time": "12/29 13:07",
+            "comment_date_format": "2025-12-29 13:07:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "啊 原來那個是這樣開的喔，還以為是bug，想說反正開",
+            "comment_keywords": [
+                "這樣",
+                "以為"
+            ]
+        },
+        {
+            "comment_author": "flamebomber",
+            "comment_raw_time": "12/29 13:07",
+            "comment_date_format": "2025-12-29 13:07:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "了就當賺到",
+            "comment_keywords": [
+                "賺到"
+            ]
+        },
+        {
+            "comment_author": "ludens",
+            "comment_raw_time": "12/29 13:07",
+            "comment_date_format": "2025-12-29 13:07:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "浮光林我用機車亂飛就闖進音樂關裡了",
+            "comment_keywords": [
+                "浮光林",
+                "機車",
+                "亂飛",
+                "闖進",
+                "音樂",
+                "關裡"
+            ]
+        },
+        {
+            "comment_author": "anumber",
+            "comment_raw_time": "12/29 13:10",
+            "comment_date_format": "2025-12-29 13:10:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "我覺得是老庫工程師偷懶沒寫z座標",
+            "comment_keywords": [
+                "覺得",
+                "老庫",
+                "工程師",
+                "偷懶",
+                "座標"
+            ]
+        },
+        {
+            "comment_author": "fortrees",
+            "comment_raw_time": "12/29 13:12",
+            "comment_date_format": "2025-12-29 13:12:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "原本是貢多拉用的 貢多拉不會飛",
+            "comment_keywords": [
+                "貢多拉",
+                "貢多拉"
+            ]
+        },
+        {
+            "comment_author": "fff417",
+            "comment_raw_time": "12/29 13:55",
+            "comment_date_format": "2025-12-29 13:55:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "開了上去也沒東西 浪費我不少時間==",
+            "comment_keywords": [
+                "上去",
+                "東西",
+                "浪費",
+                "不少",
+                "時間"
+            ]
+        }
+    ],
+    "comments_top_key": [
+        [
+            "這樣",
+            2
+        ],
+        [
+            "座標",
+            2
+        ],
+        [
+            "貢多拉",
+            2
+        ],
+        [
+            "想說",
+            1
+        ],
+        [
+            "高空",
+            1
+        ],
+        [
+            "鳥點",
+            1
+        ],
+        [
+            "莫名其妙",
+            1
+        ],
+        [
+            "太多",
+            1
+        ],
+        [
+            "哪裡",
+            1
+        ],
+        [
+            "以為",
+            1
+        ],
+        [
+            "賺到",
+            1
+        ],
+        [
+            "浮光林",
+            1
+        ],
+        [
+            "機車",
+            1
+        ],
+        [
+            "亂飛",
+            1
+        ],
+        [
+            "闖進",
+            1
+        ],
+        [
+            "音樂",
+            1
+        ],
+        [
+            "關裡",
+            1
+        ],
+        [
+            "覺得",
+            1
+        ],
+        [
+            "老庫",
+            1
+        ],
+        [
+            "工程師",
+            1
+        ],
+        [
+            "偷懶",
+            1
+        ],
+        [
+            "上去",
+            1
+        ],
+        [
+            "東西",
+            1
+        ],
+        [
+            "浪費",
+            1
+        ],
+        [
+            "不少",
+            1
+        ],
+        [
+            "時間",
+            1
+        ]
+    ]
+}

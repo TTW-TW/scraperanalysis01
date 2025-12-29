@@ -1,0 +1,109 @@
+{
+    "article_source": "PTT",
+    "article_url": "https://www.ptt.cc/bbs/C_Chat/M.1766984209.A.E9E.html",
+    "article_title": "[鳴潮] 3.0地圖探索無用小技巧",
+    "article_category": "C_Chat",
+    "article_author": "anumber (Everlasting GuiltyCrown)",
+    "publish_time": "2025-12-29 12:56:49",
+    "date_year": 2025,
+    "date_month": 12,
+    "date_day": 29,
+    "reaction_count": 9,
+    "comment_count": 9,
+    "content_raw": "大家應該都有發現\n\n騎車的時候只要靠近信號塔就會自動解鎖\n\n正確來說是座標的x軸y軸在範圍內自動解鎖\n\n看到這裡應該就知道了 他不管你高度的\n\n浮光林那裡的信號塔原本應該是要危地任務解鎖的\n\n你只要騎車在下面經過就開了\n\n無用點在其實先開了上去也沒東西\n\n頂多先拿一個全解鎖的機車點\n\n--",
+    "content_keywords": [],
+    "content_top_key": [],
+    "comments": [
+        {
+            "comment_author": "archerhole",
+            "comment_raw_time": "12/29 13:02",
+            "comment_date_format": "2025-12-29 13:02:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "原來是這樣 還想說高空的鳥點怎麼莫名其妙就開了 b"
+        },
+        {
+            "comment_author": "archerhole",
+            "comment_raw_time": "12/29 13:02",
+            "comment_date_format": "2025-12-29 13:02:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "ug也太多了吧"
+        },
+        {
+            "comment_author": "sai007788",
+            "comment_raw_time": "12/29 13:05",
+            "comment_date_format": "2025-12-29 13:05:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "那不算BUG吧，你的XY座標的確在哪裡啊（？"
+        },
+        {
+            "comment_author": "flamebomber",
+            "comment_raw_time": "12/29 13:07",
+            "comment_date_format": "2025-12-29 13:07:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "啊 原來那個是這樣開的喔，還以為是bug，想說反正開"
+        },
+        {
+            "comment_author": "flamebomber",
+            "comment_raw_time": "12/29 13:07",
+            "comment_date_format": "2025-12-29 13:07:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "了就當賺到"
+        },
+        {
+            "comment_author": "ludens",
+            "comment_raw_time": "12/29 13:07",
+            "comment_date_format": "2025-12-29 13:07:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "浮光林我用機車亂飛就闖進音樂關裡了"
+        },
+        {
+            "comment_author": "anumber",
+            "comment_raw_time": "12/29 13:10",
+            "comment_date_format": "2025-12-29 13:10:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "我覺得是老庫工程師偷懶沒寫z座標"
+        },
+        {
+            "comment_author": "fortrees",
+            "comment_raw_time": "12/29 13:12",
+            "comment_date_format": "2025-12-29 13:12:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "原本是貢多拉用的 貢多拉不會飛"
+        },
+        {
+            "comment_author": "fff417",
+            "comment_raw_time": "12/29 13:55",
+            "comment_date_format": "2025-12-29 13:55:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "開了上去也沒東西 浪費我不少時間=="
+        }
+    ],
+    "comments_top_key": []
+}

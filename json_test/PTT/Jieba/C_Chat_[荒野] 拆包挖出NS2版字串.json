@@ -1,0 +1,2605 @@
+{
+    "article_source": "PTT",
+    "article_url": "https://www.ptt.cc/bbs/C_Chat/M.1766980816.A.DBA.html",
+    "article_title": "[荒野] 拆包挖出NS2版字串",
+    "article_category": "C_Chat",
+    "article_author": "robo3456 (冽影)",
+    "publish_time": "2025-12-29 12:00:16",
+    "date_year": 2025,
+    "date_month": 12,
+    "date_day": 29,
+    "reaction_count": 135,
+    "comment_count": 135,
+    "content_raw": "https://tinyurl.com/nh9muuuw原文是哪邊不太清楚,REDDIT看到的\n拆包挖出NS2版本字串,看來太子有想盡辦法想挽回一點銷量,但應該來不及了吧XD\n畢竟REDDIT那邊也都在說不如給我RISE/SB強化板就好\n\n其他還有一些資訊,包含歷戰GG龍的可能性之類的請自己看吧\n\n--",
+    "content_keywords": [
+        "tinyurl",
+        "nh9muuuw",
+        "原文",
+        "哪邊",
+        "清楚",
+        "REDDIT",
+        "看到",
+        "拆包",
+        "挖出",
+        "NS2",
+        "版本",
+        "字串",
+        "看來",
+        "太子",
+        "辦法",
+        "挽回",
+        "銷量",
+        "不及",
+        "畢竟",
+        "REDDIT",
+        "不如",
+        "給我",
+        "RISE",
+        "SB",
+        "強化板",
+        "一些",
+        "資訊",
+        "包含",
+        "歷戰",
+        "GG",
+        "可能性",
+        "之類",
+        "看吧"
+    ],
+    "content_top_key": [
+        [
+            "REDDIT",
+            2
+        ],
+        [
+            "tinyurl",
+            1
+        ],
+        [
+            "nh9muuuw",
+            1
+        ],
+        [
+            "原文",
+            1
+        ],
+        [
+            "哪邊",
+            1
+        ],
+        [
+            "清楚",
+            1
+        ],
+        [
+            "看到",
+            1
+        ],
+        [
+            "拆包",
+            1
+        ],
+        [
+            "挖出",
+            1
+        ],
+        [
+            "NS2",
+            1
+        ],
+        [
+            "版本",
+            1
+        ],
+        [
+            "字串",
+            1
+        ],
+        [
+            "看來",
+            1
+        ],
+        [
+            "太子",
+            1
+        ],
+        [
+            "辦法",
+            1
+        ],
+        [
+            "挽回",
+            1
+        ],
+        [
+            "銷量",
+            1
+        ],
+        [
+            "不及",
+            1
+        ],
+        [
+            "畢竟",
+            1
+        ],
+        [
+            "不如",
+            1
+        ],
+        [
+            "給我",
+            1
+        ],
+        [
+            "RISE",
+            1
+        ],
+        [
+            "SB",
+            1
+        ],
+        [
+            "強化板",
+            1
+        ],
+        [
+            "一些",
+            1
+        ],
+        [
+            "資訊",
+            1
+        ],
+        [
+            "包含",
+            1
+        ],
+        [
+            "歷戰",
+            1
+        ],
+        [
+            "GG",
+            1
+        ],
+        [
+            "可能性",
+            1
+        ],
+        [
+            "之類",
+            1
+        ],
+        [
+            "看吧",
+            1
+        ]
+    ],
+    "comments": [
+        {
+            "comment_author": "smik",
+            "comment_raw_time": "12/29 12:01",
+            "comment_date_format": "2025-12-29 12:01:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "優化都做不好了，還想上NS2撈啊？",
+            "comment_keywords": [
+                "優化",
+                "不好",
+                "還想",
+                "NS2"
+            ]
+        },
+        {
+            "comment_author": "science556",
+            "comment_raw_time": "12/29 12:01",
+            "comment_date_format": "2025-12-29 12:01:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "這優化還敢上ns2",
+            "comment_keywords": [
+                "這優化",
+                "還敢",
+                "ns2"
+            ]
+        },
+        {
+            "comment_author": "starsheep013",
+            "comment_raw_time": "12/29 12:01",
+            "comment_date_format": "2025-12-29 12:01:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "算了吧，你想烤地瓜嗎",
+            "comment_keywords": [
+                "算了吧",
+                "地瓜"
+            ]
+        },
+        {
+            "comment_author": "nashinai",
+            "comment_raw_time": "12/29 12:02",
+            "comment_date_format": "2025-12-29 12:02:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "請給我破曉ns2版本謝謝",
+            "comment_keywords": [
+                "給我",
+                "破曉",
+                "ns2",
+                "版本"
+            ]
+        },
+        {
+            "comment_author": "knight45683",
+            "comment_raw_time": "12/29 12:02",
+            "comment_date_format": "2025-12-29 12:02:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "上NS2？這樣會不會搞到有部分人精神錯亂啊",
+            "comment_keywords": [
+                "NS2",
+                "部分",
+                "精神",
+                "錯亂"
+            ]
+        },
+        {
+            "comment_author": "gungriffon",
+            "comment_raw_time": "12/29 12:02",
+            "comment_date_format": "2025-12-29 12:02:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "這優化上NS2只是想拉黑任天堂吧",
+            "comment_keywords": [
+                "這優化",
+                "NS2",
+                "想拉黑",
+                "任天堂"
+            ]
+        },
+        {
+            "comment_author": "a36772004",
+            "comment_raw_time": "12/29 12:02",
+            "comment_date_format": "2025-12-29 12:02:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "Let it cook (物理)",
+            "comment_keywords": [
+                "Let",
+                "it",
+                "cook",
+                "物理"
+            ]
+        },
+        {
+            "comment_author": "xga00mex",
+            "comment_raw_time": "12/29 12:02",
+            "comment_date_format": "2025-12-29 12:02:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "是要狩獵三角龍嗎",
+            "comment_keywords": [
+                "狩獵",
+                "三角"
+            ]
+        },
+        {
+            "comment_author": "robo3456",
+            "comment_raw_time": "12/29 12:03",
+            "comment_date_format": "2025-12-29 12:03:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "欸 你真得出個3角龍模式又穩60那我應該會玩喔",
+            "comment_keywords": [
+                "得出",
+                "角龍",
+                "模式"
+            ]
+        },
+        {
+            "comment_author": "caten",
+            "comment_raw_time": "12/29 12:03",
+            "comment_date_format": "2025-12-29 12:03:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "終究是要走崛起的道路",
+            "comment_keywords": [
+                "終究",
+                "崛起",
+                "道路"
+            ]
+        },
+        {
+            "comment_author": "zebra0115",
+            "comment_raw_time": "12/29 12:03",
+            "comment_date_format": "2025-12-29 12:03:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "要換燒ns2?",
+            "comment_keywords": [
+                "換燒",
+                "ns2"
+            ]
+        },
+        {
+            "comment_author": "winda6627",
+            "comment_raw_time": "12/29 12:03",
+            "comment_date_format": "2025-12-29 12:03:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "老實說n2那爛機能直接燒起來吧..",
+            "comment_keywords": [
+                "老實",
+                "n2",
+                "那爛",
+                "機能",
+                "燒起"
+            ]
+        },
+        {
+            "comment_author": "RoastCorn",
+            "comment_raw_time": "12/29 12:04",
+            "comment_date_format": "2025-12-29 12:04:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "有可能冬季優化有料到可以上NS2?不過我還是不太信就是",
+            "comment_keywords": [
+                "冬季",
+                "優化",
+                "料到",
+                "NS2",
+                "不太信"
+            ]
+        },
+        {
+            "comment_author": "RoastCorn",
+            "comment_raw_time": "12/29 12:04",
+            "comment_date_format": "2025-12-29 12:04:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "了",
+            "comment_keywords": []
+        },
+        {
+            "comment_author": "Sasamumu",
+            "comment_raw_time": "12/29 12:04",
+            "comment_date_format": "2025-12-29 12:04:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "哈哈哈哈哈NS2哈哈哈哈哈哈哈哈哈哈",
+            "comment_keywords": [
+                "哈哈哈",
+                "NS2",
+                "哈哈哈哈",
+                "哈哈哈",
+                "哈哈哈"
+            ]
+        },
+        {
+            "comment_author": "Sasamumu",
+            "comment_raw_time": "12/29 12:04",
+            "comment_date_format": "2025-12-29 12:04:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "咁有夠好笑",
+            "comment_keywords": [
+                "有夠",
+                "好笑"
+            ]
+        },
+        {
+            "comment_author": "jorden0804",
+            "comment_raw_time": "12/29 12:04",
+            "comment_date_format": "2025-12-29 12:04:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "這優化ns2真的燒起來我也不意外",
+            "comment_keywords": [
+                "這優化",
+                "ns2",
+                "燒起",
+                "意外"
+            ]
+        },
+        {
+            "comment_author": "dahos",
+            "comment_raw_time": "12/29 12:05",
+            "comment_date_format": "2025-12-29 12:05:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "要讓ns燒起來嗎",
+            "comment_keywords": [
+                "ns",
+                "燒起"
+            ]
+        },
+        {
+            "comment_author": "gungriffon",
+            "comment_raw_time": "12/29 12:05",
+            "comment_date_format": "2025-12-29 12:05:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "真的不如給我NS2破曉",
+            "comment_keywords": [
+                "不如",
+                "給我",
+                "NS2",
+                "破曉"
+            ]
+        },
+        {
+            "comment_author": "anumber",
+            "comment_raw_time": "12/29 12:06",
+            "comment_date_format": "2025-12-29 12:06:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "那畫面應該慘不忍睹",
+            "comment_keywords": [
+                "那畫",
+                "面應",
+                "該慘",
+                "不忍"
+            ]
+        },
+        {
+            "comment_author": "tom11725",
+            "comment_raw_time": "12/29 12:06",
+            "comment_date_format": "2025-12-29 12:06:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "你ns2更新一下破曉我就繼續玩了我不需要什麼荒野",
+            "comment_keywords": [
+                "ns2",
+                "更新",
+                "破曉",
+                "需要",
+                "荒野"
+            ]
+        },
+        {
+            "comment_author": "Shinn826",
+            "comment_raw_time": "12/29 12:06",
+            "comment_date_format": "2025-12-29 12:06:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "模糊獵人，最粗的感動",
+            "comment_keywords": [
+                "模糊",
+                "獵人",
+                "感動"
+            ]
+        },
+        {
+            "comment_author": "lyt5566",
+            "comment_raw_time": "12/29 12:06",
+            "comment_date_format": "2025-12-29 12:06:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "是多想讓NS2燒起來？",
+            "comment_keywords": [
+                "NS2",
+                "燒起"
+            ]
+        },
+        {
+            "comment_author": "gino861027",
+            "comment_raw_time": "12/29 12:06",
+            "comment_date_format": "2025-12-29 12:06:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "你不如趕快給我NS2版崛起",
+            "comment_keywords": [
+                "不如",
+                "給我",
+                "NS2",
+                "崛起"
+            ]
+        },
+        {
+            "comment_author": "smik",
+            "comment_raw_time": "12/29 12:07",
+            "comment_date_format": "2025-12-29 12:07:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "而且wilds的容量那麼大，要買NS2要買記憶卡？",
+            "comment_keywords": [
+                "wilds",
+                "容量",
+                "NS2",
+                "記憶卡"
+            ]
+        },
+        {
+            "comment_author": "ms0302610",
+            "comment_raw_time": "12/29 12:07",
+            "comment_date_format": "2025-12-29 12:07:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "平台獵人要生氣了喔",
+            "comment_keywords": [
+                "平台",
+                "獵人要",
+                "生氣"
+            ]
+        },
+        {
+            "comment_author": "frozenmoon",
+            "comment_raw_time": "12/29 12:07",
+            "comment_date_format": "2025-12-29 12:07:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "中高階顯卡都優化成這樣了，真的能上得了NS2嗎XDD",
+            "comment_keywords": [
+                "中高階",
+                "顯卡",
+                "化成",
+                "NS2"
+            ]
+        },
+        {
+            "comment_author": "s9810456",
+            "comment_raw_time": "12/29 12:07",
+            "comment_date_format": "2025-12-29 12:07:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "NS2連法環都丟不進去出包了耶 放魔物是要當電暖器用？",
+            "comment_keywords": [
+                "NS2",
+                "連法環",
+                "丟不進",
+                "出包",
+                "放魔物",
+                "當電暖",
+                "器用"
+            ]
+        },
+        {
+            "comment_author": "d6102003",
+            "comment_raw_time": "12/29 12:08",
+            "comment_date_format": "2025-12-29 12:08:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "別浪費錢搞這個好不好",
+            "comment_keywords": [
+                "別浪費",
+                "好不好"
+            ]
+        },
+        {
+            "comment_author": "frozenmoon",
+            "comment_raw_time": "12/29 12:08",
+            "comment_date_format": "2025-12-29 12:08:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "可以改出崛起破曉NS2高畫質版嗎",
+            "comment_keywords": [
+                "崛起",
+                "破曉",
+                "NS2",
+                "高畫",
+                "質版"
+            ]
+        },
+        {
+            "comment_author": "trogtor",
+            "comment_raw_time": "12/29 12:08",
+            "comment_date_format": "2025-12-29 12:08:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "這破優化跟我說還想上NS2？",
+            "comment_keywords": [
+                "這破",
+                "優化",
+                "還想",
+                "NS2"
+            ]
+        },
+        {
+            "comment_author": "funkD",
+            "comment_raw_time": "12/29 12:09",
+            "comment_date_format": "2025-12-29 12:09:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "會有人想原價買這玩意嗎",
+            "comment_keywords": [
+                "原價",
+                "玩意"
+            ]
+        },
+        {
+            "comment_author": "rexwong1942",
+            "comment_raw_time": "12/29 12:09",
+            "comment_date_format": "2025-12-29 12:09:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "這優化 ns2開得起來嗎",
+            "comment_keywords": [
+                "這優化",
+                "ns2",
+                "開得",
+                "起來"
+            ]
+        },
+        {
+            "comment_author": "betweenus020",
+            "comment_raw_time": "12/29 12:09",
+            "comment_date_format": "2025-12-29 12:09:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "三小 荒野那大便優化上NS2？變馬賽克ppt這能玩？",
+            "comment_keywords": [
+                "三小",
+                "荒野",
+                "大便",
+                "優化",
+                "NS2",
+                "變馬賽",
+                "ppt",
+                "這能"
+            ]
+        },
+        {
+            "comment_author": "rockmanalpha",
+            "comment_raw_time": "12/29 12:09",
+            "comment_date_format": "2025-12-29 12:09:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "補幀插幀不是萬能的 NS2要跑要花不少心力最佳化",
+            "comment_keywords": [
+                "補幀",
+                "萬能",
+                "NS2",
+                "不少",
+                "心力",
+                "最佳化"
+            ]
+        },
+        {
+            "comment_author": "Teng0615",
+            "comment_raw_time": "12/29 12:10",
+            "comment_date_format": "2025-12-29 12:10:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "出崛起破曉NS2版就可以了啦",
+            "comment_keywords": [
+                "崛起",
+                "破曉",
+                "NS2"
+            ]
+        },
+        {
+            "comment_author": "spaceview",
+            "comment_raw_time": "12/29 12:10",
+            "comment_date_format": "2025-12-29 12:10:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "這東西沒救了啦 上NS2一樣",
+            "comment_keywords": [
+                "這東西",
+                "沒救",
+                "NS2"
+            ]
+        },
+        {
+            "comment_author": "furret",
+            "comment_raw_time": "12/29 12:10",
+            "comment_date_format": "2025-12-29 12:10:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "NS2:卡普空你是要把我燒掉嗎",
+            "comment_keywords": [
+                "NS2",
+                "卡普空",
+                "燒掉"
+            ]
+        },
+        {
+            "comment_author": "frozenmoon",
+            "comment_raw_time": "12/29 12:11",
+            "comment_date_format": "2025-12-29 12:11:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "如果是掌機版可能還行，因為掌機螢幕比較小",
+            "comment_keywords": [
+                "機版",
+                "還行",
+                "掌機",
+                "螢幕"
+            ]
+        },
+        {
+            "comment_author": "spaceview",
+            "comment_raw_time": "12/29 12:11",
+            "comment_date_format": "2025-12-29 12:11:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "要上除非從底層開始改寫 但我們驕傲的藤德能允許別人把",
+            "comment_keywords": [
+                "除非",
+                "從底",
+                "開始",
+                "改寫",
+                "驕傲",
+                "藤德能",
+                "許別"
+            ]
+        },
+        {
+            "comment_author": "spaceview",
+            "comment_raw_time": "12/29 12:11",
+            "comment_date_format": "2025-12-29 12:11:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "他的曠世神作整個改成新作品嗎 呵呵",
+            "comment_keywords": [
+                "曠世神作",
+                "整個",
+                "改成",
+                "作品"
+            ]
+        },
+        {
+            "comment_author": "willytp97121",
+            "comment_raw_time": "12/29 12:11",
+            "comment_date_format": "2025-12-29 12:11:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "這要上NS2不要鬧了好吧",
+            "comment_keywords": [
+                "這要",
+                "NS2"
+            ]
+        },
+        {
+            "comment_author": "foget",
+            "comment_raw_time": "12/29 12:12",
+            "comment_date_format": "2025-12-29 12:12:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "北七優化能力 是不是想害任燒起來（物理",
+            "comment_keywords": [
+                "北七",
+                "優化",
+                "能力",
+                "想害",
+                "任燒",
+                "起來",
+                "物理"
+            ]
+        },
+        {
+            "comment_author": "CChahaXD",
+            "comment_raw_time": "12/29 12:12",
+            "comment_date_format": "2025-12-29 12:12:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "荒涼我首發買的，我只想要NS2版崛起系統新作，荒涼假賽",
+            "comment_keywords": [
+                "荒涼",
+                "我首",
+                "發買",
+                "想要",
+                "NS2",
+                "崛起",
+                "系統",
+                "新作",
+                "荒涼",
+                "假賽"
+            ]
+        },
+        {
+            "comment_author": "willytp97121",
+            "comment_raw_time": "12/29 12:12",
+            "comment_date_format": "2025-12-29 12:12:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "把世界搬過去我還相信",
+            "comment_keywords": [
+                "世界",
+                "搬過",
+                "我還",
+                "相信"
+            ]
+        },
+        {
+            "comment_author": "uranuss",
+            "comment_raw_time": "12/29 12:13",
+            "comment_date_format": "2025-12-29 12:13:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "別說笑了",
+            "comment_keywords": [
+                "別說"
+            ]
+        },
+        {
+            "comment_author": "cedricorpceo",
+            "comment_raw_time": "12/29 12:13",
+            "comment_date_format": "2025-12-29 12:13:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "完了老卡你一個荒野不只把某族群最詬病崛起的拆分",
+            "comment_keywords": [
+                "老卡",
+                "一個",
+                "荒野",
+                "族群",
+                "詬病",
+                "崛起",
+                "拆分"
+            ]
+        },
+        {
+            "comment_author": "cedricorpceo",
+            "comment_raw_time": "12/29 12:13",
+            "comment_date_format": "2025-12-29 12:13:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "結局、護石抽獎、刷詞條全加回來，現在還打算上NS2",
+            "comment_keywords": [
+                "結局",
+                "護石",
+                "抽獎",
+                "詞條",
+                "全加",
+                "回來",
+                "現在還",
+                "打算",
+                "NS2"
+            ]
+        },
+        {
+            "comment_author": "cedricorpceo",
+            "comment_raw_time": "12/29 12:13",
+            "comment_date_format": "2025-12-29 12:13:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "？一次發這麼多迴力鏢你們是打算拋棄死忠族群了吧",
+            "comment_keywords": [
+                "一次",
+                "打算",
+                "拋棄",
+                "死忠",
+                "族群"
+            ]
+        },
+        {
+            "comment_author": "cedricorpceo",
+            "comment_raw_time": "12/29 12:13",
+            "comment_date_format": "2025-12-29 12:13:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "？",
+            "comment_keywords": []
+        },
+        {
+            "comment_author": "laipenguin",
+            "comment_raw_time": "12/29 12:14",
+            "comment_date_format": "2025-12-29 12:14:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "不要虐待NS2好嗎",
+            "comment_keywords": [
+                "虐待",
+                "NS2"
+            ]
+        },
+        {
+            "comment_author": "spaceview",
+            "comment_raw_time": "12/29 12:14",
+            "comment_date_format": "2025-12-29 12:14:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "真的回力鏢 想當初還有人吹護石不用抽很舒服的XD",
+            "comment_keywords": [
+                "回力",
+                "想當",
+                "初還",
+                "吹護石",
+                "舒服"
+            ]
+        },
+        {
+            "comment_author": "YaKiSaBa",
+            "comment_raw_time": "12/29 12:16",
+            "comment_date_format": "2025-12-29 12:16:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "就算優化搞得好也是沒救 荒野現在根本的問題也不是在優",
+            "comment_keywords": [
+                "就算",
+                "優化",
+                "沒救",
+                "荒野",
+                "根本",
+                "問題"
+            ]
+        },
+        {
+            "comment_author": "YaKiSaBa",
+            "comment_raw_time": "12/29 12:16",
+            "comment_date_format": "2025-12-29 12:16:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "化上了",
+            "comment_keywords": [
+                "化上"
+            ]
+        },
+        {
+            "comment_author": "a22880897",
+            "comment_raw_time": "12/29 12:16",
+            "comment_date_format": "2025-12-29 12:16:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "又不是像2077打名聲全力最佳化支援NS2",
+            "comment_keywords": [
+                "打名聲",
+                "全力",
+                "最佳化",
+                "支援",
+                "NS2"
+            ]
+        },
+        {
+            "comment_author": "XDKab1g0n",
+            "comment_raw_time": "12/29 12:16",
+            "comment_date_format": "2025-12-29 12:16:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "NS2 認真的嗎 多邊形獵人",
+            "comment_keywords": [
+                "NS2",
+                "多邊",
+                "形獵"
+            ]
+        },
+        {
+            "comment_author": "a22880897",
+            "comment_raw_time": "12/29 12:16",
+            "comment_date_format": "2025-12-29 12:16:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "真的硬上我還怕NS2燒掉",
+            "comment_keywords": [
+                "硬上",
+                "還怕",
+                "NS2",
+                "燒掉"
+            ]
+        },
+        {
+            "comment_author": "spaceview",
+            "comment_raw_time": "12/29 12:17",
+            "comment_date_format": "2025-12-29 12:17:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "緊接著藤德更新直接巴掌下去打臉 現在大概臉直接骨折了",
+            "comment_keywords": [
+                "緊接",
+                "著藤德",
+                "更新",
+                "巴掌",
+                "下去",
+                "打臉",
+                "骨折"
+            ]
+        },
+        {
+            "comment_author": "tf010714",
+            "comment_raw_time": "12/29 12:18",
+            "comment_date_format": "2025-12-29 12:18:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "給我sunbreak的ns2更新 不要荒野拉機",
+            "comment_keywords": [
+                "給我",
+                "sunbreak",
+                "ns2",
+                "更新",
+                "荒野",
+                "拉機"
+            ]
+        },
+        {
+            "comment_author": "spaceview",
+            "comment_raw_time": "12/29 12:19",
+            "comment_date_format": "2025-12-29 12:19:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "還有特定幾個單平台信徒狂吹荒野的 沒想到吹到最後進花",
+            "comment_keywords": [
+                "特定",
+                "幾個",
+                "平台",
+                "信徒",
+                "狂吹",
+                "荒野",
+                "想到",
+                "進花"
+            ]
+        },
+        {
+            "comment_author": "spaceview",
+            "comment_raw_time": "12/29 12:19",
+            "comment_date_format": "2025-12-29 12:19:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "車也是某平台 大概只顧著吹忘記買了吧 呵呵",
+            "comment_keywords": [
+                "車也",
+                "平台",
+                "只顧",
+                "記買"
+            ]
+        },
+        {
+            "comment_author": "bibbosb4",
+            "comment_raw_time": "12/29 12:21",
+            "comment_date_format": "2025-12-29 12:21:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "藤德荒野這垃圾還是算了，給我一瀨的新作",
+            "comment_keywords": [
+                "藤德",
+                "荒野",
+                "垃圾",
+                "算了",
+                "給我",
+                "一瀨的",
+                "新作"
+            ]
+        },
+        {
+            "comment_author": "Fritter",
+            "comment_raw_time": "12/29 12:22",
+            "comment_date_format": "2025-12-29 12:22:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "上了我也不會想不開去賭自己硬體不會爆炸",
+            "comment_keywords": [
+                "不開",
+                "硬體",
+                "爆炸"
+            ]
+        },
+        {
+            "comment_author": "youzen1226",
+            "comment_raw_time": "12/29 12:25",
+            "comment_date_format": "2025-12-29 12:25:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "NS2買不到一年不敢試ww",
+            "comment_keywords": [
+                "NS2",
+                "不到",
+                "一年",
+                "不敢",
+                "ww"
+            ]
+        },
+        {
+            "comment_author": "Tsozuo",
+            "comment_raw_time": "12/29 12:25",
+            "comment_date_format": "2025-12-29 12:25:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "砍掉德田想搞得大生態 天邊麻痺效果 開放空間 改回原本",
+            "comment_keywords": [
+                "砍掉",
+                "德田想",
+                "大生",
+                "天邊",
+                "麻痺",
+                "效果",
+                "放空"
+            ]
+        },
+        {
+            "comment_author": "e86117934",
+            "comment_raw_time": "12/29 12:25",
+            "comment_date_format": "2025-12-29 12:25:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "但是看荒野這樣就算出switch2版我也不想買。",
+            "comment_keywords": [
+                "荒野",
+                "就算",
+                "switch2",
+                "不想"
+            ]
+        },
+        {
+            "comment_author": "Tsozuo",
+            "comment_raw_time": "12/29 12:25",
+            "comment_date_format": "2025-12-29 12:25:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "世界崛起那種地圖說不定真的有機會",
+            "comment_keywords": [
+                "世界",
+                "崛起",
+                "地圖",
+                "不定",
+                "機會"
+            ]
+        },
+        {
+            "comment_author": "ex990000",
+            "comment_raw_time": "12/29 12:26",
+            "comment_date_format": "2025-12-29 12:26:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "暖爐",
+            "comment_keywords": [
+                "暖爐"
+            ]
+        },
+        {
+            "comment_author": "testwindraja",
+            "comment_raw_time": "12/29 12:26",
+            "comment_date_format": "2025-12-29 12:26:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "RSB的NS2版比較簡單也比較好賺,超認真的",
+            "comment_keywords": [
+                "RSB",
+                "NS2",
+                "版比較",
+                "簡單",
+                "超認"
+            ]
+        },
+        {
+            "comment_author": "RockZelda",
+            "comment_raw_time": "12/29 12:26",
+            "comment_date_format": "2025-12-29 12:26:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "如果全部都變成多邊形獵人搞不好真的可以上NS2耶w",
+            "comment_keywords": [
+                "變成",
+                "多邊",
+                "形獵",
+                "搞不好",
+                "NS2"
+            ]
+        },
+        {
+            "comment_author": "Tsozuo",
+            "comment_raw_time": "12/29 12:26",
+            "comment_date_format": "2025-12-29 12:26:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "但這樣搞 PC跟主機玩家大概會誠摯要求另外的平台比照辦理",
+            "comment_keywords": [
+                "PC",
+                "主機",
+                "玩家",
+                "會誠摯",
+                "要求",
+                "另外",
+                "平台",
+                "比照",
+                "辦理"
+            ]
+        },
+        {
+            "comment_author": "twic",
+            "comment_raw_time": "12/29 12:28",
+            "comment_date_format": "2025-12-29 12:28:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "不如出一個SB版本的連刷魔物的遊戲….",
+            "comment_keywords": [
+                "不如",
+                "出一個",
+                "SB",
+                "版本",
+                "連刷",
+                "魔物",
+                "遊戲"
+            ]
+        },
+        {
+            "comment_author": "BSpowerx",
+            "comment_raw_time": "12/29 12:28",
+            "comment_date_format": "2025-12-29 12:28:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "真的要出我準備好看到賣得最差的一片魔物了",
+            "comment_keywords": [
+                "要出",
+                "準備",
+                "看到",
+                "賣得",
+                "最差",
+                "一片",
+                "魔物"
+            ]
+        },
+        {
+            "comment_author": "Sasamumu",
+            "comment_raw_time": "12/29 12:28",
+            "comment_date_format": "2025-12-29 12:28:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "出個XX重製板吧，我會支持的",
+            "comment_keywords": [
+                "出個",
+                "XX",
+                "我會",
+                "支持"
+            ]
+        },
+        {
+            "comment_author": "CChahaXD",
+            "comment_raw_time": "12/29 12:29",
+            "comment_date_format": "2025-12-29 12:29:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "真的有時間移植，不如趕快出新作，荒涼請直接蛋雕",
+            "comment_keywords": [
+                "時間",
+                "移植",
+                "不如",
+                "新作",
+                "荒涼",
+                "蛋雕"
+            ]
+        },
+        {
+            "comment_author": "spaceview",
+            "comment_raw_time": "12/29 12:31",
+            "comment_date_format": "2025-12-29 12:31:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "出了賣的最差很合理吧 都看到是地雷了誰會傻傻踩上去",
+            "comment_keywords": [
+                "最差",
+                "合理",
+                "看到",
+                "地雷",
+                "傻傻",
+                "上去"
+            ]
+        },
+        {
+            "comment_author": "CChahaXD",
+            "comment_raw_time": "12/29 12:31",
+            "comment_date_format": "2025-12-29 12:31:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "https://i.meee.com.tw/QEHOAI0.png預購首發是我蠢",
+            "comment_keywords": [
+                "meee",
+                "tw",
+                "QEHO",
+                "AI",
+                "預購",
+                "首發"
+            ]
+        },
+        {
+            "comment_author": "CChahaXD",
+            "comment_raw_time": "12/29 12:32",
+            "comment_date_format": "2025-12-29 12:32:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "以後德田組MH我會等評價再考慮的",
+            "comment_keywords": [
+                "以後德田組",
+                "MH",
+                "我會",
+                "評價",
+                "考慮"
+            ]
+        },
+        {
+            "comment_author": "rockmanalpha",
+            "comment_raw_time": "12/29 12:32",
+            "comment_date_format": "2025-12-29 12:32:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "RE引擎只適合拿來做RE 無誤",
+            "comment_keywords": [
+                "RE",
+                "引擎",
+                "適合",
+                "RE",
+                "無誤"
+            ]
+        },
+        {
+            "comment_author": "YaKiSaBa",
+            "comment_raw_time": "12/29 12:33",
+            "comment_date_format": "2025-12-29 12:33:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "我甚至還買實體預購 簡直小丑",
+            "comment_keywords": [
+                "還買",
+                "實體",
+                "預購",
+                "簡直",
+                "小丑"
+            ]
+        },
+        {
+            "comment_author": "spaceview",
+            "comment_raw_time": "12/29 12:33",
+            "comment_date_format": "2025-12-29 12:33:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "但你只買一片 我首發豪華+為了杯墊多買一片的才叫智障",
+            "comment_keywords": [
+                "一片",
+                "我首",
+                "發豪華",
+                "一片",
+                "智障"
+            ]
+        },
+        {
+            "comment_author": "spaceview",
+            "comment_raw_time": "12/29 12:34",
+            "comment_date_format": "2025-12-29 12:34:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "我的小丑鼻子整個抽屜好嗎 要的可以跟我拿",
+            "comment_keywords": [
+                "小丑",
+                "鼻子",
+                "整個",
+                "抽屜"
+            ]
+        },
+        {
+            "comment_author": "bmaple730",
+            "comment_raw_time": "12/29 12:38",
+            "comment_date_format": "2025-12-29 12:38:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "其他遊戲上NS2移植不好還能嘴一下主機問題，荒野完全是",
+            "comment_keywords": [
+                "遊戲",
+                "NS2",
+                "移植",
+                "不好",
+                "主機",
+                "問題",
+                "荒野",
+                "完全"
+            ]
+        },
+        {
+            "comment_author": "bmaple730",
+            "comment_raw_time": "12/29 12:38",
+            "comment_date_format": "2025-12-29 12:38:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "垃圾德田搞到不可能上NS2",
+            "comment_keywords": [
+                "垃圾",
+                "德田",
+                "NS2"
+            ]
+        },
+        {
+            "comment_author": "MaxMillian",
+            "comment_raw_time": "12/29 12:39",
+            "comment_date_format": "2025-12-29 12:39:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "現在唯一的好處是開遊戲變快了",
+            "comment_keywords": [
+                "唯一",
+                "開遊戲",
+                "變快"
+            ]
+        },
+        {
+            "comment_author": "MaxMillian",
+            "comment_raw_time": "12/29 12:40",
+            "comment_date_format": "2025-12-29 12:40:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "當初那一長串等待時間害我以為裝在HDD上",
+            "comment_keywords": [
+                "一長",
+                "等待",
+                "時間",
+                "為裝",
+                "HDD"
+            ]
+        },
+        {
+            "comment_author": "blueshya",
+            "comment_raw_time": "12/29 12:45",
+            "comment_date_format": "2025-12-29 12:45:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "崛起也是RE引擎阿.不如問德田腦袋裝啥",
+            "comment_keywords": [
+                "崛起",
+                "RE",
+                "引擎",
+                "不如",
+                "問德田腦",
+                "袋裝"
+            ]
+        },
+        {
+            "comment_author": "setetsfe",
+            "comment_raw_time": "12/29 12:48",
+            "comment_date_format": "2025-12-29 12:48:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "NS2: 你不要過來呀",
+            "comment_keywords": [
+                "NS2",
+                "過來"
+            ]
+        },
+        {
+            "comment_author": "bmaple730",
+            "comment_raw_time": "12/29 12:48",
+            "comment_date_format": "2025-12-29 12:48:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "真的別再怪RE引擎了，荒野只是箱庭的偽開放都搞爛成這",
+            "comment_keywords": [
+                "RE",
+                "引擎",
+                "荒野",
+                "箱庭",
+                "開放",
+                "搞爛成"
+            ]
+        },
+        {
+            "comment_author": "bmaple730",
+            "comment_raw_time": "12/29 12:48",
+            "comment_date_format": "2025-12-29 12:48:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "樣，完全是德田自己的問題，蘿莉跟RE9都能上NS2了",
+            "comment_keywords": [
+                "完全",
+                "德田",
+                "問題",
+                "蘿莉",
+                "RE9",
+                "NS2"
+            ]
+        },
+        {
+            "comment_author": "asiaking5566",
+            "comment_raw_time": "12/29 12:48",
+            "comment_date_format": "2025-12-29 12:48:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "一幀能玩 兩幀歷戰",
+            "comment_keywords": [
+                "一幀",
+                "兩幀",
+                "歷戰"
+            ]
+        },
+        {
+            "comment_author": "OscarShih",
+            "comment_raw_time": "12/29 12:50",
+            "comment_date_format": "2025-12-29 12:50:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "其實搞不好可以關掉他們自豪的大環境生態",
+            "comment_keywords": [
+                "搞不好",
+                "關掉",
+                "他們",
+                "自豪",
+                "環境",
+                "生態"
+            ]
+        },
+        {
+            "comment_author": "OscarShih",
+            "comment_raw_time": "12/29 12:50",
+            "comment_date_format": "2025-12-29 12:50:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "說真的笑能大概都被那個燒了吧",
+            "comment_keywords": [
+                "那個燒"
+            ]
+        },
+        {
+            "comment_author": "dos32408",
+            "comment_raw_time": "12/29 12:50",
+            "comment_date_format": "2025-12-29 12:50:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "優化很差的狩獵遊戲出ns2版不就狂野之心s",
+            "comment_keywords": [
+                "優化",
+                "狩獵",
+                "遊戲",
+                "ns2",
+                "狂野",
+                "之心"
+            ]
+        },
+        {
+            "comment_author": "xxxzxcvb",
+            "comment_raw_time": "12/29 12:50",
+            "comment_date_format": "2025-12-29 12:50:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "ns2那cpu跑得動千里外的纏蛙被麻痺？",
+            "comment_keywords": [
+                "ns2",
+                "cpu",
+                "得動",
+                "千里",
+                "麻痺"
+            ]
+        },
+        {
+            "comment_author": "OscarShih",
+            "comment_raw_time": "12/29 12:51",
+            "comment_date_format": "2025-12-29 12:51:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "除了裝逼之外那個全景生態是誰得阿",
+            "comment_keywords": [
+                "裝逼",
+                "之外",
+                "那個",
+                "全景",
+                "生態"
+            ]
+        },
+        {
+            "comment_author": "dos32408",
+            "comment_raw_time": "12/29 12:52",
+            "comment_date_format": "2025-12-29 12:52:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "狂野之心ns版那個植被閹割到有點太禿了幀率還不怎麼好，",
+            "comment_keywords": [
+                "狂野",
+                "之心",
+                "ns",
+                "那個",
+                "植被",
+                "閹割",
+                "有點",
+                "還不"
+            ]
+        },
+        {
+            "comment_author": "dos32408",
+            "comment_raw_time": "12/29 12:52",
+            "comment_date_format": "2025-12-29 12:52:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "魔物荒野出ns2版我覺得主機會直接燒起來吧",
+            "comment_keywords": [
+                "魔物",
+                "荒野",
+                "ns2",
+                "得主",
+                "機會",
+                "燒起"
+            ]
+        },
+        {
+            "comment_author": "CloudVII",
+            "comment_raw_time": "12/29 12:54",
+            "comment_date_format": "2025-12-29 12:54:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "0 連DLC都不知道救的救不起來",
+            "comment_keywords": [
+                "DLC",
+                "起來"
+            ]
+        },
+        {
+            "comment_author": "jileen",
+            "comment_raw_time": "12/29 12:55",
+            "comment_date_format": "2025-12-29 12:55:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "NS2..跑得起來嗎，還是說NS2可以玩之前的Poly版？",
+            "comment_keywords": [
+                "NS2",
+                "起來",
+                "NS2",
+                "Poly"
+            ]
+        },
+        {
+            "comment_author": "dos32408",
+            "comment_raw_time": "12/29 12:57",
+            "comment_date_format": "2025-12-29 12:57:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "ns2首先應該先出破曉的升級patch才對",
+            "comment_keywords": [
+                "ns2",
+                "首先",
+                "先出",
+                "破曉",
+                "升級",
+                "patch"
+            ]
+        },
+        {
+            "comment_author": "dos32408",
+            "comment_raw_time": "12/29 12:58",
+            "comment_date_format": "2025-12-29 12:58:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "但已卡普空的個性至少明年二月前都不可能出這東西來分流",
+            "comment_keywords": [
+                "卡普空",
+                "個性",
+                "二月",
+                "這東",
+                "西來",
+                "分流"
+            ]
+        },
+        {
+            "comment_author": "dos32408",
+            "comment_raw_time": "12/29 12:58",
+            "comment_date_format": "2025-12-29 12:58:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "荒野的上線人數",
+            "comment_keywords": [
+                "荒野",
+                "上線",
+                "人數"
+            ]
+        },
+        {
+            "comment_author": "qweertyui891",
+            "comment_raw_time": "12/29 12:58",
+            "comment_date_format": "2025-12-29 12:58:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "NS2可以直接把那沒用的生態系砍掉了吧",
+            "comment_keywords": [
+                "NS2",
+                "沒用",
+                "生態系",
+                "砍掉"
+            ]
+        },
+        {
+            "comment_author": "gungriffon",
+            "comment_raw_time": "12/29 13:04",
+            "comment_date_format": "2025-12-29 13:04:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "其實崛起荒野該有的生態表現也沒含糊 只是貼圖不是4k",
+            "comment_keywords": [
+                "崛起",
+                "荒野",
+                "生態",
+                "表現",
+                "含糊",
+                "貼圖",
+                "4k"
+            ]
+        },
+        {
+            "comment_author": "Feeng",
+            "comment_raw_time": "12/29 13:18",
+            "comment_date_format": "2025-12-29 13:18:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "索尼派你來燒NS2的嗎",
+            "comment_keywords": [
+                "索尼",
+                "來燒",
+                "NS2"
+            ]
+        },
+        {
+            "comment_author": "xrdx",
+            "comment_raw_time": "12/29 13:20",
+            "comment_date_format": "2025-12-29 13:20:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "用實際行動開燒任天堂",
+            "comment_keywords": [
+                "實際",
+                "行動",
+                "開燒",
+                "任天堂"
+            ]
+        },
+        {
+            "comment_author": "zsp9081a",
+            "comment_raw_time": "12/29 13:21",
+            "comment_date_format": "2025-12-29 13:21:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "你狩獵的是ns2吧",
+            "comment_keywords": [
+                "狩獵",
+                "ns2"
+            ]
+        },
+        {
+            "comment_author": "CAtJason",
+            "comment_raw_time": "12/29 13:24",
+            "comment_date_format": "2025-12-29 13:24:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "一起狩獵主機吧！ ☺",
+            "comment_keywords": [
+                "狩獵",
+                "主機"
+            ]
+        },
+        {
+            "comment_author": "akles111",
+            "comment_raw_time": "12/29 13:28",
+            "comment_date_format": "2025-12-29 13:28:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "其實你升級崛起NS2版要重買說不定更多人",
+            "comment_keywords": [
+                "升級",
+                "崛起",
+                "NS2",
+                "版要",
+                "重買",
+                "不定",
+                "更多人"
+            ]
+        },
+        {
+            "comment_author": "CAtJason",
+            "comment_raw_time": "12/29 13:39",
+            "comment_date_format": "2025-12-29 13:39:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "看荒野這評價跟掉價行銷還是繼續燒",
+            "comment_keywords": [
+                "荒野",
+                "這評價",
+                "價行銷",
+                "繼續燒"
+            ]
+        },
+        {
+            "comment_author": "CAtJason",
+            "comment_raw_time": "12/29 13:39",
+            "comment_date_format": "2025-12-29 13:39:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "我越來越相信三太子有把柄被握住了",
+            "comment_keywords": [
+                "越來",
+                "相信",
+                "三太子",
+                "把柄",
+                "握住"
+            ]
+        },
+        {
+            "comment_author": "ackes",
+            "comment_raw_time": "12/29 13:39",
+            "comment_date_format": "2025-12-29 13:39:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "上ns2沒辦法桶子幾萬面了吧",
+            "comment_keywords": [
+                "ns2",
+                "沒辦法",
+                "桶子",
+                "幾萬面"
+            ]
+        },
+        {
+            "comment_author": "feedingdream",
+            "comment_raw_time": "12/29 13:43",
+            "comment_date_format": "2025-12-29 13:43:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "成功了之後要再把NS2版移植上STEAM嗎",
+            "comment_keywords": [
+                "成功",
+                "之後要",
+                "NS2",
+                "移植",
+                "STEAM"
+            ]
+        },
+        {
+            "comment_author": "Jiajun0724",
+            "comment_raw_time": "12/29 13:44",
+            "comment_date_format": "2025-12-29 13:44:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "拍謝 我NS2不想炸掉",
+            "comment_keywords": [
+                "拍謝",
+                "NS2",
+                "不想",
+                "炸掉"
+            ]
+        },
+        {
+            "comment_author": "game721006",
+            "comment_raw_time": "12/29 13:52",
+            "comment_date_format": "2025-12-29 13:52:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "以後藤岡德田的作品任天堂獨不佔，謝謝",
+            "comment_keywords": [
+                "以後藤岡德田",
+                "作品",
+                "任天堂",
+                "獨不佔"
+            ]
+        },
+        {
+            "comment_author": "salvador1988",
+            "comment_raw_time": "12/29 14:34",
+            "comment_date_format": "2025-12-29 14:34:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "藤德:2077可以 那我應該也沒問題吧",
+            "comment_keywords": [
+                "藤德",
+                "問題"
+            ]
+        },
+        {
+            "comment_author": "ranke96",
+            "comment_raw_time": "12/29 15:29",
+            "comment_date_format": "2025-12-29 15:29:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "電腦跟PS5跑起來都有問題，移植NS2卡普空是在說笑嗎，有",
+            "comment_keywords": [
+                "電腦",
+                "PS5",
+                "起來",
+                "問題",
+                "移植",
+                "NS2",
+                "卡普空"
+            ]
+        },
+        {
+            "comment_author": "ranke96",
+            "comment_raw_time": "12/29 15:29",
+            "comment_date_format": "2025-12-29 15:29:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "這心力還不如搞好PC版",
+            "comment_keywords": [
+                "心力",
+                "不如",
+                "搞好",
+                "PC"
+            ]
+        },
+        {
+            "comment_author": "aiotsuka111",
+            "comment_raw_time": "12/29 15:52",
+            "comment_date_format": "2025-12-29 15:52:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "你把XX用崛起破曉模組重做一下都比荒野好玩",
+            "comment_keywords": [
+                "XX",
+                "崛起",
+                "破曉模",
+                "組重",
+                "荒野",
+                "好玩"
+            ]
+        },
+        {
+            "comment_author": "wommow",
+            "comment_raw_time": "12/29 16:17",
+            "comment_date_format": "2025-12-29 16:17:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "把破曉弄成ns2版本我也買單 荒涼就算了吧",
+            "comment_keywords": [
+                "破曉弄成",
+                "ns2",
+                "版本",
+                "荒涼",
+                "就算"
+            ]
+        },
+        {
+            "comment_author": "Howardyu",
+            "comment_raw_time": "12/29 16:19",
+            "comment_date_format": "2025-12-29 16:19:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "NS2會直接燒起來",
+            "comment_keywords": [
+                "NS2",
+                "燒起"
+            ]
+        },
+        {
+            "comment_author": "yozora15987",
+            "comment_raw_time": "12/29 16:28",
+            "comment_date_format": "2025-12-29 16:28:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "不如將開發資源跟人力轉DLC還比較有意義",
+            "comment_keywords": [
+                "不如",
+                "將開",
+                "發資源",
+                "人力",
+                "DLC",
+                "還比較",
+                "有意"
+            ]
+        },
+        {
+            "comment_author": "yozora15987",
+            "comment_raw_time": "12/29 16:28",
+            "comment_date_format": "2025-12-29 16:28:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "PC跟PS優化沒處理好 還另闢NS這個戰場 真的是笑話",
+            "comment_keywords": [
+                "PC",
+                "PS",
+                "優化",
+                "沒處理",
+                "還另闢",
+                "NS",
+                "戰場"
+            ]
+        },
+        {
+            "comment_author": "frozenmoon",
+            "comment_raw_time": "12/29 16:32",
+            "comment_date_format": "2025-12-29 16:32:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "https://i.imgur.com/S3C8S59.png",
+            "comment_keywords": [
+                "S3C8S59"
+            ]
+        },
+        {
+            "comment_author": "bibbosb4",
+            "comment_raw_time": "12/29 16:56",
+            "comment_date_format": "2025-12-29 16:56:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "轉DLC也沒救，這遊戲從底子就是沒救，更何況DLC銷量通常",
+            "comment_keywords": [
+                "DLC",
+                "沒救",
+                "這遊戲",
+                "底子",
+                "沒救",
+                "何況",
+                "DLC",
+                "銷量",
+                "通常"
+            ]
+        },
+        {
+            "comment_author": "bibbosb4",
+            "comment_raw_time": "12/29 16:56",
+            "comment_date_format": "2025-12-29 16:56:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "都是砍半，這作評價爛的情況下只會更慘而已，不如轉另一",
+            "comment_keywords": [
+                "這作",
+                "評價爛",
+                "情況",
+                "更慘",
+                "不如",
+                "轉另"
+            ]
+        },
+        {
+            "comment_author": "bibbosb4",
+            "comment_raw_time": "12/29 16:56",
+            "comment_date_format": "2025-12-29 16:56:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "組的新作，但藤德肯定會阻止這個",
+            "comment_keywords": [
+                "新作",
+                "但藤德",
+                "肯定",
+                "阻止"
+            ]
+        },
+        {
+            "comment_author": "NexusPrime",
+            "comment_raw_time": "12/29 16:58",
+            "comment_date_format": "2025-12-29 16:58:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "剛發售初期有用，現在…",
+            "comment_keywords": [
+                "剛發售",
+                "初期",
+                "有用"
+            ]
+        },
+        {
+            "comment_author": "lemonjye",
+            "comment_raw_time": "12/29 17:05",
+            "comment_date_format": "2025-12-29 17:05:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "所有模型面數砍到剩1/10應該跑得動",
+            "comment_keywords": [
+                "模型",
+                "面數",
+                "得動"
+            ]
+        },
+        {
+            "comment_author": "frank0927",
+            "comment_raw_time": "12/29 17:18",
+            "comment_date_format": "2025-12-29 17:18:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "你叫因為平台硬吹荒野的某些人如何自處啊",
+            "comment_keywords": [
+                "平台",
+                "荒野",
+                "某些",
+                "如何",
+                "自處"
+            ]
+        },
+        {
+            "comment_author": "Louis430",
+            "comment_raw_time": "12/29 17:37",
+            "comment_date_format": "2025-12-29 17:37:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "這款真的不勸敗 常看的台也是玩一下就涼了",
+            "comment_keywords": [
+                "這款",
+                "勸敗",
+                "常看"
+            ]
+        },
+        {
+            "comment_author": "zxc246812",
+            "comment_raw_time": "12/29 17:45",
+            "comment_date_format": "2025-12-29 17:45:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "→",
+            "comment_content": "給我破曉60fps 出門在外一場5分鐘玩個戰鬥爽才有意思",
+            "comment_keywords": [
+                "給我",
+                "破曉",
+                "60fps",
+                "出門",
+                "在外",
+                "一場",
+                "分鐘",
+                "玩個",
+                "戰鬥爽",
+                "有意思"
+            ]
+        },
+        {
+            "comment_author": "caryamdtom",
+            "comment_raw_time": "12/29 18:02",
+            "comment_date_format": "2025-12-29 18:02:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "NS2：你不要過來啊啊啊！",
+            "comment_keywords": [
+                "NS2",
+                "過來",
+                "啊啊啊"
+            ]
+        },
+        {
+            "comment_author": "greedycyan",
+            "comment_raw_time": "12/29 19:15",
+            "comment_date_format": "2025-12-29 19:15:00",
+            "comment_year": 2025,
+            "comment_month": 12,
+            "comment_day": 29,
+            "comment_tag": "推",
+            "comment_content": "還是等光頭組吧 家人們",
+            "comment_keywords": [
+                "光頭組",
+                "家人"
+            ]
+        }
+    ],
+    "comments_top_key": [
+        [
+            "NS2",
+            42
+        ],
+        [
+            "荒野",
+            16
+        ],
+        [
+            "ns2",
+            14
+        ],
+        [
+            "崛起",
+            11
+        ],
+        [
+            "優化",
+            8
+        ],
+        [
+            "不如",
+            8
+        ],
+        [
+            "破曉",
+            7
+        ],
+        [
+            "給我",
+            6
+        ],
+        [
+            "燒起",
+            6
+        ],
+        [
+            "平台",
+            5
+        ],
+        [
+            "起來",
+            5
+        ],
+        [
+            "問題",
+            5
+        ],
+        [
+            "這優化",
+            4
+        ],
+        [
+            "狩獵",
+            4
+        ],
+        [
+            "沒救",
+            4
+        ],
+        [
+            "荒涼",
+            4
+        ],
+        [
+            "新作",
+            4
+        ],
+        [
+            "移植",
+            4
+        ],
+        [
+            "RE",
+            4
+        ],
+        [
+            "DLC",
+            4
+        ],
+        [
+            "版本",
+            3
+        ],
+        [
+            "任天堂",
+            3
+        ],
+        [
+            "哈哈哈",
+            3
+        ],
+        [
+            "更新",
+            3
+        ],
+        [
+            "卡普空",
+            3
+        ],
+        [
+            "就算",
+            3
+        ],
+        [
+            "PC",
+            3
+        ],
+        [
+            "主機",
+            3
+        ],
+        [
+            "魔物",
+            3
+        ],
+        [
+            "遊戲",
+            3
+        ],
+        [
+            "一片",
+            3
+        ],
+        [
+            "引擎",
+            3
+        ],
+        [
+            "生態",
+            3
+        ],
+        [
+            "不好",
+            2
+        ],
+        [
+            "還想",
+            2
+        ],
+        [
+            "物理",
+            2
+        ],
+        [
+            "ns",
+            2
+        ],
+        [
+            "心力",
+            2
+        ],
+        [
+            "最佳化",
+            2
+        ],
+        [
+            "燒掉",
+            2
+        ],
+        [
+            "整個",
+            2
+        ],
+        [
+            "作品",
+            2
+        ],
+        [
+            "我首",
+            2
+        ],
+        [
+            "世界",
+            2
+        ],
+        [
+            "相信",
+            2
+        ],
+        [
+            "族群",
+            2
+        ],
+        [
+            "打算",
+            2
+        ],
+        [
+            "多邊",
+            2
+        ],
+        [
+            "形獵",
+            2
+        ],
+        [
+            "藤德",
+            2
+        ]
+    ]
+}
